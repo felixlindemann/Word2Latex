@@ -1,0 +1,1212 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{apa}
+    \entry{bib.739}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=52896ac778237c545c4713bacc4649bd}{Aberle}{A\bibinitperiod}{Gerd}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=52896ac778237c545c4713bacc4649bd}{Aberle}{A\bibinitperiod}{Gerd}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {s.l}%
+      }
+      \list{publisher}{1}{%
+        {Oldenbourg Wissenschaftsverlag GmbH}%
+      }
+      \strng{namehash}{52896ac778237c545c4713bacc4649bd}
+      \strng{fullhash}{52896ac778237c545c4713bacc4649bd}
+      \field{sortinit}{A}
+      \field{labelyear}{2009}
+      \field{labeltitle}{{T}ransportwirtschaft: {E}inzelwirtschaftliche und gesamtwirtschaftliche {G}rundlagen ({W}olls {L}ehr- und {H}andbücher der {W}irtschafts- und {S}ozialwissenschaften)}
+      \field{abstract}{Das verkehrökonomische Standwerk ist nunmehr bereits in vierter und völlig überarbeiteter sowie ergänzter Auflage verfügbar. Die außerordentliche Dynamik der Mobilitätsentwicklungen im Personen- und Güterverkehr spiegelt sich in einer Vielzahl von Veränderungen in den Marktstrukturen und politischen Rahmendaten wider. Seit der dritten Auflage im Jahr 2000 ist dies sowohl in der EU-Verkehrspolitik, in der Infrastrukturkostendiskussion, der Netzpolitik der Eisenbahnen wie auch in der Querschnittsfunktion Logistik deutlich geworden.In der vierten Auflage wurden neben den Aktualisierungen der statistischen Datenreihen und einer weitgehenden Umrechnung der Wertgrößen in EURO-Einheiten die EU-Verkehrspolitik stärker und die EU-Erweiterung mit bis zu 10 mittel- und osteuropäischen Staaten erstmals einbezogen. Das gilt auch für das Controlling- und Planungsinstrument der Balanced Score Card, e-Commerce und neuere Strukturen von Logistikdienstleistern.}
+      \field{edition}{5}
+      \field{isbn}{9783486579512}
+      \field{title}{{T}ransportwirtschaft: {E}inzelwirtschaftliche und gesamtwirtschaftliche {G}rundlagen ({W}olls {L}ehr- und {H}andbücher der {W}irtschafts- und {S}ozialwissenschaften)}
+      \field{year}{2009}
+      \verb{url}
+      \verb %5Curl%7Bhttp://ebooks.ciando.com/book/index.cfm/bok_id/25768%7D
+      \endverb
+    \endentry
+    \entry{bib.281}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=885b13d2686b9864c7698b025ad3ac3c}{Backhaus}{B\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=885b13d2686b9864c7698b025ad3ac3c}{Backhaus}{B\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin u.a}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{885b13d2686b9864c7698b025ad3ac3c}
+      \strng{fullhash}{885b13d2686b9864c7698b025ad3ac3c}
+      \field{sortinit}{B}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{M}ultivariate {A}nalysemethoden: {E}ine anwendungsorientierte {E}inführung}
+      \field{edition}{12}
+      \field{isbn}{978-3-540-85044-1}
+      \field{series}{{S}pringer-{L}ehrbuch}
+      \field{title}{{M}ultivariate {A}nalysemethoden: {E}ine anwendungsorientierte {E}inführung}
+      \field{year}{2008}
+      \keyw{Multivariate Analyse;Lehrbuch}
+    \endentry
+    \entry{bib.496}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=cf842e455af4ea5cec1aeb414fdec579}{Bates}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cf842e455af4ea5cec1aeb414fdec579}{Bates}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=60105a8a6ba87402aeba290c4f0d2ef7}{Hensher}{H\bibinitperiod}{David\bibnamedelima A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=eb222ee67de579fc0c9fff926934edae}{Button}{B\bibinitperiod}{Kenneth\bibnamedelima J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cf842e455af4ea5cec1aeb414fdec579}
+      \strng{fullhash}{cf842e455af4ea5cec1aeb414fdec579}
+      \field{sortinit}{B}
+      \field{labelyear}{2010}
+      \field{labeltitle}{{H}istory of {D}emand {M}odelling}
+      \field{booktitle}{{H}andbook of transport modelling}
+      \field{isbn}{978-0-08-045376-7}
+      \field{series}{Handbooks in transport}
+      \field{title}{{H}istory of {D}emand {M}odelling}
+      \field{volume}{1}
+      \field{year}{2010}
+      \field{pages}{11\bibrangedash 33}
+    \endentry
+    \entry{bib.931}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=319df0a78bd00f5c07cd7c3ad5c9c58b}{Bauer}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c0c599b7ed51b810486a93ba2c41eb64}{Fertig}{F\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d8d0926d046fd2bd5469cd490b54930f}{Schmidt}{S\bibinitperiod}{Christoph\bibnamedelima M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=319df0a78bd00f5c07cd7c3ad5c9c58b}{Bauer}{B\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c0c599b7ed51b810486a93ba2c41eb64}{Fertig}{F\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d8d0926d046fd2bd5469cd490b54930f}{Schmidt}{S\bibinitperiod}{Christoph\bibnamedelima M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {Berlin}%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b48737fcd6269086d3ad9584d395c723}
+      \strng{fullhash}{1da208b934e02764c226860bd1142fbb}
+      \field{sortinit}{B}
+      \field{labelyear}{2009}
+      \field{labeltitle}{{E}mpirische {W}irtschaftsforschung: {E}ine {E}inführung}
+      \field{isbn}{978-3540000419}
+      \field{series}{{S}pinger-{L}ehrbuch}
+      \field{title}{{E}mpirische {W}irtschaftsforschung: {E}ine {E}inführung}
+      \field{year}{2009}
+    \endentry
+    \entry{bib.325}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ae71bffa7de8934347def3ae5c72a02d}{Ben-Akiva}{B\bibinithyphendelim A\bibinitperiod}{Moshe}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bbf532994442d1261bb837a45d6c0fab}{Lerman}{L\bibinitperiod}{Steven\bibnamedelima R.}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ae71bffa7de8934347def3ae5c72a02d}{Ben-Akiva}{B\bibinithyphendelim A\bibinitperiod}{Moshe}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bbf532994442d1261bb837a45d6c0fab}{Lerman}{L\bibinitperiod}{Steven\bibnamedelima R.}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {The Massachusetts Institute of Technology}%
+      }
+      \list{location}{2}{%
+        {Cambridge}%
+        {Mass. U}%
+      }
+      \list{publisher}{1}{%
+        {MIT-Press}%
+      }
+      \strng{namehash}{cbf9363e412ef8e4782b72f1203b5959}
+      \strng{fullhash}{cbf9363e412ef8e4782b72f1203b5959}
+      \field{sortinit}{B}
+      \field{labelyear}{2000}
+      \field{labeltitle}{{D}iscrete {C}hoice {A}nalysis: {T}heory and {A}pplication to {T}ravel {D}emand}
+      \field{edition}{8}
+      \field{title}{{D}iscrete {C}hoice {A}nalysis: {T}heory and {A}pplication to {T}ravel {D}emand}
+      \field{year}{2000}
+    \endentry
+    \entry{bib.242}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=1,hash=92005b1b48308bcfb647bfafaa3d055f}{Burns}{B\bibinitperiod}{Robert\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=f187edda0ba67998d78c220a477a134f}{Burns}{B\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=92005b1b48308bcfb647bfafaa3d055f}{Burns}{B\bibinitperiod}{Robert\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=1,hash=f187edda0ba67998d78c220a477a134f}{Burns}{B\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Los Angeles}%
+      }
+      \list{publisher}{1}{%
+        {Sage}%
+      }
+      \strng{namehash}{08d156c5a0aec95dff5307c5d467d520}
+      \strng{fullhash}{08d156c5a0aec95dff5307c5d467d520}
+      \field{sortinit}{B}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{B}usiness {R}esearch {M}ethods and {S}tatistics {U}sing {S}{P}{S}{S}}
+      \field{title}{{B}usiness {R}esearch {M}ethods and {S}tatistics {U}sing {S}{P}{S}{S}}
+      \field{year}{2008}
+    \endentry
+    \entry{bib.251}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=d5252923ec855a419947d5530a089596}{Cascetta}{C\bibinitperiod}{Ennio}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d5252923ec855a419947d5530a089596}{Cascetta}{C\bibinitperiod}{Ennio}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {Boston}%
+        {MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science+Business Media LLC}%
+      }
+      \strng{namehash}{d5252923ec855a419947d5530a089596}
+      \strng{fullhash}{d5252923ec855a419947d5530a089596}
+      \field{sortinit}{C}
+      \field{labelyear}{2009}
+      \field{labeltitle}{{T}ransportation {S}ystems {A}nalysis: {M}odels and {A}pplications}
+      \field{isbn}{978-0-387-75856-5}
+      \field{series}{{S}pringer {O}ptimization and {I}ts {A}pplications}
+      \field{title}{{T}ransportation {S}ystems {A}nalysis: {M}odels and {A}pplications}
+      \field{volume}{29}
+      \field{year}{2009}
+      \keyw{Civil Engineering;mathematics;Operations Research;Regional economics;Regional planning}
+    \endentry
+    \entry{bib.248}{book}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=4b73b473425dcc3d14e062aacd09cb24}{Cerwenka}{C\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=60d770a2f9377ab049d583ce02d48345}{Hauger}{H\bibinitperiod}{Georg}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2dbacc9e1766a30971753c8b0153703d}{Hörl}{H\bibinitperiod}{Bardo}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d4c5f25c4116d6fff7bcf71f766b2a3d}{Klamer}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=4b73b473425dcc3d14e062aacd09cb24}{Cerwenka}{C\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=60d770a2f9377ab049d583ce02d48345}{Hauger}{H\bibinitperiod}{Georg}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2dbacc9e1766a30971753c8b0153703d}{Hörl}{H\bibinitperiod}{Bardo}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d4c5f25c4116d6fff7bcf71f766b2a3d}{Klamer}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wien}%
+      }
+      \list{publisher}{1}{%
+        {Österr. Kunst- und Kulturverl}%
+      }
+      \strng{namehash}{ebef8bb65bf47a39bdb62c54bcffef39}
+      \strng{fullhash}{818387687427c9ddd40fe289eea6a3ce}
+      \field{sortinit}{C}
+      \field{labelyear}{2007}
+      \field{labeltitle}{{H}andbuch der {V}erkehrssystemplanung}
+      \field{isbn}{9783854372653}
+      \field{title}{{H}andbuch der {V}erkehrssystemplanung}
+      \field{year}{2007}
+      \keyw{Verkehrsplanung;Verkehrssystem}
+    \endentry
+    \entry{bib.983}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1b362769cbab2008398a2850d7e6c0a0}{Destatis}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1b362769cbab2008398a2850d7e6c0a0}{Destatis}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1b362769cbab2008398a2850d7e6c0a0}{Destatis}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \strng{namehash}{1b362769cbab2008398a2850d7e6c0a0}
+      \strng{fullhash}{1b362769cbab2008398a2850d7e6c0a0}
+      \field{sortinit}{D}
+      \field{extrayear}{1}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{K}lassifikation der {W}irtschaftszweige: {M}it {E}rläuterungen}
+      \field{title}{{K}lassifikation der {W}irtschaftszweige: {M}it {E}rläuterungen}
+      \field{year}{2008}
+    \endentry
+    \entry{bib.980}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1b362769cbab2008398a2850d7e6c0a0}{Destatis}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1b362769cbab2008398a2850d7e6c0a0}{Destatis}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1b362769cbab2008398a2850d7e6c0a0}{Destatis}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Statistisches Bundesamt}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \strng{namehash}{1b362769cbab2008398a2850d7e6c0a0}
+      \strng{fullhash}{1b362769cbab2008398a2850d7e6c0a0}
+      \field{sortinit}{D}
+      \field{extrayear}{2}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{N}{S}{T}-2007: {E}inheitliches {G}üterverzeichnis für die {V}erkehrsstatistik -- 2007}
+      \field{series}{{V}erkehr und {I}nfrastruktur}
+      \field{title}{{N}{S}{T}-2007: {E}inheitliches {G}üterverzeichnis für die {V}erkehrsstatistik -- 2007}
+      \field{year}{2008}
+    \endentry
+    \entry{bib.269}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=40a29b3f1286f9b87966bd7096ae3e04}{Dobson}{D\bibinitperiod}{Annette\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d7071f9c0b3bc4580f74adb02b99fc21}{Barnett}{B\bibinitperiod}{Adrian\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=40a29b3f1286f9b87966bd7096ae3e04}{Dobson}{D\bibinitperiod}{Annette\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d7071f9c0b3bc4580f74adb02b99fc21}{Barnett}{B\bibinitperiod}{Adrian\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton Fla. u.a}%
+      }
+      \list{publisher}{1}{%
+        {Chapman {\&} Hall/CRC}%
+      }
+      \strng{namehash}{d80cc8951262e25fe196272a88fa4c45}
+      \strng{fullhash}{d80cc8951262e25fe196272a88fa4c45}
+      \field{sortinit}{D}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{A}n introduction to generalized linear models}
+      \field{edition}{3}
+      \field{isbn}{978-1-58488-950-2}
+      \field{series}{{T}exts in statistical science}
+      \field{title}{{A}n introduction to generalized linear models}
+      \field{year}{2008}
+      \keyw{Verallgemeinertes lineares Modell}
+    \endentry
+    \entry{bib.934}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=bbbaf435678ebcb77d465f6d90751c82}{Domencich}{D\bibinitperiod}{Thomas\bibnamedelima A.}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1327829299e572b76be93fafcdca8d7b}{McFadden}{M\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=bbbaf435678ebcb77d465f6d90751c82}{Domencich}{D\bibinitperiod}{Thomas\bibnamedelima A.}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1327829299e572b76be93fafcdca8d7b}{McFadden}{M\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {Amsterdam}%
+        {New York}%
+      }
+      \list{publisher}{2}{%
+        {North-Holland Pub. Co.}%
+        {American Elsevier}%
+      }
+      \strng{namehash}{0467c914b8fbe8d983ed532e3a0dad98}
+      \strng{fullhash}{0467c914b8fbe8d983ed532e3a0dad98}
+      \field{sortinit}{D}
+      \field{labelyear}{1975}
+      \field{labeltitle}{{U}rban travel demand: {A} behavioral analysis: {A} {C}harles {R}iver {A}ssociates research study}
+      \field{abstract}{A Charles River Associates research study.}
+      \field{isbn}{0-7204-3196-4}
+      \field{series}{{C}ontributions to economic analysis}
+      \field{title}{{U}rban travel demand: {A} behavioral analysis: {A} {C}harles {R}iver {A}ssociates research study}
+      \field{volume}{93}
+      \field{year}{1975}
+    \endentry
+    \entry{bib.403}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=c6cb9f5f4e858f5c0b5ec296f8c5cfef}{Friedrich}{F\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b0840581eb8d16942d8385a06d143310}{Haupt}{H\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c3d60c3ababf82f6021b33fb3c162f57}{Nökel}{N\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=c6cb9f5f4e858f5c0b5ec296f8c5cfef}{Friedrich}{F\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b0840581eb8d16942d8385a06d143310}{Haupt}{H\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c3d60c3ababf82f6021b33fb3c162f57}{Nökel}{N\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{34c7125e2b27a0efde540d3b4e9b2e7e}
+      \strng{fullhash}{c3e5febc3f67217346000585151793d2}
+      \field{sortinit}{F}
+      \field{labelyear}{2003}
+      \field{labeltitle}{{F}reight {M}odelling: {D}ata {I}ssues, {S}urvey {M}ethods, {D}emand and {N}etwork {M}odels}
+      \field{journaltitle}{Proceedings of 10th International Conference on Travel Behaviour Research, Lucerne}
+      \field{title}{{F}reight {M}odelling: {D}ata {I}ssues, {S}urvey {M}ethods, {D}emand and {N}etwork {M}odels}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2009}
+      \field{year}{2003}
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.isv.uni-stuttgart.de/vuv/publication/PDF/200308_Fr_FreightModelling_IATBR.pdf%7D
+      \endverb
+      \keyw{Automated number plate recognition;route choice;travel time;through traffic.;Relevant}
+    \endentry
+    \entry{bib.981}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=da525a502d8e1a4586ddafcf450f277f}{Fürst}{F\bibinitperiod}{Elmar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=da525a502d8e1a4586ddafcf450f277f}{Fürst}{F\bibinitperiod}{Elmar}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0b2b90d3264006ddb729e3befe1ecb87}{{Statistik\bibnamedelimb Austria}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wien}%
+      }
+      \strng{namehash}{da525a502d8e1a4586ddafcf450f277f}
+      \strng{fullhash}{da525a502d8e1a4586ddafcf450f277f}
+      \field{sortinit}{F}
+      \field{labelyear}{2010}
+      \field{labeltitle}{{D}ie neue {G}üternomenklatur für die {V}erkehrsstatistiken: {N}{S}{T} 2007: {S}{T}{A}{T}{I}{S}{T}{I}{K} {A}{U}{S}{T}{R}{I}{A}}
+      \field{number}{9/2010}
+      \field{series}{{S}tatistische {N}achrichten}
+      \field{title}{{D}ie neue {G}üternomenklatur für die {V}erkehrsstatistiken: {N}{S}{T} 2007: {S}{T}{A}{T}{I}{S}{T}{I}{K} {A}{U}{S}{T}{R}{I}{A}}
+      \field{year}{2010}
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.statistik.at/web_de/static/die_neue_gueternomenklatur_fuer_die_verkehrsstatistiken_nst_2007_052787.pdf%7D
+      \endverb
+    \endentry
+    \entry{bib.430}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=b4025b145cbe2cb35574865470ddc5b0}{Günthner}{G\bibinitperiod}{Willibald\bibnamedelima A.}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3df52a4a993906247931eea5ccd018e3}{Boppert}{B\bibinitperiod}{Julia}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6075b342505eedf8b086c73812f594c6}{Seebauer}{S\bibinitperiod}{Petra}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b4025b145cbe2cb35574865470ddc5b0}{Günthner}{G\bibinitperiod}{Willibald\bibnamedelima A.}{W\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3df52a4a993906247931eea5ccd018e3}{Boppert}{B\bibinitperiod}{Julia}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6075b342505eedf8b086c73812f594c6}{Seebauer}{S\bibinitperiod}{Petra}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universität}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Huss-Verl}%
+      }
+      \strng{namehash}{1349cb270a1d9b9e98f7ceff0cd2b688}
+      \strng{fullhash}{1fe096d2d0c10f04fea2c893c554a85e}
+      \field{sortinit}{G}
+      \field{labelyear}{2009}
+      \field{labeltitle}{{C}hange to green: {H}andlungsfelder und {P}erspektiven für nachhaltige {L}ogistik und {G}eschäftsprozesse ; eine {S}tudie des {L}ehrstuhls für {F}ördertechnik {M}aterialfluss {L}ogistik der {T}{U} {M}ünchen, {M}arkt und {W}irtschaft - {G}esellschaft für {M}arktforschung und {U}nternehmensberatung; der {U}nternehmensberatung trilogl{Q}a sowie des {F}achmagazins {L}{O}{G}{I}{S}{T}{I}{K} {H}{E}{U}{T}{E}}
+      \field{edition}{2}
+      \field{isbn}{9783937711959}
+      \field{series}{{L}ogistik heute}
+      \field{title}{{C}hange to green: {H}andlungsfelder und {P}erspektiven für nachhaltige {L}ogistik und {G}eschäftsprozesse ; eine {S}tudie des {L}ehrstuhls für {F}ördertechnik {M}aterialfluss {L}ogistik der {T}{U} {M}ünchen, {M}arkt und {W}irtschaft - {G}esellschaft für {M}arktforschung und {U}nternehmensberatung; der {U}nternehmensberatung trilogl{Q}a sowie des {F}achmagazins {L}{O}{G}{I}{S}{T}{I}{K} {H}{E}{U}{T}{E}}
+      \field{year}{2009}
+      \keyw{Logistik;Nachhaltigkeit;Umweltbezogenes Management;Geschäftsprozess;Umweltmanagement;Supply Chain Management;Klimaschutz}
+    \endentry
+    \entry{bib.879}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=9ffa62da8d0ae68d04f69094ed8d14f7}{{HaCon\bibnamedelimb Ing.\bibnamedelimi GmbH}}{H\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9ffa62da8d0ae68d04f69094ed8d14f7}{{HaCon\bibnamedelimb Ing.\bibnamedelimi GmbH}}{H\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Hannoversche Consulting für Verkehrswesen,~Transporttechnik und Elektronische Datenverarbeitung}%
+      }
+      \list{location}{1}{%
+        {Hannover}%
+      }
+      \strng{namehash}{9ffa62da8d0ae68d04f69094ed8d14f7}
+      \strng{fullhash}{9ffa62da8d0ae68d04f69094ed8d14f7}
+      \field{sortinit}{H}
+      \field{labelyear}{1995}
+      \field{labeltitle}{{S}tatus-quo-{A}nalyse des {W}irtschaftsverkehrs im {G}roßraum {H}annover}
+      \field{title}{{S}tatus-quo-{A}nalyse des {W}irtschaftsverkehrs im {G}roßraum {H}annover}
+      \field{year}{1995}
+    \endentry
+    \entry{bib.352}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=3b4512426dfc073b5cd870e714332e0b}{Hastenteufel}{H\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3b4512426dfc073b5cd870e714332e0b}{Hastenteufel}{H\bibinitperiod}{Klaus}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Saarbrücken}%
+      }
+      \list{publisher}{1}{%
+        {VDM Verl}%
+      }
+      \strng{namehash}{3b4512426dfc073b5cd870e714332e0b}
+      \strng{fullhash}{3b4512426dfc073b5cd870e714332e0b}
+      \field{sortinit}{H}
+      \field{labelyear}{2009}
+      \field{labeltitle}{{E}rreichbarkeitsanalyse eines {S}tandortes}
+      \field{isbn}{978-3-639-17200-3}
+      \field{title}{{E}rreichbarkeitsanalyse eines {S}tandortes}
+      \field{year}{2009}
+    \endentry
+    \entry{bib.707}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=c1f9d2938f2b71f0d2e5ec48675fb084}{Holguín-Veras}{H\bibinithyphendelim V\bibinitperiod}{Jose}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7d37b8eddbfa29411e3973fce2cd7773}{Xu}{X\bibinitperiod}{Ning}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ab262015a82d94558ac2769ce217ea0b}{Jong}{J\bibinitperiod}{Gerard}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=808c13e239df6fa7a35b76bcecf73b56}{Maurer}{M\bibinitperiod}{Hedi}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c1f9d2938f2b71f0d2e5ec48675fb084}{Holguín-Veras}{H\bibinithyphendelim V\bibinitperiod}{Jose}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7d37b8eddbfa29411e3973fce2cd7773}{Xu}{X\bibinitperiod}{Ning}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ab262015a82d94558ac2769ce217ea0b}{Jong}{J\bibinitperiod}{Gerard}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=808c13e239df6fa7a35b76bcecf73b56}{Maurer}{M\bibinitperiod}{Hedi}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e5fb229f81f42c3572556e3a705dcb42}
+      \strng{fullhash}{72d1e620efdeb7e0e0a2f77d7cf50016}
+      \field{sortinit}{H}
+      \field{labelyear}{2011}
+      \field{labeltitle}{{A}n {E}xperimental {E}conomics {I}nvestigation of {S}hipper-carrier {I}nteractions in the {C}hoice of {M}ode and {S}hipment {S}ize in {F}reight {T}ransport}
+      \field{issn}{1566-113X}
+      \field{journaltitle}{Networks and Spatial Economics}
+      \field{number}{3}
+      \field{title}{{A}n {E}xperimental {E}conomics {I}nvestigation of {S}hipper-carrier {I}nteractions in the {C}hoice of {M}ode and {S}hipment {S}ize in {F}reight {T}ransport}
+      \field{volume}{11}
+      \field{year}{2011}
+      \field{pages}{509\bibrangedash 532}
+      \verb{doi}
+      \verb \url{10.1007/s11067-009-9107-x}
+      \endverb
+    \endentry
+    \entry{bib.336}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=80177f3e7e846b6f1c7215c1df761870}{Holz-Rau}{H\bibinithyphendelim R\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3ac3b081b1b707ac5c8ee8a1edd5af30}{Kutter}{K\bibinitperiod}{Eckhard}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=80177f3e7e846b6f1c7215c1df761870}{Holz-Rau}{H\bibinithyphendelim R\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3ac3b081b1b707ac5c8ee8a1edd5af30}{Kutter}{K\bibinitperiod}{Eckhard}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \list{publisher}{1}{%
+        {Kirschbaum}%
+      }
+      \strng{namehash}{e239a18c789034c0e9eb6716e0dac9ec}
+      \strng{fullhash}{e239a18c789034c0e9eb6716e0dac9ec}
+      \field{sortinit}{H}
+      \field{labelyear}{1995}
+      \field{labeltitle}{{V}erkehrsvermeidung - {V}erkehrsverlagerung - {V}erkehrslenkung: {F}{G}{S}{V}-{K}olloquium am 5. und 6. {M}ai 1994 in {B}onn}
+      \field{isbn}{3781213684}
+      \field{series}{{F}orschung {S}trassenbau und {S}trassenverkehrstechnik}
+      \field{title}{{V}erkehrsvermeidung - {V}erkehrsverlagerung - {V}erkehrslenkung: {F}{G}{S}{V}-{K}olloquium am 5. und 6. {M}ai 1994 in {B}onn}
+      \field{year}{1995}
+      \keyw{Verkehrspolitik;Verkehrsplanung;Automated number plate recognition;route choice;travel time;through traffic.;Relevant}
+    \endentry
+    \entry{bib.344}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5824684476a6dfde95b97c9f1d7f2d9d}{Ihde}{I\bibinitperiod}{Gösta\bibnamedelima B.}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5824684476a6dfde95b97c9f1d7f2d9d}{Ihde}{I\bibinitperiod}{Gösta\bibnamedelima B.}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Vahlen}%
+      }
+      \strng{namehash}{5824684476a6dfde95b97c9f1d7f2d9d}
+      \strng{fullhash}{5824684476a6dfde95b97c9f1d7f2d9d}
+      \field{sortinit}{I}
+      \field{labelyear}{2001}
+      \field{labeltitle}{{T}ransport, {V}erkehr, {L}ogistik: {G}esamtwirtschaftliche {A}spekte und einzelwirtschaftliche {H}andhabung}
+      \field{abstract}{Relevante Abschnitte: 1.1}
+      \field{edition}{3}
+      \field{isbn}{380062611X}
+      \field{series}{{V}ahlens {H}andbücher der {W}irtschafts- und {S}ozialwissenschaften}
+      \field{title}{{T}ransport, {V}erkehr, {L}ogistik: {G}esamtwirtschaftliche {A}spekte und einzelwirtschaftliche {H}andhabung}
+      \field{year}{2001}
+      \keyw{Verkehr;Distributionslogistik;Logistik;Unternehmen;Logistik / Güterverkehr / Verkehrsökonomik / Management / Theorie / Deutschland;Deutschland / Betriebswirtschaftslehre;Automated number plate recognition;route choice;travel time;through traffic.;Relevant}
+    \endentry
+    \entry{bib.371}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=73c14d306d8ea975ea822f2eeb156e46}{Klaus}{K\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2297af56333f8db328165eb3d6a7cbca}{Kille}{K\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=61b3ab24cf6fc75d3bfd3a4b083e356b}{Hartmann}{H\bibinitperiod}{Evi}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=73c14d306d8ea975ea822f2eeb156e46}{Klaus}{K\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2297af56333f8db328165eb3d6a7cbca}{Kille}{K\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=61b3ab24cf6fc75d3bfd3a4b083e356b}{Hartmann}{H\bibinitperiod}{Evi}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Dt. Verkehrs-Verl.}%
+      }
+      \strng{namehash}{a551ddd9d2abe2655e0cf2399e3a93f6}
+      \strng{fullhash}{d9c803582075bb0a46249aa3cd03edfd}
+      \field{sortinit}{K}
+      \field{labelyear}{2010}
+      \field{labeltitle}{{D}ie {T}op 100 der {L}ogistik 2010/2011}
+      \field{edition}{Ausg. 2010}
+      \field{isbn}{978-3-87154-431-6}
+      \field{title}{{D}ie {T}op 100 der {L}ogistik 2010/2011}
+      \field{year}{2010}
+      \keyw{Deutschland;Transport;Logistik;Marktübersicht;Europa;Güterverkehrsbetrieb;Logistikunternehmen}
+    \endentry
+    \entry{bib.372}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=73c14d306d8ea975ea822f2eeb156e46}{Klaus}{K\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=74207b13755e9106e0062b9d8e6be689}{Krieger}{K\bibinitperiod}{Winfried}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=73c14d306d8ea975ea822f2eeb156e46}{Klaus}{K\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=74207b13755e9106e0062b9d8e6be689}{Krieger}{K\bibinitperiod}{Winfried}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Gabler}%
+      }
+      \strng{namehash}{2c9160b60b3be7ffe9e774c4094d0eb0}
+      \strng{fullhash}{2c9160b60b3be7ffe9e774c4094d0eb0}
+      \field{sortinit}{K}
+      \field{labelyear}{2004}
+      \field{labeltitle}{{G}abler-{L}exikon {L}ogistik: {M}anagement logistischer {N}etzwerke und {F}lüsse}
+      \field{edition}{3}
+      \field{isbn}{3409395024}
+      \field{title}{{G}abler-{L}exikon {L}ogistik: {M}anagement logistischer {N}etzwerke und {F}lüsse}
+      \field{year}{2004}
+      \keyw{Unternehmen;Logistik;Wörterbuch;Automated number plate recognition;route choice;travel time;through traffic.;Relevant}
+    \endentry
+    \entry{bib.593}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=03db0985b94f44e76af2409b47f710dd}{Knapp}{K\bibinitperiod}{Frank\bibnamedelima D.}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=03db0985b94f44e76af2409b47f710dd}{Knapp}{K\bibinitperiod}{Frank\bibnamedelima D.}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Duncker {\&} Humblot}%
+      }
+      \strng{namehash}{03db0985b94f44e76af2409b47f710dd}
+      \strng{fullhash}{03db0985b94f44e76af2409b47f710dd}
+      \field{sortinit}{K}
+      \field{labelyear}{1998}
+      \field{labeltitle}{{D}eterminanten der {V}erkehrsmittelwahl}
+      \field{abstract}{Modal Split.}
+      \field{isbn}{3-428-09304-6}
+      \field{title}{{D}eterminanten der {V}erkehrsmittelwahl}
+      \field{year}{1998}
+      \keyw{Verkehrsmittelwahl;Präferenz;Conjoint Measurement;Personennahverkehr}
+    \endentry
+    \entry{bib.87}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=7efa1f5b7e81dd78be79073af5ad5560}{Köhler}{K\bibinitperiod}{Uwe}{U\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2adf09ce6f4279a87406bbe5f39269c6}{Wermuth}{W\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=7efa1f5b7e81dd78be79073af5ad5560}{Köhler}{K\bibinitperiod}{Uwe}{U\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2adf09ce6f4279a87406bbe5f39269c6}{Wermuth}{W\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Deutschland}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \list{publisher}{1}{%
+        {Bundesdr. Zweigniederlassung Bonn}%
+      }
+      \strng{namehash}{d1c1da5e7e2dff6d8ec718a69509676c}
+      \strng{fullhash}{d1c1da5e7e2dff6d8ec718a69509676c}
+      \field{sortinit}{K}
+      \field{labelyear}{2001}
+      \field{labeltitle}{{A}nalyse der {A}nwendung von {V}erkehrsnachfragemodellen}
+      \field{isbn}{3934458378}
+      \field{series}{{F}orschung {S}trassenbau und {S}trassenverkehrstechnik}
+      \field{title}{{A}nalyse der {A}nwendung von {V}erkehrsnachfragemodellen}
+      \field{volume}{804}
+      \field{year}{2001}
+      \keyw{Verkehr;Nachfrage;Verkehrsmittelwahl;Wirtschaftsmodell;Theorie;Buch -- Book;Amtsdruckschrift -- Government document;Graue Literatur -- Non-commercial literature;Straßenverkehr;Verkehrserhebung;Forschungsbericht}
+    \endentry
+    \entry{bib.562}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8628e599ec1a0258ab74aa96bf3c0262}{Kummer}{K\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8628e599ec1a0258ab74aa96bf3c0262}{Kummer}{K\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wien}%
+      }
+      \list{publisher}{1}{%
+        {Facultas.wuv}%
+      }
+      \strng{namehash}{8628e599ec1a0258ab74aa96bf3c0262}
+      \strng{fullhash}{8628e599ec1a0258ab74aa96bf3c0262}
+      \field{sortinit}{K}
+      \field{labelyear}{2006}
+      \field{labeltitle}{{E}inführung in die {V}erkehrswirtschaft}
+      \field{isbn}{3-8252-8336-4}
+      \field{title}{{E}inführung in die {V}erkehrswirtschaft}
+      \field{year}{2006}
+    \endentry
+    \entry{bib.75}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=3ac3b081b1b707ac5c8ee8a1edd5af30}{Kutter}{K\bibinitperiod}{Eckhard}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3ac3b081b1b707ac5c8ee8a1edd5af30}{Kutter}{K\bibinitperiod}{Eckhard}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \strng{namehash}{3ac3b081b1b707ac5c8ee8a1edd5af30}
+      \strng{fullhash}{3ac3b081b1b707ac5c8ee8a1edd5af30}
+      \field{sortinit}{K}
+      \field{labelyear}{2003}
+      \field{labeltitle}{{M}odellierung für die {V}erkehrsplanung: {E}{C}{T}{L} {W}orking {P}aper 21}
+      \field{title}{{M}odellierung für die {V}erkehrsplanung: {E}{C}{T}{L} {W}orking {P}aper 21}
+      \field{year}{2003}
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.vsl.tu-harburg.de/vsl_2/Archiv/wp/ECTL_Working_Paper_21.pdf%7D
+      \endverb
+      \warn{\item Datamodel: Entry 'bib.75' (bib.bib): Invalid format '26.03.2010' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bib.969}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5d1017a6438196ccf78d7cea04384963}{Kuzmyak}{K\bibinitperiod}{J.\bibnamedelimi Richard}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5d1017a6438196ccf78d7cea04384963}{Kuzmyak}{K\bibinitperiod}{J.\bibnamedelimi Richard}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {Washington}%
+        {D.C}%
+      }
+      \list{publisher}{1}{%
+        {Transportation Research Board}%
+      }
+      \strng{namehash}{5d1017a6438196ccf78d7cea04384963}
+      \strng{fullhash}{5d1017a6438196ccf78d7cea04384963}
+      \field{sortinit}{K}
+      \field{labelyear}{2008}
+      \field{labeltitle}{{F}orecasting metropolitan commercial and freight travel}
+      \field{isbn}{978-0-309-09814-4}
+      \field{series}{{N}{C}{H}{R}{P} synthesis}
+      \field{title}{{F}orecasting metropolitan commercial and freight travel}
+      \field{volume}{384}
+      \field{year}{2008}
+    \endentry
+    \entry{bib.680}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=822a8544f8b6c7fec48d96eda66fe3fc}{Lancaster}{L\bibinitperiod}{Kelvin\bibnamedelima J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=822a8544f8b6c7fec48d96eda66fe3fc}{Lancaster}{L\bibinitperiod}{Kelvin\bibnamedelima J.}{K\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{822a8544f8b6c7fec48d96eda66fe3fc}
+      \strng{fullhash}{822a8544f8b6c7fec48d96eda66fe3fc}
+      \field{sortinit}{L}
+      \field{labelyear}{1966}
+      \field{labeltitle}{{A} {N}ew {A}pproach to {C}onsumer {T}heory}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{2}
+      \field{title}{{A} {N}ew {A}pproach to {C}onsumer {T}heory}
+      \field{volume}{74}
+      \field{year}{1966}
+      \field{pages}{132\bibrangedash 157}
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.jstor.org/discover/10.2307/1828835?uid=3737864%5C&uid=2%5C&uid=4%5C&sid=21100996445583%7D
+      \endverb
+    \endentry
+    \entry{bib.942}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=0903ea075595c34d53ddd769cde4ffb8}{{Luk,\bibnamedelimb J.\bibnamedelimi Y.\bibnamedelimi K}}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=5650fd02f66eae2024d31ea3dfccf987}{Chen}{C\bibinitperiod}{Benny}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0903ea075595c34d53ddd769cde4ffb8}{{Luk,\bibnamedelimb J.\bibnamedelimi Y.\bibnamedelimi K}}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=5650fd02f66eae2024d31ea3dfccf987}{Chen}{C\bibinitperiod}{Benny}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {Vermont South}%
+        {Vic}%
+      }
+      \list{publisher}{1}{%
+        {ARRB Transport Research}%
+      }
+      \strng{namehash}{5e676a5580772dd57a8dae08351dcb28}
+      \strng{fullhash}{5e676a5580772dd57a8dae08351dcb28}
+      \field{sortinit}{L}
+      \field{labelyear}{1997}
+      \field{labeltitle}{{E}valuation of information available to assess road freight transport demand}
+      \field{isbn}{086910747x}
+      \field{series}{{R}esearch report {A}{R}{R}}
+      \field{title}{{E}valuation of information available to assess road freight transport demand}
+      \field{volume}{no. 308}
+      \field{year}{1997}
+    \endentry
+    \entry{bib.103}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=726d9f6d65828b9a40d929cd0a88ff6d}{Maier}{M\bibinitperiod}{Gunther}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3fdd9d8aebc696487040dbdef7850576}{Weiss}{W\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=726d9f6d65828b9a40d929cd0a88ff6d}{Maier}{M\bibinitperiod}{Gunther}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3fdd9d8aebc696487040dbdef7850576}{Weiss}{W\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wien}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{66fd5a2ea6fe7a0267d7f91a5702f5e0}
+      \strng{fullhash}{66fd5a2ea6fe7a0267d7f91a5702f5e0}
+      \field{sortinit}{M}
+      \field{labelyear}{1990}
+      \field{labeltitle}{{M}odelle diskreter {E}ntscheidungen: {T}heorie und {A}nwendung in den {S}ozial- und {W}irtschaftswissenschaften}
+      \field{isbn}{0387821848}
+      \field{title}{{M}odelle diskreter {E}ntscheidungen: {T}heorie und {A}nwendung in den {S}ozial- und {W}irtschaftswissenschaften}
+      \field{year}{1990}
+      \keyw{Entscheidung;Konsumentenverhalten;Konsumtheorie;Wirtschaftsmodell;Theorie}
+    \endentry
+    \entry{bib.771}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=522ce0498c23cfb3465ee4340b39e981}{Manheim}{M\bibinitperiod}{Marvin\bibnamedelima L.}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=522ce0498c23cfb3465ee4340b39e981}{Manheim}{M\bibinitperiod}{Marvin\bibnamedelima L.}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {Cambridge}%
+        {Mass}%
+      }
+      \list{publisher}{1}{%
+        {MIT Pr}%
+      }
+      \strng{namehash}{522ce0498c23cfb3465ee4340b39e981}
+      \strng{fullhash}{522ce0498c23cfb3465ee4340b39e981}
+      \field{sortinit}{M}
+      \field{labelyear}{1980}
+      \field{labeltitle}{{F}undamentals of transportation systems analysis}
+      \field{edition}{3}
+      \field{isbn}{0262131293}
+      \field{series}{{M}{I}{T} {P}ress series in transportations studies}
+      \field{title}{{F}undamentals of transportation systems analysis}
+      \field{volume}{4}
+      \field{year}{1980}
+    \endentry
+    \entry{bib.935}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1327829299e572b76be93fafcdca8d7b}{McFadden}{M\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1327829299e572b76be93fafcdca8d7b}{McFadden}{M\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1327829299e572b76be93fafcdca8d7b}
+      \strng{fullhash}{1327829299e572b76be93fafcdca8d7b}
+      \field{sortinit}{M}
+      \field{labelyear}{1980}
+      \field{labeltitle}{{M}odels for {P}robabilistic {C}hoice {A}mong {P}roducts}
+      \field{journaltitle}{The Journal of Business}
+      \field{number}{3-2}
+      \field{title}{{M}odels for {P}robabilistic {C}hoice {A}mong {P}roducts}
+      \field{volume}{53}
+      \field{year}{1980}
+      \field{pages}{13\bibrangedash 29}
+    \endentry
+    \entry{bib.268}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=3b5e001361da3006ca4cc8b9850e1a61}{Ortúzar}{O\bibinitperiod}{Juan\bibnamedelimb de\bibnamedelima Dios}{J\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f678adea6ac033f9b0983595747f05b7}{Willumsen}{W\bibinitperiod}{Luis\bibnamedelima G.}{L\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=3b5e001361da3006ca4cc8b9850e1a61}{Ortúzar}{O\bibinitperiod}{Juan\bibnamedelimb de\bibnamedelima Dios}{J\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f678adea6ac033f9b0983595747f05b7}{Willumsen}{W\bibinitperiod}{Luis\bibnamedelima G.}{L\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Chichester}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{fcfa47f1d762c8fe467feef28dce1d1b}
+      \strng{fullhash}{fcfa47f1d762c8fe467feef28dce1d1b}
+      \field{sortinit}{O}
+      \field{labelyear}{2005}
+      \field{labeltitle}{{M}odelling transport}
+      \field{edition}{3. ed., reprint. June 2005.}
+      \field{isbn}{0471861103}
+      \field{title}{{M}odelling transport}
+      \field{year}{2005}
+      \keyw{Transportation;Mathematical models;Choice of transportation;Trip generation;Transport;Mathematisches Modell}
+    \endentry
+    \entry{bib.1005}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=57d096ffcee9f138dace47dccb4706df}{{PTV\bibnamedelimb AG}}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=57d096ffcee9f138dace47dccb4706df}{{PTV\bibnamedelimb AG}}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Karlsruhe}%
+      }
+      \strng{namehash}{57d096ffcee9f138dace47dccb4706df}
+      \strng{fullhash}{57d096ffcee9f138dace47dccb4706df}
+      \field{sortinit}{P}
+      \field{labelyear}{2012}
+      \field{labeltitle}{{V}{I}{S}{U}{M}~13: {G}rundlagen}
+      \field{title}{{V}{I}{S}{U}{M}~13: {G}rundlagen}
+      \field{year}{2012}
+    \endentry
+    \entry{bib.890}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b10940b808ce77bd322707882a29381e}{Quandt}{Q\bibinitperiod}{Richard\bibnamedelima E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8e61c0edf2fd6855b0b9a2440ef19bca}{Baumol}{B\bibinitperiod}{William\bibnamedelima J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b10940b808ce77bd322707882a29381e}{Quandt}{Q\bibinitperiod}{Richard\bibnamedelima E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8e61c0edf2fd6855b0b9a2440ef19bca}{Baumol}{B\bibinitperiod}{William\bibnamedelima J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b10940b808ce77bd322707882a29381e}{Quandt}{Q\bibinitperiod}{Richard\bibnamedelima E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Lexington/Mass}%
+      }
+      \list{publisher}{1}{%
+        {Heath Lexington Books}%
+      }
+      \strng{namehash}{5f8ac7c12c5ef5920258a99f23b9e5e5}
+      \strng{fullhash}{5f8ac7c12c5ef5920258a99f23b9e5e5}
+      \field{sortinit}{Q}
+      \field{labelyear}{1975}
+      \field{labeltitle}{{T}he {D}emand for {A}bstract {T}ransport {M}odes: {T}heory and {M}easurement}
+      \field{booktitle}{{T}he demand for travel}
+      \field{isbn}{0-669-61929-9}
+      \field{title}{{T}he {D}emand for {A}bstract {T}ransport {M}odes: {T}heory and {M}easurement}
+      \field{year}{1975}
+      \field{pages}{83\bibrangedash 101}
+    \endentry
+    \entry{bib.682}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=9d164624092b98cbad8743c161339ce3}{Regan}{R\bibinitperiod}{Amelia\bibnamedelima C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8b5799d5b68ec8734d7e19e0020eb31e}{Garrido}{G\bibinitperiod}{Rodrigo\bibnamedelima A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=9d164624092b98cbad8743c161339ce3}{Regan}{R\bibinitperiod}{Amelia\bibnamedelima C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8b5799d5b68ec8734d7e19e0020eb31e}{Garrido}{G\bibinitperiod}{Rodrigo\bibnamedelima A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=60105a8a6ba87402aeba290c4f0d2ef7}{Hensher}{H\bibinitperiod}{David\bibnamedelima A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c5fef03e7351f65128912dabcd4f8e80}
+      \strng{fullhash}{c5fef03e7351f65128912dabcd4f8e80}
+      \field{sortinit}{R}
+      \field{labelyear}{2004}
+      \field{labeltitle}{{M}odelling {F}reight {D}emand and {S}hipper {B}ehaviour: {S}tate of the {A}rt, {F}uture {D}irections}
+      \field{booktitle}{{T}ravel behaviour research}
+      \field{isbn}{0-08-043924-1}
+      \field{title}{{M}odelling {F}reight {D}emand and {S}hipper {B}ehaviour: {S}tate of the {A}rt, {F}uture {D}irections}
+      \field{year}{2004}
+      \field{pages}{185\bibrangedash 215}
+    \endentry
+    \entry{bib.217}{misc}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=ffe33ade8d769ec23c0325891b4f1615}{Schmied}{S\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5c767d6c72790915d61ae9ff93b5e245}{Havers}{H\bibinitperiod}{Kirsten}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=663639b9ea1b66000beca2d5ea9839c7}{Zimmer}{Z\bibinitperiod}{Wiebke}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ca9d98f4b4851e2851afd812e34c24ed}{Schmidt}{S\bibinitperiod}{Kirsten}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2028450a5674fe2c55a635524b56fefe}{Goerke}{G\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=dd5bdaade4f505a2ffe2edf12d90450d}{Schlüter}{S\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=ffe33ade8d769ec23c0325891b4f1615}{Schmied}{S\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5c767d6c72790915d61ae9ff93b5e245}{Havers}{H\bibinitperiod}{Kirsten}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=663639b9ea1b66000beca2d5ea9839c7}{Zimmer}{Z\bibinitperiod}{Wiebke}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ca9d98f4b4851e2851afd812e34c24ed}{Schmidt}{S\bibinitperiod}{Kirsten}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2028450a5674fe2c55a635524b56fefe}{Goerke}{G\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=dd5bdaade4f505a2ffe2edf12d90450d}{Schlüter}{S\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=13d655353e2c964b446ea9929307183b}{Bundesministeriums\bibnamedelimb für\bibnamedelima Umwelt}{B\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim U\bibinitperiod}{Naturschutz\bibnamedelimb und\bibnamedelima Reaktorsicherheit}{N\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Frauenhofer Institut Materialfluss und logistik (IML) and Lehrstuhl für Verkehrssysteme und -logistik and Öko-Institut e.V}%
+      }
+      \list{location}{1}{%
+        {Berlin/Dortmund}%
+      }
+      \strng{namehash}{4d90c70ead979c9fb44642b927e40916}
+      \strng{fullhash}{98b9adb61529c8710fe1e3557b9dc6b7}
+      \field{sortinit}{S}
+      \field{labelyear}{2007}
+      \field{labeltitle}{{N}achhaltige {M}obilität durch {I}nnovationen im {G}üterverkehr: {E}ndbericht zum {F}orschungsvorhaben {F}{K}{Z} 906 96 533}
+      \field{title}{{N}achhaltige {M}obilität durch {I}nnovationen im {G}üterverkehr: {E}ndbericht zum {F}orschungsvorhaben {F}{K}{Z} 906 96 533}
+      \field{year}{2007}
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.bmu.de/files/pdfs/allgemein/application/pdf/innovationen_gueterverkehr.pdf%7D
+      \endverb
+    \endentry
+    \entry{bib.213}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=fe35505a86cdcb05c65cb2a42cd5c5b0}{Schnabel}{S\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b1774563756fe03b7e953fdd52c1a4a2}{Lohse}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fea98cdf81e0e938c0dd0c1e33a60496}{Lätzsch}{L\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=fe35505a86cdcb05c65cb2a42cd5c5b0}{Schnabel}{S\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b1774563756fe03b7e953fdd52c1a4a2}{Lohse}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fea98cdf81e0e938c0dd0c1e33a60496}{Lätzsch}{L\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Verl. für Bauwesen}%
+      }
+      \strng{namehash}{f05c6b8525e104a688848366940eecf6}
+      \strng{fullhash}{b37ceefaf7b6b7cc880137e5df166256}
+      \field{sortinit}{S}
+      \field{labelyear}{1997}
+      \field{labeltitle}{{V}erkehrsplanung}
+      \field{edition}{2. neu bearb. Aufl.}
+      \field{isbn}{3345005670}
+      \field{series}{{G}rundlagen der {S}trassenverkehrstechnik und der {V}erkehrsplanung}
+      \field{title}{{V}erkehrsplanung}
+      \field{volume}{2}
+      \field{year}{1997}
+      \keyw{Automated number plate recognition;route choice;travel time;through traffic.;Relevant}
+    \endentry
+    \entry{bib.885}{incollection}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=c6de8e664779c6068cbed4c620b6ec65}{Steierwald}{S\bibinitperiod}{Gerd}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b45458f1fe36d3a215148ea9537aa23}{Künne}{K\bibinitperiod}{H.\bibnamedelimi D.}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=060fc87a3ec5762f37eeba7b5abb4d47}{Vogt}{V\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=c6de8e664779c6068cbed4c620b6ec65}{Steierwald}{S\bibinitperiod}{Gerd}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0b45458f1fe36d3a215148ea9537aa23}{Künne}{K\bibinitperiod}{H.\bibnamedelimi D.}{H\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=060fc87a3ec5762f37eeba7b5abb4d47}{Vogt}{V\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c6de8e664779c6068cbed4c620b6ec65}{Steierwald}{S\bibinitperiod}{Gerd}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{27e24195fdb647f93ee17e9f74c2cbd6}
+      \strng{fullhash}{08342f8b1b2dcd6847955b718cdfcd6f}
+      \field{sortinit}{S}
+      \field{labelyear}{2005}
+      \field{labeltitle}{{P}lanungsgrundlagen}
+      \field{booktitle}{{S}tadtverkehrsplanung}
+      \field{isbn}{9783540270102}
+      \field{title}{{P}lanungsgrundlagen}
+      \field{year}{2005}
+      \field{pages}{3\bibrangedash 17}
+    \endentry
+    \entry{bib.928}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6e0077c1f565429d3e2ab28c64e7e696}{Temme}{T\bibinitperiod}{Jarg}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6e0077c1f565429d3e2ab28c64e7e696}{Temme}{T\bibinitperiod}{Jarg}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=906a3ac09a59f152230c19d503021c04}{Albers}{A\bibinitperiod}{Sönke}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=307fb315a21f7d9d37f3107508230c9e}{Klapper}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=418be8fe72db7006f851593540ab805f}{Konradt}{K\bibinitperiod}{Udo}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=28d23497489e43cb9dd156eeb4c03984}{Walter}{W\bibinitperiod}{Achim}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=4ea1f120660d48d1953b6ddff3c42eb7}{Wolf}{W\bibinitperiod}{Joachim}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Dt. Univ.-Verl}%
+      }
+      \strng{namehash}{6e0077c1f565429d3e2ab28c64e7e696}
+      \strng{fullhash}{6e0077c1f565429d3e2ab28c64e7e696}
+      \field{sortinit}{T}
+      \field{labelyear}{2006}
+      \field{labeltitle}{{D}iscrete {C}hoice {M}odelle}
+      \field{booktitle}{{M}ethodik der empirischen {F}orschung}
+      \field{isbn}{978-3835000599}
+      \field{series}{Gabler Edition Wissenschaft}
+      \field{title}{{D}iscrete {C}hoice {M}odelle}
+      \field{year}{2006}
+      \field{pages}{327\bibrangedash 342}
+    \endentry
+    \entry{bib.929}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=4133bdf1da384bf31d5c1ec83be7006e}{Tutz}{T\bibinitperiod}{Gerhard}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4133bdf1da384bf31d5c1ec83be7006e}{Tutz}{T\bibinitperiod}{Gerhard}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Oldenbourg}%
+      }
+      \strng{namehash}{4133bdf1da384bf31d5c1ec83be7006e}
+      \strng{fullhash}{4133bdf1da384bf31d5c1ec83be7006e}
+      \field{sortinit}{T}
+      \field{labelyear}{2000}
+      \field{labeltitle}{{D}ie {A}nalyse kategorialer {D}aten: {A}nwendungsorientierte {E}inführung in {L}ogit-{M}odellierung und kategoriale {R}egression}
+      \field{isbn}{978-3486254051}
+      \field{series}{{L}ehr- und {H}andbücher der {S}tatistik}
+      \field{title}{{D}ie {A}nalyse kategorialer {D}aten: {A}nwendungsorientierte {E}inführung in {L}ogit-{M}odellierung und kategoriale {R}egression}
+      \field{year}{2000}
+    \endentry
+    \entry{bib.740}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8dc90c358d542844b3946c13df2ec6da}{Voigt}{V\bibinitperiod}{Fritz}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8dc90c358d542844b3946c13df2ec6da}{Voigt}{V\bibinitperiod}{Fritz}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Duncker {\&} Humblot}%
+      }
+      \strng{namehash}{8dc90c358d542844b3946c13df2ec6da}
+      \strng{fullhash}{8dc90c358d542844b3946c13df2ec6da}
+      \field{sortinit}{V}
+      \field{labelyear}{1973}
+      \field{labeltitle}{{V}erkehr}
+      \field{isbn}{3428029402}
+      \field{series}{{V}erkehr und {I}nfrastruktur}
+      \field{title}{{V}erkehr}
+      \field{volume}{1}
+      \field{year}{1973}
+    \endentry
+    \entry{bib.160}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5b1992d1972a899336e24c5961631048}{Walter}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5b1992d1972a899336e24c5961631048}{Walter}{W\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Statistisches Bundesamt}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \strng{namehash}{5b1992d1972a899336e24c5961631048}
+      \strng{fullhash}{5b1992d1972a899336e24c5961631048}
+      \field{sortinit}{W}
+      \field{labelyear}{2006}
+      \field{labeltitle}{{V}erkehr in {D}eutschland 2006}
+      \field{series}{{V}erkehr in {D}eutschland}
+      \field{title}{{V}erkehr in {D}eutschland 2006}
+      \field{year}{2006}
+    \endentry
+    \entry{bib.820}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=2adf09ce6f4279a87406bbe5f39269c6}{Wermuth}{W\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4403e588338019c3cf5b7e19cdf1c05c}{Binnenbruck}{B\bibinitperiod}{Horst\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2adf09ce6f4279a87406bbe5f39269c6}{Wermuth}{W\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4403e588338019c3cf5b7e19cdf1c05c}{Binnenbruck}{B\bibinitperiod}{Horst\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Deutschland}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \list{publisher}{1}{%
+        {Bundesministerium für Verkehr Bau-und Wohnungswesen Abt. Straßenbau Straßenverkehr}%
+      }
+      \strng{namehash}{f909387f1c834f93c2a25d0f45c8e847}
+      \strng{fullhash}{f909387f1c834f93c2a25d0f45c8e847}
+      \field{sortinit}{W}
+      \field{labelyear}{2003}
+      \field{labeltitle}{{B}estandsaufnahme notwendiger und verfügbarer {D}aten zum {W}irtschaftsverkehr als {G}rundlage pragmatischer {D}atenergänzungen: [{B}ericht zum {F}orschungs- und {E}ntwicklungsvorhaben 01.145{G}96{C} des {B}undesministeriums für {V}erkehr, {B}au und {W}ohnungswesen]}
+      \field{isbn}{3-934458-90-4}
+      \field{series}{{F}orschung {S}trassenbau und {S}trassenverkehrstechnik}
+      \field{title}{{B}estandsaufnahme notwendiger und verfügbarer {D}aten zum {W}irtschaftsverkehr als {G}rundlage pragmatischer {D}atenergänzungen: [{B}ericht zum {F}orschungs- und {E}ntwicklungsvorhaben 01.145{G}96{C} des {B}undesministeriums für {V}erkehr, {B}au und {W}ohnungswesen]}
+      \field{volume}{860}
+      \field{year}{2003}
+    \endentry
+    \entry{bib.876}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=2adf09ce6f4279a87406bbe5f39269c6}{Wermuth}{W\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9f1725c05ed207efc820e294115b707d}{Wirth}{W\bibinitperiod}{Ralph}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2adf09ce6f4279a87406bbe5f39269c6}{Wermuth}{W\bibinitperiod}{Manfred}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9f1725c05ed207efc820e294115b707d}{Wirth}{W\bibinitperiod}{Ralph}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c6de8e664779c6068cbed4c620b6ec65}{Steierwald}{S\bibinitperiod}{Gerd}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d2d59f7454ec3b37906a8450293ff301}
+      \strng{fullhash}{d2d59f7454ec3b37906a8450293ff301}
+      \field{sortinit}{W}
+      \field{labelyear}{2005}
+      \field{labeltitle}{{M}odelle und {S}trategien des {G}üterverkehrs}
+      \field{booktitle}{{S}tadtverkehrsplanung}
+      \field{isbn}{9783540270102}
+      \field{title}{{M}odelle und {S}trategien des {G}üterverkehrs}
+      \field{year}{2005}
+      \field{pages}{296\bibrangedash 326}
+    \endentry
+  \endsortlist
+  \missing{Best 2010 \#459}
+  \missing{Holgu\IeC {\'\i }n-Veras 2011 \#707}
+  \missing{Bhat 2010 \#460}
+\endrefsection
+\endinput
+

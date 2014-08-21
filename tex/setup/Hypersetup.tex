@@ -1,0 +1,33 @@
+%Hypersetup
+
+%Kopf Und Fuﬂzeile	
+			\fancyhead[L]{\sffamily \leftmark} %Kopfzeile links bzw. innen
+			%\fancyhead[C]{\sffamily Kopfzeile mittig} %Kopfzeile mittig
+			%\fancyhead[R]{\sffamily Kopfzeile rechts bzw. auﬂen} %Kopfzeile rechts bzw. auﬂen
+			\fancyfoot[L]{\sffamily \Typ~von~\Autor~(\MatrikelNo)} %Fuﬂzeile links bzw. innen
+			%\fancyfoot[C]{\sffamily Fuﬂzeile mittig} %Fuﬂzeile mittig
+			\fancyfoot[R]{\sffamily Seite~\thepage} %Fuﬂzeile rechts bzw. auﬂen
+			
+			\renewcommand{\headrulewidth}{0.5pt} %Linie oben
+			\renewcommand{\footrulewidth}{0.5pt} %Linie unten
+			
+\usepackage[colorlinks=false,pdfborder=0 0 0, 
+						bookmarksnumbered=true,pdfpagelabels, 
+						breaklinks=true, plainpages=false, 
+						extension={pdf}]{hyperref}%Hyperref in PDF
+
+\hypersetup{%
+  colorlinks=false,   % aktiviert farbige Referenzen
+  pdfpagemode=UseNone,  % PDF-Viewer startet ohne Inhaltsverzeichnis et.al.
+  pdfstartview=FitV,% PDF-Viewer benutzt beim Start bestimmte Seitenbreite
+  bookmarksnumbered=true,
+  plainpages=false, 
+  pdfborder=0 0 0,
+  extension={pdf},
+  breaklinks=true,
+  pdftitle={\Thema},
+  pdfauthor={\Autor},
+  pdfsubject={\Subject},
+  pdfkeywords={\Keywords}
+}
+

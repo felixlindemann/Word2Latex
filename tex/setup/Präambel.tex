@@ -1,0 +1,136 @@
+%Präambel
+
+\usepackage[ngerman]{babel} % Sprache
+
+ \usepackage[normalem]{ulem} %emphasize weiterhin kursiv 
+\usepackage{xcolor} 
+\usepackage{amsmath}
+\usepackage[babel]{csquotes}
+\usepackage[style=apa,backend=biber]{biblatex} 
+\usepackage[left=2cm,right=3.5cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
+ \setlength{\parskip}{\baselineskip}  \setlength{\parindent}{0pt} % Absatz ohne Einzug 
+
+\usepackage[utf8]{inputenc} 
+
+ 
+\usepackage{blindtext}
+%Kopf- und Fußzeile
+\usepackage{fancyhdr}
+			\pagestyle{fancy}
+			\fancyhf{}
+
+		
+			
+\usepackage{graphicx}
+%\usepackage{subfig} %%Teilabbildungen in einer Abbildung
+%\usepackage{tikz} %%Vektorgrafiken aus LaTeX heraus erstellen		
+
+\usepackage{eurosym} % Euro-Symbol
+\usepackage{amsmath,amssymb} %'mathe
+\usepackage{bbm} %Für Zahlenräume in Buchstaben
+
+\usepackage{setspace} %um singlespacing und doublespacing 
+\usepackage{longtable} %lange Tabellen
+% \usepackage[printonlyused]{acronym}
+ 
+
+
+
+\newcommand{\Thema}{}
+\newcommand{\Typ}{}
+\newcommand{\Themensteller}{}
+\newcommand{\Betreuer}{}
+\newcommand{\Autor}{}
+\newcommand{\Strasse}{}
+\newcommand{\PLZ}{}
+\newcommand{\Ort}{}
+\newcommand{\GeburtsOrt}{}
+\newcommand{\Telefonnummer}{}
+\newcommand{\EMail}{}
+\newcommand{\Abgabetermin}{}
+\newcommand{\Ausgabetermin}{}
+\newcommand{\Lehrstuhl}{}
+\newcommand{\Uni}{}
+\newcommand{\MatrikelNo}{}
+\newcommand{\Subject}{}
+\newcommand{\Keywords}{}
+\newcommand{\ImRahmenVon}{}
+
+\newcommand{\setSubject}[1]{\renewcommand{\Subject}{#1}}
+\newcommand{\setKeywords}[1]{\renewcommand{\Keywords}{#1}}
+
+\newcommand{\setThema}[1]{\renewcommand{\Thema}{#1}}
+\newcommand{\setTyp}[1]{\renewcommand{\Typ}{#1}}
+\newcommand{\setThemensteller}[1]{\renewcommand{\Themensteller}{#1}}
+\newcommand{\setBetreuer}[1]{\renewcommand{\Betreuer}{#1}}
+\newcommand{\setAutor}[1]{\renewcommand{\Autor}{#1}}
+\newcommand{\setStrasse}[1]{\renewcommand{\Strasse}{#1}}
+\newcommand{\setPLZ}[1]{\renewcommand{\PLZ}{#1}}
+\newcommand{\setOrt}[1]{\renewcommand{\Ort}{#1}}
+\newcommand{\setGeburtsOrt}[1]{\renewcommand{\GeburtsOrt}{#1}}
+\newcommand{\setTelefonnummer}[1]{\renewcommand{\Telefonnummer}{#1}}
+\newcommand{\setEMail}[1]{\renewcommand{\EMail}{#1}}
+\newcommand{\setAusgabetermin}[1]{\renewcommand{\Ausgabetermin}{#1}}
+\newcommand{\setAbgabetermin}[1]{\renewcommand{\Abgabetermin}{#1}}
+\newcommand{\setLehrstuhl}[1]{\renewcommand{\Lehrstuhl}{#1}}
+\newcommand{\setUni}[1]{\renewcommand{\Uni}{#1}}
+\newcommand{\setMatrikelNo}[1]{\renewcommand{\MatrikelNo}{#1}}
+
+\newcommand{\setImRahmenVon}[1]{\renewcommand{\ImRahmenVon}{#1}}
+
+\newcommand{\cover}{
+
+\thispagestyle{empty}
+\begin{titlepage}
+		\begin{center}
+					\vspace*{1.5cm}
+					
+					\LARGE Thema:\\[.5cm]\textbf{\Thema}\\
+					\vspace*{1cm}
+					\large \ImRahmenVon
+					\vspace*{2cm}
+					\textbf{\LARGE\Typ\\[1em]\large\Uni}\\						
+					\Lehrstuhl
+		\end{center}
+		\vspace*{2.5cm}
+		\begin{tabular}[b]{p{3cm}p{10cm}}
+					Themensteller:& \textbf{\Themensteller} \\ 
+				  \Betreuer \\
+					vorgelegt von: & \Autor  \\
+					Matrikel No.:& \MatrikelNo\\
+					Adresse: & \Strasse \\%
+					& \PLZ ~ \Ort \\
+					& \Telefonnummer \\
+					& \\
+					Email:& \EMail \\
+					 \\
+					vorgelegt am: & \Abgabetermin \\
+		\end{tabular}
+
+\end{titlepage}
+
+}
+
+\newcommand{\EidesErklaerung} 
+{
+	\normalsize
+	\section*{Eidesstattliche Erklärung}\addcontentsline{toc}{section}{Eidesstattliche Erklärung}
+	Ich versichere hiermit, dass ich meine \Typ~\glqq\Thema\grqq~	selbstständig und ohne fremde Hilfe angefertigt habe, und dass ich alle von anderen Autoren wörtlich übernommen Stellen wie auch die sich an die Gedankengänge anderer Autoren eng anlehnenden Ausführungen meiner Arbeit besonders gekennzeichnet und die Quellen zitiert habe.\\[3cm]
+\Autor\\	
+	\Ort, den \Abgabetermin%
+	\newpage	
+}%
+%% Erspart ein paar Fehlermeldungen.
+\sloppy%
+\hfuzz2pt%
+\vfuzz2pt%
+% hat was mit Abstaenden zu tun
+\frenchspacing
+\AtBeginDocument{
+					% Hurenkinder und Schusterjungen vermeiden!
+					% (Verweiste einzelne Worte auf einer Seite) 
+					\clubpenalty = 10000
+					\widowpenalty = 10000
+					\displaywidowpenalty = 10000
+					\interfootnotelinepenalty=10000 %Verhindert Seitenumbruch in Fußnoten
+				} 

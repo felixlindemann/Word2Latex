@@ -1,0 +1,135 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{4}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Problemstellung}{5}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Forschungsansatz}{5}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1}Voruntersuchungen}{5}{subsubsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2}Meta-Methodik im Projekt WMVG}{6}{subsubsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Ergebnisse / Kritische Diskussion / Offene Fragen}{6}{subsection.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Stand der Wissenschaft}{6}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Theorie diskreter Entscheidungen \^a\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.}\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.} Discrete Choice Theory}{6}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Grundlagen}{7}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}Lancasters \glqq New Approach\grqq }{8}{subsubsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}Voraussetzungen zur Modellierung von Entscheidungssituationen}{9}{subsubsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4}Die Zufallsnutzentheorie \^a\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.}\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.} Random Utility Theory}{10}{subsubsection.2.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Personenverkehrsmodellierung}{12}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}G\~A\IeC {\OE }terverkehrsmodellierung}{13}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}Modellierung des Angebots an G\~A\IeC {\OE }tertransportleistungen}{14}{subsubsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.2}Modellierung der Nachfrage nach Transportleistungen im G\~A\IeC {\OE }terverkehr}{15}{subsubsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3}Modellierung der Verkehrsmittelwahl im G\~A\IeC {\OE }terverkehr}{16}{subsubsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.4}Ans\~A\IeC {\texteuro }tze zur Unterscheidung verschiedener G\~A\IeC {\OE }terverkehrsmodelle}{17}{subsubsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Segmentierungen im G\~A\IeC {\OE }terverkehr}{18}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Verf\~A\IeC {\OE }gbare Daten aus amtlichen Statistiken}{18}{subsubsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}Segmentierungsansatz nach Switaiski & M\~A\IeC {\texteuro }cke}{20}{subsubsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}Segmentierungsansatz nach Wermuth & Binnenbruck}{22}{subsubsection.2.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.4}Segmentierungsansatz von Klaus et. al.}{23}{subsubsection.2.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.5}Weitere Segmentierungsans\~A\IeC {\texteuro }tze}{24}{subsubsection.2.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Ursachen f\~A\IeC {\OE }r die Zunahme des Stra\~A\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \let \GenericError { }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}\GenericError { }{LaTeX Error: Something's wrong--perhaps a missing \item }{See the LaTeX manual or LaTeX Companion for explanation.}{Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}\global \let } } 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6}Strategien und Ma\~A\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.}nahmen zur Steuerung des G\~A\IeC {\OE }terverkehrs}{25}{subsection.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Methodik}{27}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}WMVG-Voruntersuchungen}{27}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}WMVG-Meta-Methodik}{28}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Analyse des G\~A\IeC {\OE }terverkehrsangebotes}{29}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Analyse der G\~A\IeC {\OE }terverkehrsnachfrage}{29}{subsection.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.1}Versuch der Verwendung bestehender G\~A\IeC {\OE }terklassifikationen}{30}{subsubsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.2}Konzepttransfer \grqq Verhaltenshomogene Gruppen\^a\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.}\GenericError {(inputenc) }{Package inputenc Error: Keyboard character used is undefined\MessageBreak in inputencoding `latin9'}{See the inputenc package documentation for explanation.}{You need to provide a definition with \def 1 ${}\def \unskip \reserved@e {\reserved@f \relax }\penalty \@M \hfil \penalty -\@M {o}\@inpenc@test \bgroup \uccode `\~\MessageBreak \uppercase {\egroup \def ~}{\IeC {o}}r \@inpenc@test \bgroup \uccode `\~b\uppercase {\egroup \def ~}efore using this key.} vom Personenverkehr zum G\~A\IeC {\OE }terverkehr}{30}{subsubsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Methodik zur Modellbildung}{30}{subsection.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}Bewertung der Wichtigkeit der Widerstandsfaktoren von Transportketten}{31}{subsection.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Ergebnisse}{32}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Charakterisierung bestehender G\~A\IeC {\OE }terverkehrsmodelle (aus Voruntersuchung)}{32}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Versuch der Verwendung von Nachfragedaten aus G\~A\IeC {\OE }terklassifikationen}{33}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Verhaltenshomogene G\~A\IeC {\OE }tergruppen (BHCG)}{34}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1}Anforderungen aus dem Transportgut}{37}{subsubsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2}Anforderungen aus der G\~A\IeC {\OE }terverwendung}{37}{subsubsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.3}Entscheidungsverhalten}{38}{subsubsection.4.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Widerstandsfaktoren}{38}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1}Widerstandsfaktoren aus der Infrastruktur}{38}{subsubsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.2}Servicebezogene Widerstandsfaktoren}{39}{subsubsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.3}Weitere Widerstandsfaktoren}{41}{subsubsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Das WMVG-Modell: Adaption eines Personenverkehrsmodells f\~A\IeC {\OE }r den G\~A\IeC {\OE }terverkehr}{42}{subsection.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1}Das WMVG Angebotsmodell}{42}{subsubsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Verkehrssysteme}{42}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Netzkanten}{43}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Netzknoten - Umschlagpunkte}{44}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Netzknoten - Umschlagszeiten}{44}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fahrpl\~A\IeC {\texteuro }ne}{46}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Widerst\~A\IeC {\texteuro }nde}{47}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.2}Das WMVG-Nachfragemodell}{49}{subsubsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.3}Das WMVG-Entscheidungsmodell}{49}{subsubsection.4.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.4}Das WMVG-Datenstrukturkonzept}{51}{subsubsection.4.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Kritische Diskussion}{52}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Weiterer Forschungsbedarf}{52}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Benennung der \glqq verhaltenshomogenen G\~A\IeC {\OE }terarten\grqq }{52}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Stufe 1+2 des 4-Stufen Alg. f\~A\IeC {\OE }r verhaltenshomogene G\~A\IeC {\OE }terarten}{53}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Vollst\~A\IeC {\texteuro }ndigkeit des Real-Life Objektmodells}{54}{subsection.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Gewichtung der Widerstandsfaktoren}{54}{subsection.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5}Objektive vs. Subjektive Gebundenheit vs. Wahlfreiheit in der Transportkettenwahl}{54}{subsection.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Fazit Ausblick}{54}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Dissemination der Projektergebnisse}{55}{section.8}

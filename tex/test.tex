@@ -1,0 +1,1803 @@
+ 
+\input{setup/setup.tex}
+\input{setup/todonotes.tex}
+\title{Abschlussbericht: Forschungsprojekt WMVG}
+\author{Felix Lindemann;Prof. Dr. Oliver Kunze}
+
+\bibliography{bib.bib}
+\begin{document}
+\maketitle{}  
+\label{_Toc356390934}
+\label{_Toc356505682}
+\label{_Toc363572015}
+\label{_Toc363601730}
+\label{_Ref363998949}
+\label{_Ref364762752}~\\[4em]
+Dieser Bericht ist eine Vorabversion einer als HNU-Working-Paper geplanten Veröffentlichung der Ergebnisse aus dem Forschungsprojekt WMVG. Für die finale Version der Veröffentlichung sind noch Ergänzungen, Kürzungen und redaktionelle Änderungen zu erwarten.~\\
+
+\newpage 
+% 
+\section{Einleitung }
+\label{_Toc365801586}
+\label{_Toc366766070}
+\label{_Toc366775264}
+\label{_Toc363572016}
+\label{_Toc363601731}
+
+\label{_Ref361848342}
+\label{_Toc363572018}
+\label{_Toc363601733}In der Verlagerung von Verkehr von der Straße auf die Schiene oder das Binnenschiff liegt eines der wesentlichen Potenziale zur Reduktion von CO$_2$, NO$_x$ und Partikel-Emissionen im Güterverkehr  \autocites[][]{bib.217} Dieser Verlagerung stehen jedoch subjektive und objektive Einflussfaktoren entgegen, die dazu führten, dass 2008 72\% des Güterverkehrs (gemessen in [tkm]) auf der Straße und nur 18\% auf der Schiene bzw. 10\% mit dem Binnenschiff befördert wurden 
+\label{_CTVFORMATTIME_635146861582039693}{Statistisches Bundesamt 13.01.2009 \#974}. Gemäß einer jüngeren Prognose für das Jahr 2025 {BVU 2007 \#821} werden diese Anteile für das Binnenschiff mit 9\%
+\\
+
+(-1\% zu 2008), für die Schiene mit 16\% (-2\% zu 2008), und für die Straße mit 75\% (+3\% zu 2008) prognostiziert.~\\
+Für die gesamte Transportleistung wird ein Wachstum um 44\% von 652 [Mrd. tkm] im Jahr 2008 auf 936 [Mrd. tkm] im Jahr 2025 erwartet\footnote{%
+ Prognosewerte anderer Untersuchungen bspw.   sind im Detail abweichend.
+}% 
+.~\\
+Die \emph{Anforderungen an die Transportdurchführung} (Dauer, Zuverlässigkeit, Preis, Sicherheit etc.) bestimmen bei den Versendern bzw. den Empfängern und ggf. auch bei den Verladern maßgeblich die Verkehrsmittelwahl. Durch die Überlagerung einer Vielzahl von jeweils \glqq mikroökonomischen\grqq  \emph{Verkehrsmittelwahlentscheidungen} der einzelnen Versender, Empfänger oder Verlader wird wiederum determiniert, welcher Teil des Containerverkehrsaufkommens auf den Transportmodi Straße, Schiene und Binnenschiff transportiert wird.~\\
+In letzter Zeit spielen bei den Entscheidungen der Versender und Empfänger (und ggf. der  Verlader) zunehmend auch ökologische Überlegungen eine Rolle. \glqq Die Verlagerung des Transports auf umweltfreundlichere Verkehrsträger (d.h. von der Straße auf die Schiene oder das Binnenschiff) ist eine der vier Basisstrategien\footnote{%
+ Diese vier Basisstrategien sind: Steigerung der Transporteffizienz, Reduzierung des Transportaufkommens, Reduzierung der durchschnittlich zurückgelegten Transportwege und die Verlagerung des Transports auf umweltfreundliche Verkehrsträger.
+}% 
+ für grüne Wertschöpfungsnetze\grqq   \autocites[][]{bib.430} Wie stark jedoch ökologische Überlegungen die entsprechenden ökonomischen Entscheidungen beeinflussen, ist derzeit quantitativ schwer abzuschätzen.~\\
+Die Antwort auf die Frage \glqq Unter welchen Umständen verlagern sich welche Teile der Verkehrsströme weg von der Straße auf andere Transportmodi\grqq  oder besser \glqq Unter welchen Umständen wären die Versender bzw. Empfänger bereit, welche Teile ihrer Transporte statt per LKW auch per Güterzug oder per Binnenschiff transportieren zu lassen?\grqq  wäre sowohl für die Angebotsplanung der Bahn- und Binnenschifftransporteure als auch für die Anbieter von Umschlagsinfrastruktur (Güterverkehrszentren, Häfen, etc.) wesentlich für deren Geschäftsentwicklungsprognosen und die daraus resultierenden jeweiligen Investitionsplanungen.~\\
+
+
+% 
+\subsection{Problemstellung}
+\label{_Toc364945116}
+\label{_Toc365801587}
+\label{_Toc366766071}
+\label{_Toc366775265}
+Stünde ein quantitatives Modell zur Verfügung, das die Anforderungsprofile (Dauer, Zuverlässigkeit, Preis, Sicherheit, ...) der Versender und Empfänger an die Transportdienstleistungen beinhaltet und diese in einem Wirkmodell mit den entsprechenden Angebotsprofilen der verschiedenen Verkehrsträgern verknüpft (Widerstandsmodell), so ließen sich Verlagerungseffekte im Modal-Split ursachenbezogen quantifizieren.~\\
+In dem Forschungsprojekt \glqq \uline{W}iderstandsbasierte Modellierung von \uline{m}odalen \uline{V}erlagerungseffekten im \uline{G}üterverkehr\grqq  (WMVG) wurde daher die Frage untersucht, welche Verkehrsträger von welchen Teilen des Güterverkehrs unter welchen Voraussetzungen genutzt werden\footnote{%
+ Die ursprünglich beabsichtigte Fokussierung allein auf den Donaukorridor wurde im Laufe des Projekts verworfen, da die gewonnenen Erkenntnisse unabhängig vom konkreten Beispiel \glqq Donaukorridor\grqq  waren.
+}% 
+.  
+% 
+\subsection{Forschungsansatz}
+\label{_Toc364945117}
+\label{_Toc365801588}
+\label{_Toc366766072}
+\label{_Toc366775266}
+Der Forschungsansatz basierte wesentlich auf der Hypothese, dass diese Problemstellung durch einen Transfer von Methoden aus dem Personenverkehr auf den Güterverkehr untersucht werden kann.~\\
+% 
+\subsubsection{Voruntersuchungen}
+\label{_Toc366766073}
+\label{_Toc366775267}
+Um eine Übersicht über die gängigen Methoden der Güterverkehrsmodellierung zu gewinnen, wurde eine eigene generische Charakterisierungs-Methodik für bestehende Güterverkehrsmodelle entwickelt, da die bestehenden Ansätze zur Klassifikation von Güterverkehrsmodellen aus der Literatur sehr vielfältig sind und die Antwort auf die Frage \glqq welche Daten werden für welches Modell benötigt, und welche Ergebnisse liefert welches Modell\grqq  anhand der Klassifizierungen aus der Literatur nicht hinreichend genau abgeleitet werden konnte.~\\
+Um die Methoden aus der Personenverkehrsmodellierung vor dem eigentlichen Methodentransfer en detail zu durchdringen, wurden ausgewählte Methoden im Rahmen einer methodenfokussierten Vorstudie in der ursprünglichen Domain \glqq Personenverkehr\grqq  angewendet. Dabei wurde untersucht, welche Verkehrsmittel die Studierenden der Hochschule Neu-Ulm (HNU) für die Anreise zur HNU benutzen und wie sich diese Entscheidung unter verschiedenen Voraussetzungen beeinflussen ließe {vgl.  Lindemann 2012 \#886}. Die in dieser Vorstudie gewonnenen methodischen Erkenntnisse bildeten den Ausgangspunkt zum Methodentransfer im Projekt WMVG. 
+ % 
+\subsubsection{Meta-Methodik im Projekt WMVG}
+\label{_Toc366766074}
+\label{_Toc366775268}
+Auf Basis dieser Vorarbeiten wurde die eigentliche Meta-Methodik (vgl. Abschnitt \autoref{_Ref361847294} ) für das Projekt WMVG entwickelt. Diese sieht in Analogie zu den im Personenverkehr verwendeten diskreten Entscheidungsmodellen vor, dass derjenige Verkehrsträger (bzw. Transportmodus) gewählt wird, der die Anforderungen an einen Transport am besten erfüllt. Dazu wurden zunächst die das Güterverkehrsangebot beschreibenden Attribute (vgl. Abschnitt \autoref{_Ref364387375} ) und Attribute der Güterverkehrsnachfrage (vgl. Abschnitt \autoref{_Ref361847188} ) erhoben und analysiert. Anschließend wurden Attribute in einem Datenmodell abgebildet und die Mechanismen der Verkehrsträgerwahl erhoben und modelliert (vgl. Abschnitt \autoref{_Ref364433229} ).
+% 
+\subsection{Ergebnisse / Kritische Diskussion / Offene Fragen}
+\label{_Toc364945118}
+\label{_Toc365801589}
+\label{_Toc366766075}
+\label{_Toc366775269}
+Die Ergebnisse dieser Arbeit sind in Abschnitt \autoref{_Ref361848137}  dargestellt und werden gemeinsam mit der gewählten Methodik in Abschnitt \autoref{_Ref361848180}  diskutiert. Offene und neue Forschungsfragen werden in Abschnitt \autoref{_Ref361848213}  erörtert. Abschließend werden mögliche Weiterentwicklungen und Anwendungsgebiete in Abschnitt \autoref{_Ref365538178}  dieser Arbeit aufgezeigt.
+% 
+\section{Stand der Wissenschaft }
+\label{_Toc365801590}
+\label{_Toc366766076}
+\label{_Toc366775270}
+In diesem Abschnitt werden die Grundlagen diskreter Entscheidungsmodelle sowie die Grundlagen von Personen- und Güterverkehrsmodellen erläutert.~\\
+Wir werden zeigen, dass die Modellierung von Entscheidungen in der Verkehrsplanung eine zentrale Rolle einnimmt - Verkehrsteilnehmer wählen Quellen, Ziele, Verkehrsmittel und Routen aus einer Menge von verschiedenen möglichen Alternativen. Vor diesem Hintergrund führen wir in Abschnitt \autoref{_Ref364762759}  zunächst die Theorie diskreter Entscheidungen ein. In Abschnitt \autoref{_Ref364762824}  stellen wir die Grundlagen der Modellierung des Personenverkehrs vor, dessen Mechanismen als \glqq gut verstanden\grqq  anerkannt sind und in der Literatur häufig als Ausgangspunkt für die Modellierung des Güterverkehrs (vgl. Abschnitt \autoref{_Ref364763022} ) verwendet werden.~\\
+In Abschnitt \autoref{_Ref364897372}  zeigen wir in der Literatur beschriebene Effekte auf, die als Ursachen für einen Anstieg des Straßengüterverkehrs gelten. In Abschnitt \autoref{_Ref364897466}  führen wir eine Gliederung möglicher Maßnahmen zur Beeinflussung des Verkehrsgeschehens ein.
+% 
+\subsection{Theorie diskreter Entscheidungen - Discrete Choice Theory}
+\label{_Ref364762759}
+\label{_Toc366766077}
+\label{_Toc366775271}
+\label{_Toc363572019}
+\label{_Ref363585179}
+\label{_Toc363601734}
+In diesem Abschnitt wird kurz diskutiert, warum die neoklassische Konsumtheorie zur Beschreibung von Entscheidungen über Mengen diskreter Alternativen – also nicht teilbarer Güterbündel - ungeeignet ist (vgl. Abschnitt \autoref{_Ref364763140} ). Mit der Arbeit von Lancaster stellen wir einen Ansatz vor, der diese Lücke schließt (vgl. Abschnitt \autoref{_Ref364629843} ). Demnach werden Entscheidungen für bzw. gegen eine Alternative auf Basis der Eigenschaften der Alternative unter dem Paradigma der Nutzenmaximierung getroffen. Wir gehen außerdem kurz auf die Random Utility Theorie ein (vgl. Abschnitt \autoref{_Ref364787213} ), die den Umstand berücksichtigt, dass die Modellierung von Entscheidungen durch Aggregation über heterogene Individuen und auf Grund unvollständiger Informationen als stochastisch anzusehen ist.
+%
+\subsubsection{Grundlagen}
+\label{_Ref364763140}
+\label{_Toc366766078}
+\label{_Toc366775272}
+Bevor im Folgenden die Grundlagen der Entscheidungstheorie, die im Projekt WMVG verwendet wurden, näher erklärt werden, soll zunächst der Begriff \glqq Widerstand\grqq  präzisiert werden.~\\
+Die Begriffe \glqq Widerstand\grqq , \glqq Aufwand\grqq  und \glqq Nutzen\grqq  beschreiben (mit unterschiedlichen Vorzeichen) die Affinität eines Entscheiders in Bezug auf eine Entscheidungsalternative. Die Begriffe \glqq Widerstand\grqq  und \glqq Aufwand\grqq  beschreiben dabei Aspekte, die gegen eine Entscheidungsalternative sprechen, der Begriff \glqq Nutzen\grqq  beschreibt Aspekte, die für eine Entscheidungsalternative sprechen.  \citeauthor{bib.213} ezeichnen die Merkmale einer Entscheidungsalternative als Aufwandsgrößen bzw. Widerstand  \autocites[][]{bib.213} Andere Autoren verwenden bspw. den Begriff \glqq generalisierte Kosten\grqq , um den Aufwand auszudrücken  \autocites[][]{bib.496} \autocites[][]{bib.268} Die Begriffe  \glqq Widerstand\grqq , \glqq Aufwand\grqq  und \glqq Nutzen\grqq  beschreiben also die Qualität einer Entscheidungsalternative. Die Qualität einer Entscheidungsalternative hängt i.d.R. von mehreren Faktoren ab. Diese Faktoren lassen sich negativ als Widerstandsfaktoren, positiv als Nutzenfaktoren und neutral als Qualitätsattribute beschreiben.\footnote{%
+ In der Literatur zur Entscheidungstheorie dominiert der Begriff \glqq Nutzen\grqq , in der Literatur zur Verkehrsplanung die Begriffe \glqq Aufwand\grqq  und \glqq Widerstand\grqq .
+}% 
+~\\
+In der neoklassischen Konsumtheorie wird Nutzen\footnote{%
+ Nutzen wird als die \glqq Fähigkeit eines Gutes, ein bestimmtes Bedürfnis des konsumierenden Haushalts befriedigen zu können\grqq  definiert  .
+}% 
+ als eine Funktion von Güterbündeln interpretiert. Es wird angenommen, dass jedes Individuum bzw. jeder Haushalt seinen Nutzen unter einer Budgetrestriktion maximiert  \autocites[][]{bib.103} Die Nachfrage nach einem Gut/Güterbündel wird aus der Nutzenfunktion abgeleitet - d.h. die Konsumrate eines Gutes bzw. Güterbündels hängt wesentlich vom jeweiligen Nutzen des Güterbündels für den Haushalt ab.~\\
+Die diskrete\footnote{%
+ Der in der Literatur verwendete Begriff \glqq diskretes Entscheidungsmodell\grqq  (engl. \glqq Discrete Choice Model\grqq ) ist genaugenommen ungenau, da nicht die Entscheidungen diskret sind. Eine präzisere Formulierung wäre \glqq ‘Entscheidungen über diskrete (bzw. stetige) Alternativmengen‘ [$\ldots$] Diese Bezeichnung ist allerdings sehr lang und umständlich. Auch hat sich in der englischsprachigen Literatur der Begriff ‘discrete choice’ klar durchgesetzt”  \autocites[][]{bib.103}
+}% 
+ Natur der Entscheidungsmengen\footnote{%
+ \glqq Alle Entscheidungen sind diskreter Natur. Darunter verstehen wir Entscheidungen, bei denen aus einer endlichen Anzahl klar unterscheidbarer Möglichkeiten gewählt wird\grqq  {Maier 1990 \#103D: 1}.
+}% 
+ - u.a. im Verkehrsbereich - stellt einen wesentlichen Unterschied zu den in der neoklassischen Konsumtheorie betrachteten beliebig teilbaren (also nicht-diskreten) Güterbündeln als Entscheidungsmengen dar\footnote{%
+ Vgl. Hierzu auch die Unterscheidung in \glqq stetige Güter\grqq , \glqq in diskreten Mengen verfügbare Güter\grqq  sowie \glqq diskrete Güter\grqq   \autocites[][]{bib.103}
+}% 
+. So soll bspw. im Verkehrsbereich \glqq die Wahl einer einzigen Alternative aus einer Reihe von Möglichkeiten modelliert werden [$\ldots$]. D.h. ein Verkehrsmittel, ein Ziel, ein bestimmter Zeitpunkt sind auszuwählen”  \autocites[][]{bib.593} Anders als in der neoklassischen Konsumtheorie gibt es also im Verkehrsbereich \glqq kein nutzenmaximales Güterbündel, sondern nur eine nutzenmaximale Alternative [$\ldots$]”  \autocites[][]{bib.593}\footnote{%
+ Knapp führt aus, dass im Falle eines Park\&Ride-Transports, bei dem ein Teil des Weges mit dem PKW und der Rest mit öffentlichen Verkehrsmitteln durchgeführt wird, \glqq lediglich ein neues Mittel zur Überwindung der Distanz von A nach B\grqq   darstellen würde und somit \glqq kein Gegenargument\grqq  - also eine Kombination von Gütern - vorläge  \autocites[][]{bib.593}
+}% 
+~\\
+Die neoklassische Konsumtheorie kommt daher gerade bei der Modellierung von Entscheidungen über diskrete Alternativmengen an ihre Grenzen:  \citeauthor{bib.325} ühren aus, dass es - wie in der neoklassischen Konsumtheorie vorausgesetzt - mathematisch nicht möglich ist, Nachfragefunktionen nach diskreten Gütern mit Hilfe von Maximierungsansätzen herzuleiten  \autocites[][]{bib.325}\footnote{%
+ Da bei diskreten Entscheidungen nur eine von vielen Alternativen ausgewählt werden kann, ist die Konsumrate der ausgewählten Alternative 1 und die aller anderen Alternativen = 0. Es handelt sich bei der Lösung der Nutzen-Maximierung daher um eine Ecklösung - also einen Punkt, an dem die üblichen Optimalitätsbedingungen erster Ordnung nicht gelten. Aus diesem Grund ist es mathematisch nicht möglich, Nachfragefunktionen nach diskreten Gütern mit Hilfe von Maximierungsansätzen herzuleiten  \autocites[][]{bib.325}
+}% 
+.  \citeauthor{bib.680} eigt, dass die Einführung eines neuen Gutes mit der neoklassischen Konsumtheorie ebenfalls nicht erklärt werden kann, da zur Beschreibung dieser neuen Ausgangssituation eine komplett neue Nutzenfunktion ermittelt werden muss  \autocites[][]{bib.680}~\\
+Vor diesem Hintergrund hat {Lancaster 1966 \#680 /nopar}einen \glqq neuen Ansatz\grqq  vorgestellt, um die genannten Probleme zu umgehen.~\\
+
+
+% 
+\subsubsection{Lancasters \glqq New Approach\grqq }
+\label{_Ref364629843}
+\label{_Toc366766079}
+\label{_Toc366775273}
+ \citeauthor{bib.680} eschreibt Nutzen - anders als klassisch angenommen - nicht mehr als eine Funktion des Gutes bzw. des Güterbündels, sondern stattdessen als eine Funktion der \emph{Merkmale} des Gutes. Die Merkmale eines Gutes sind dabei für alle Konsumenten gleich  \autocites[][]{bib.680}, werden aber von einzelnen Konsumenten ggf. unterschiedlich bewertet.\footnote{%
+ Der Konsum wird in diesem Zusammenhang als Aktivität interpretiert, für die die Güter den Input und die Merkmale den Output - also das Ziel des Konsums - darstellen.
+}% 
+  \citeauthor{bib.680} asst seine Annahmen wie folgt zusammen  \autocites[][]{bib.680}:~\\
+
+\begin{itemize}
+%
+   \item Ein Gut selbst stiftet keinen Nutzen, sondern die Merkmale.
+   \item Ein Gut besitzt im Allgemeinen mehr als ein Merkmal. Mehrere Güter können durch ein- und dasselbe Merkmal beschrieben werden.
+   \item Die Merkmale von Güterkombinationen können sich von denen der einzelnen Güter unterscheiden.
+%
+\end{itemize}
+Es sei an dieser Stelle erwähnt, dass der von Lancaster vorgestellte Ansatz zunächst für nicht-diskrete Entscheidungsmengen / Güterkombinationen entwickelt wurde, auf diskrete Entscheidungsmengen aber ohne weiteres erweiterbar ist.~\\
+
+
+% 
+\subsubsection{Voraussetzungen zur Modellierung von Entscheidungssituationen}
+\label{_Toc366766080}
+\label{_Toc366775274}
+Bei der Analyse und Modellierung einer Entscheidungssituation ist zu berücksichtigen, dass alle betrachteten Individuen dieselben Auswahlmöglichkeiten und Ausgangsvoraussetzungen haben müssen  \autocites[][]{bib.268} - also einer verhaltenshomogenen bzw. verhaltensähnlichen Gruppe\footnote{%
+ Für den Personenverkehr sind hier die Arbeiten von Kutter und Schmiedel zu nennen. Kutter spricht von homogenen Personenkreisen {Kutter 1972 \#873}, Schmiedel von verhaltensähnlichen Personenkreisen {Schmiedel 1984 \#212}.
+}% 
+ (im Folgenden mit $g$ abgekürzt) angehören. Dies kann bspw. durch die Segmentierung des betrachteten Marktes erreicht werden  \autocites[][]{bib.268}\footnote{%
+ \glqq In principle we require that \emph{all individuals share the same set of alternatives and face the same constraints} [$\ldots$], and to achieve this we may need to segment the market\grqq   \autocites[][]{bib.268}
+}% 
+. Die Segmentierung ermöglicht somit die Berücksichtigung der Tatsache, dass jede Gruppe $g$ einer Alternative ${{A}_{i}}$ einen anderen Nutzen ${{U}_{gi}}$ zuordnen kann  \autocites[][]{bib.103} \autocites[][]{bib.325} - Im Personenverkehr ordnen bspw. Verkehrsteilnehmer, die einen Führerschein besitzen, dem PKW bei der Verkehrsmittelwahl einen anderen Nutzen zu, als andere Verkehrsteilnehmer, die keine gültige Fahrerlaubnis besitzen.~\\
+Es wird weiterhin angenommen, dass sich die Entscheidungsträger innerhalb einer homogenen Gruppe rational verhalten und vollständige, perfekte Informationen besitzen. Sie treffen Entscheidungen mit dem Ziel, den persönlichen Nutzen zu maximieren. Ihr Verhalten gleicht also dem des \emph{Homo }\emph{Oeconmicus}\footnote{%
+ \glqq Modell eines ausschließlich wirtschaftlich denkenden Menschen, das den Analysen der klassischen und neoklassischen Wirtschaftstheorie zugrunde liegt.\grqq  Es handelt sich also um den \glqq Idealtyp eines Entscheidungsträgers, der zu uneingeschränkt rationalem Verhalten [...] fähig ist\grqq  {Springer Gabler Verlag 2010 \#194  Stichwort: Homo Oeconomicus}.
+}% 
+. Anders als in der neoklassischen Konsumtheorie angenommen, wird diese Entscheidung allerdings nur durch die verfügbaren Alternativen limitiert; die explizite Berücksichtigung einer Budgetrestriktion ist nicht vorgesehen  \autocites[][]{bib.771}\footnote{%
+  \citeauthor{bib.771} tellt fest, dass der Anteil der Transportkosten am Haushaltsvolumen einen sehr geringen Teil ausmacht und andere Merkmale wie \glqq maximale Transportdauer\grqq , \glqq maximale Wartezeit\grqq  etc. ggf. gleich- oder höherwertigere Nebenbedingungen wie die Nebenbedingung \glqq maximale Kosten\grqq  darstellen können. Aus diesem Grund bevorzugt er eine allgemeine Nutzenfunktion, die alle Merkmale gleichermaßen berücksichtigen kann  \autocites[][]{bib.771} Es wird empfohlen, nur in \glqq speziellen Situationen\grqq  \glqq Eingrenzungen des Alternativenraumes vorzunehmen\grqq  und \glqq Restriktionen in die Nutzenfunktion einzubeziehen, nämlich als Merkmale der Individuen\grqq   \autocites[][]{bib.593}
+}% 
+.~\\
+Formal kann dies durch die Gleichungen \autoref{_Ref364766044} 2. und \autoref{_Ref364766056} 2. ausgedrückt werden: Wähle die Alternative $i$ aus der Menge aller Alternativen $A$ aus, deren Nutzen ${{U}_{i}}$ größer bzw. gleich dem Nutzen ${{U}_{j}}$ aller verbleibenden Alternativen $j$ ist  \autocites[][]{bib.103} \autocites[][]{bib.325} \autocites[][]{bib.928}
+\begin{align} 
+& {{U}_{i}}\geq {{U}_{j}}           &     \forall  j \in A ;   j\neq i  
+\label{_Ref364766044}\\
+\text{bzw.} & 
+  {{U}_{i}}\geq {({{U}_{j}})}⁡   & 
+\label{_Ref364766056}
+\end{align} 
+
+\label{_Ref364763713}Aus den Gleichungen \autoref{_Ref364766044} 2. und \autoref{_Ref364766056} 2. lässt sich außerdem die Transitivität des Nutzens ableiten, wie in Gleichung \autoref{_Ref364766419} 2. dargestellt wird  \autocites[][]{bib.325} - d.h. ist der Nutzen der Alternative 1 größer als der Nutzen der Alternative 2 und ist gleichzeitig der Nutzen der Alternative 2 auch größer als der Nutzen von Alternative 3, dann ist auch der Nutzen der Alternative 1 größer als der von Alternative 3.
+\begin{align} 
+ \text{Wenn} & & {{U}_{1}}>{{U}_{2}} \\ 
+ \text{und}  & &{{U}_{2}}>{{U}_{3}} \\ 
+ \text{dann ist auch} & & {{U}_{1}}>{{U}_{3}} 
+\label{_Ref364766419}
+\end{align}
+
+\label{_Ref364775186} Unter Berücksichtigung der Ausführungen in Abschnitt \autoref{_Ref364629843}  kann also festgehalten werden, dass die Ermittlung der Reihenfolge von Alternativen nach deren Nutzen über die Merkmale der Güter erfolgt  \autocites[][]{bib.680}, die Alternative, deren Merkmalskombination den größten Nutzen stiftet,  ausgewählt, und dann empfohlen wird, die Akteure im betrachteten Markt in homogene Gruppe zu segmentieren.~\\
+An dieser Stelle sei erwähnt, dass die Begriffe \glqq Nutzen\grqq  und \glqq Aufwand\grqq  auf Grund ihrer Proportionalität häufig synonym verwendet werden. bezeichnen die Merkmale einer Entscheidungsalternative als Aufwandsgrößen bzw. Widerstand . Andere Autoren verwenden bspw. den Begriff \glqq generalisierte Kosten\grqq , um den Aufwand auszudrücken .~\\
+
+
+% 
+\subsubsection{Die Zufallsnutzentheorie - Random Utility Theory}
+\label{_Ref364787213}
+\label{_Toc366766081}
+\label{_Toc366775275}
+Bei der Modellbildung wird die Nutzenfunktion formal in zwei Komponenten zerlegt (vgl. Gleichung \autoref{_Ref364766084} 2.): 1. eine messbare, deterministische Komponente $V$ und 2. eine stochastische Komponente $\widetilde{{\epsilon }}$ zur Beschreibung unbeobachteter Charakteristika der Alternativen bzw. Individuen, Messfehler und anderer Störfaktoren bzgl. der Merkmale von Alternativen und Entscheidungsträgern {Manski 1977 \#516} \autocites[][]{bib.325} \autocites[][]{bib.103} Die eine stochastische Komponente $\widetilde{{\epsilon }}$ hat damit den Charakter eines Residuums  \autocites[][]{bib.268} 
+\begin{align}
+{{U}_{gi}}={{V}_{gi}}+{{\widetilde{{\epsilon }}}_{gi}} 
+\label{_Ref364766084}
+\end{align} 
+Die messbare, deterministische Komponente ${{V}_{gi}}$ ist eine Funktion (vgl. Gleichung \autoref{_Ref364766100} 2.) sowohl der Merkmalsausprägungen $m$ der Alternative $i$ (${{x}_{im}}$), als auch der sozioökonomischen Voraussetzungen der betrachteten Gruppe $g$  \autocites[][]{bib.103} \autocites[][]{bib.281}{Bhat 2010 \#460}. 
+\begin{align}
+{{V}_{gi}}={{\beta }_{gi0}}+{\sum_{m}^{}{{{\beta }_{gm}}\cdot {{x}_{im}}}}
+\label{_Ref364766100}
+\end{align} 
+Die stochastische Komponente ${{\widetilde{{\epsilon }}}_{gi}}$ wird als Zufallsvariable mit dem Mittelwert 0 und einer zu bestimmenden Wahrscheinlichkeitsfunktion angenommen\footnote{%
+ \glqq [$\ldots$] it can be assumed that the residuals are random variables with mean 0 and a certain probability distribution to be specified\grqq   \autocites[][]{bib.268}
+}% 
+  \autocites[][]{bib.268} Abhängig von der Art der angenommenen Wahrscheinlichkeitsfunktion für den stochastischen Teil ${{\widetilde{{\epsilon }}}_{gi}}$ können verschiedene stochastische Wahlmodelle unterschieden werden  \autocites[][]{bib.103}: ~\\
+
+\begin{itemize}
+%
+   \item Wird angenommen, dass ${{\widetilde{{\epsilon }}}_{gi}}~Normal\left({0,\sigma }\right)$ verteilt ist, handelt es sich um ein Probitmodell {Thurstone 1994 \#936} \autocites[][]{bib.325}; 
+   \item wird angenommen, dass ${{\widetilde{{\epsilon }}}_{gi}}~Gumbel\left({\eta ,\mu }\right)$ verteilt ist, handelt es sich um ein Logitmodell  \autocites[][]{bib.934} \autocites[][]{bib.325}{Best 2010 \#459}.\footnote{%
+ Für detaillierte Ausführungen sowie die Herleitung der Modelle sei an dieser Stelle auf die Literatur {Ben-Akiva 2000 \#325}{Maier 1990 \#103}{Bhat 2010 \#460}. und den wiss. Anhang zu GET2HNU verwiesen {Lindemann 2012 \#106}.
+}% 
+
+%
+\end{itemize}
+Die explizite Berücksichtigung des Residualterms ${{\widetilde{{\epsilon }}}_{gi}}$ erfordert eine Erweiterung der Gleichungen \autoref{_Ref364766044} 2. und \autoref{_Ref364766056} 2., da ${{U}_{i}}$ und ${{U}_{j}}$ als Zufallsvariablen zu interpretieren sind -  wie mit Gleichung \autoref{_Ref364766140} 2. gezeigt wird  \autocites[][]{bib.935} \autocites[][]{bib.325} \autocites[][]{bib.103}: Die Wahrscheinlichkeit, mit der Alternative $i$ demnach ausgewählt wird, entspricht der Wahrscheinlichkeit dafür, dass die Differenz der Störterme ${{\widetilde{{\epsilon }}}_{gj}}-{{\widetilde{{\epsilon }}}_{gi}}$ kleiner ist als die Differenz der deterministischen Nutzenkomponenten ${{V}_{gi}}-{{V}_{gj}}$.
+ 
+\begin{align}
+{{P}_{gi}}=Prob\left({{{U}_{gi}}\geq {{U}_{gj}}}\right) =Prob\left({{{V}_{gi}}+{{\widetilde{{\epsilon }}}_{gi}}\geq {{V}_{gj}}+{{\widetilde{{\epsilon }}}_{gj}}}\right) \\ 
+{{P}_{gi}}=Prob\left({{{V}_{gi}}-{{V}_{gj}}\geq {{\widetilde{{\epsilon }}}_{gj}}-{{\widetilde{{\epsilon }}}_{gi}}}\right)
+\label{_Ref364766140}
+\end{align} 
+Es ist festzuhalten, dass die Annahme bzgl. der Verteilung des Terms ${{\widetilde{{\epsilon }}}_{gi}}$ die Modellfamilie (Logit, Probit, $\ldots$) bestimmt; erklärende Variablen (hier: die Qualitätsmerkmale der Alternativen) finden nur in der deterministischen Nutzenkomponente Berücksichtigung; bei der Analyse einer Entscheidungssituation ist daher die Struktur und die Auswahl der in der deterministischen Nutzenkomponente berücksichtigten Qualitätsmerkmale\footnote{%
+ Es sei an dieser Stelle darauf hingewiesen, dass das Skalenniveau der ausgewählten Qualitätsmerkmale nachrangig ist. Hat ein Merkmal \glqq nur\grqq  ordinales oder gar nominales Skalenniveau, ist es für die Modellbildung mittels Dummy- bzw. Effektkodierung in Stellvertreter- Variablen zu konvertieren  \autocites[][]{bib.242} \autocites[][]{bib.281} \autocites[][]{bib.269} \autocites[][]{bib.931} \autocites[][]{bib.929}
+}% 
+ entscheidend.~\\
+
+
+% 
+\subsection{Personenverkehrsmodellierung}
+\label{_Ref364762824}
+\label{_Toc365801592}
+\label{_Toc366766082}
+\label{_Toc366775276}
+\label{_CTVC001a03b396d789f4a13bc4cb685af8db7c9}
+Die Entwicklung der Verkehrsplanung – im Besonderen für den Personenverkehr – wird von  \citeauthor{bib.885} m historischen Abriss von ca. 1800 bis in die heutige Zeit beschrieben. Sie führen dabei aus, dass Mobilität\footnote{%
+ Mobilität ist \glqq allgemein im Sinne von Ortsveränderungen, quantitativ definiert als Verkehrsaufkommen, (Zahl der Wege, Fahrten [$\ldots$]) [$\ldots$] anzusehen\grqq   \autocites[][]{bib.885}
+}% 
+ einem Zweck dient. - Ortsveränderungen\footnote{%
+ Ortsveränderungen werden als nicht unabhängig voneinander angesehen, da sie einander im Tagesablauf folgen. Diese Ortsveränderungsfolgen werden in der Literatur auch als Wegeketten bzw. Aktivitätenketten bezeichnet  \autocites[][]{bib.213}
+}% 
+ finden mit dem Ziel statt, an einem anderen Ort eine \emph{Aktivität} wie bspw. Arbeiten, Einkaufen etc. durchzuführen  \autocites[vgl.][8ff]{bib.885}. Die Häufigkeit ihrer Durchführung (Mobilität) hängt dabei im Wesentlichen von soziodemografischen Merkmalen der betrachteten Person(engruppe), der Qualität des Verkehrsangebotes sowie der räumlichen Verteilung der Quellen und Ziele ab  \autocites[][]{bib.213} Zu diesem Zweck wird das Mobilitätsverhalten in Verkehrsnachfragemodellen separat für homogene {Kutter 1972 \#873} bzw. verhaltensähnliche {Schmiedel 1984 \#212} Personenkreise abgebildet. Zur Reduzierung der Komplexität von Verkehrsnachfragemodellen wird das Untersuchungsgebiet in Bezirke  \autocites[][]{bib.213} bzw. Zonen  \autocites[][]{bib.268} unterteilt, welche als Quelle bzw. Ziel von Ortsveränderungen dienen.~\\
+Häufig wird in Verkehrsnachfragemodellen der sog. Vier-Stufen-Algorithmus\footnote{%
+ Für ausführliche Ausführungen zum Vier-Stufen-Algorithmus sei auf die Literatur verwiesen {Köhler 2001 \#87}{Schnabel 1997 \#213}{Ortúzar 2005 \#268}{Bates 2010 \#496}{McNally 2010 \#465} sowie die Ausführungen in GET2HNU {Lindemann 2012 \#886}.
+}% 
+ der Verkehrsplanung genutzt, um Ortsveränderungen in einem Untersuchungsgebiet zu berechnen (vgl. im Folgenden \autoref{_Ref361867601} Abbildung  in Anlehnung an  \autocites[][/nopar]{bib.87}). Unter Verwendung diverser Eingangsvariablen (raumbezogene Daten, soziodemografische Strukturdaten sowie Verhaltensparametern) wird in vier aufeinanderfolgenden Schritten die Belastung im Verkehrsnetz für jede verhaltensähnliche Gruppe $g$ berechnet.~\\
+
+\begin{itemize}
+%
+   \item In Stufe 1 \glqq Verkehrserzeugung\grqq  wird die Anzahl Ortsveränderungen, die in jedem Bezirk beginnen und enden, ermittelt. 
+   \item In Stufe 2 \glqq Verkehrsverteilung\grqq  werden diese skalaren Größen in gerichtete Ströme umgerechnet - der Anzahl Ortsveränderungen zwischen zwei Bezirken. 
+   \item In Stufe 3 \glqq Verkehrsaufteilung\grqq  werden die Ströme zwischen den Bezirken auf die verschiedenen Verkehrsmittel aufgeteilt. 
+   \item In Stufe 4 \glqq Verkehrsumlegung\grqq  wird schließlich mit der Routenwahl die Belastung im Verkehrsnetz ermittelt.
+%
+\end{itemize}
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Modellstruktur des klassischen Vier-Stufen- Algorithmus }
+  \label{_Ref361867601}
+\end{figure}
+~\\
+Inhaltlich kann der Vier-Stufen–Algorithmus auch als eine Sequenz von vier Entscheidungen\footnote{%
+ In der Literatur wird diskutiert, ob diese Entscheidungen sequentiell oder simultan vom Reisenden getroffen werden {Lohse 2006 \#115} \autocites[][]{bib.213} Andere Quellen diskutieren, ob mit der Verkehrsmittelwahl die Routenwahl auch bereits entschieden wurde.
+}% 
+ interpretiert werden, die eine Person trifft: Stufe 1: Quellenwahl. Stufe 2: Zielwahl. Stufe 3 Verkehrsmittelwahl. Stufe 4: Routenwahl.~\\
+
+
+% 
+\subsection{Güterverkehrsmodellierung}
+\label{_Ref364763022}
+\label{_Toc365801593}
+\label{_Toc366766083}
+\label{_Toc366775277}
+\label{_Ref363485580}
+\label{_Toc363572022}
+Im Folgenden werden kurz ausgewählte Grundlagen der Güterverkehrsmodellierung zusammengefasst, auf die in diesem Forschungsprojekt Bezug genommen wird. Dabei wird auf die Unterschiede zur Personenverkehrsmodellierung hingewiesen, die für einen Methodentransfer vom Personenverkehr auf den Güterverkehr relevant sind.~\\
+Verkehrsmodelle bestehen i.d.R. mit je einem Angebots- und einem Nachfragemodell aus zwei Komponenten. Unter ,Angebot‘ wird in diesem Kontext das Angebot an Transportleistungen und unter ,Nachfrage‘ die Nachfrage nach Transportleistungen verstanden. Modelle zur Beschreibung der Nachfrage nach Transportleistungen haben das Ziel, die Mechanismen der Entscheidungsfindung zu erklären und die güterverkehrlichen Auswirkungen abzubilden. In Analogie zu den in Abschnitt \autoref{_Ref364762759}  vorgestellten Modellen diskreter Entscheidungen wird dabei unterstellt, dass die Alternative ausgewählt wird, deren Merkmale die Anforderungen der Ortsveränderung am besten erfüllen.~\\
+In Abschnitt \autoref{_Ref364779574}  werden daher zunächst Methoden zur Messung der Qualität des Transportleistungsangebots vorgestellt. In Abschnitt \autoref{_Ref364779595}  werden in der Literatur existierende Modelle zur Ermittlung von Ortsveränderungen im Güterverkehr sowie der Ermittlung derer Anforderungen eingeführt.~\\
+
+
+% 
+\subsubsection{Modellierung des Angebots an Gütertransportleistungen}
+\label{_Ref364779574}
+\label{_Ref364789145}
+\label{_Toc366766084}
+\label{_Toc366775278}
+Ausgangspunkt der Modellierung des Verkehrsangebots ist das Verkehrsnetz, auf dem Transportleistungen stattfinden. Das Verkehrsnetz wird als gerichteter Graph aus Kanten und Knoten abgebildet.~\\
+Kanten repräsentieren dabei Straßen-, Schifffahrts- und Schienenwege. Sie werden durch Attribute wie Länge, Anzahl Spuren, Höchstgeschwindigkeit, zugelassene Verkehrsmittel etc. genauer beschrieben.~\\
+Knoten bilden in Personenverkehrsnetzen typischerweise u.a. Straßenkreuzungen oder Haltestellen des öffentlichen Verkehrs ab  \autocites[][]{bib.771} \autocites[][]{bib.268} \autocites[][]{bib.251} In Güterverkehrsnetzen sind hingegen Logistikknoten (insbesondere Umschlagpunkte wie z.B. Häfen oder Bahnhöfe) zu berücksichtigen und zu beschreiben {Friedrich 2003 \#403}.~\\
+Verkehrsbeziehungen lassen sich als Folge von Knoten und Kanten darstellen. Typische Merkmale für eine Verkehrsbeziehung sind bspw. Luftlinien- oder Reisewegentfernung, Reisezeit, Reisekosten  \autocites[][]{bib.213} sowie Energieverbrauch, Lärm- und Schadstoffemissionen  \autocites[][]{bib.885}~\\
+Eine Transportkette ist \glqq nach DIN 30780 eine Folge von technisch und organisatorisch miteinander verknüpften Vorgängen, bei denen Personen oder Güter von einer Quelle zu einem Ziel bewegt werden [$\ldots$]\grqq  {Flämig 2013 \#887}. Eine Transportkette kann somit als eine konkrete Ausprägung einer Verkehrsbeziehung angesehen werden. \autoref{_Ref364785338} Abbildung  {Furmans 2008 \#433} zeigt die schematische Darstellung verschiedener Transportketten. Es wird deutlich, dass sich die Qualität von Transportketten mit der Anzahl der Transportkettenglieder und verwendeten Verkehrsmittel (Verkehrsmodi) mitunter stark unterscheiden kann und die Vergleichbarkeit erschwert.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Schematische Darstellung von Transportketten \textbf{{}\textbf{Furmans}\textbf{ 2008 \#433}}}
+  \label{_Ref364785338}
+\end{figure}
+~\\
+ \citeauthor{bib.890} ühren mit \glqq Abstract Modes\grqq  ein Konzept ein, das die Vergleichbarkeit von verschiedensten Verkehrsträgern, Verkehrsmitteln und Transportketten ermöglicht. \glqq Abstract Modes\grqq  beschreiben keine konkreten Verkehrsträger und Verkehrsmittel wie Schiffe, Züge oder LKW, sondern abstrakte Verkehrsmittel, die lediglich über ihre Merkmale (Geschwindigkeit, Komfort, Kosten etc.) beschrieben werden und auch nur über diese Merkmale miteinander konkurrieren.  \citeauthor{bib.890} etonen, dass dieses Konzept daher auch für zum jetzigen Zeitpunkt ggf. unbekannte Verkehrsmittel und Transportketten Anwendung finden kann {Quandt 1975 \#890}. D.h. Verkehrsmodelle müssen nicht komplett überarbeitet werden, wenn neue Verkehrsmittel bzw. neue Transportketten berücksichtigt werden sollen. Neue Elemente müssen lediglich in das bestehende Angebotsmodell integriert und gemäß den Merkmalen parametrisiert werden.~\\
+Das Konzept \glqq Abstract Modes\grqq  bildet damit den Transfer des auf Lancaster zurückgehenden Ansatzes (vgl. Abschnitt \autoref{_Ref364629843} ) und ermöglicht die Anwendung diskreter Entscheidungsmodelle, wie sie im Rahmen der Random-Utility Theorie (vgl. Abschnitt \autoref{_Ref364787213} ) beschrieben werden.~\\
+Ein Werkzeug zur Messung der Fähigkeit eines Verkehrssystems, \glqq Qualitätsmerkmale bei Verkehrsleistungen über eine Strecke hinweg zu verwirklichen\grqq , ist die Verkehrswertigkeit. Die Verkehrswertigkeit ist als \glqq Maßstab für die Qualität von Verkehrsleistungen\grqq  zu interpretieren  \autocites[][]{bib.740} und kann mit Merkmalen der Kategorien \glqq Massenleistungsfähigkeit, Schnelligkeit, Fähigkeit zur Netzbildung, Berechenbarkeit, Häufigkeit der Verkehrsbedienung, Sicherheit, Bequemlichkeit\grqq   \autocites[][]{bib.740} und Ökologie  \autocites[][]{bib.344} gemessen werden. \autoref{_Ref366766190} Abbildung  (eigene Darstellung) zeigt eine Zuordnung der klassischen Aufwandsgrößen zu den von  \citeauthor{bib.740} nd  \citeauthor{bib.344} efinierten Ausprägungen der Verkehrswertigkeit.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Zuordnung von klassischen Aufwandsmerkmalen zur Verkehrswertigkeit}
+  \label{_Ref366766190}
+\end{figure}
+~\\
+
+
+% 
+\subsubsection{Modellierung der Nachfrage nach Transportleistungen im Güterverkehr}
+\label{_Toc363572023}
+\label{_Ref363581309}
+\label{_Ref364779595}
+\label{_Ref365588977}
+\label{_Toc366766085}
+\label{_Toc366775279}
+Die Charakterisierung der Nachfrage im Güterverkehr ist deutlich komplexer als die Charakterisierung der Nachfrage im Personenverkehr. Personen und Güter teilen zwar die gleichen Verkehrsnetze, aber die Mechanismen unterscheiden sich deutlich  \autocites[vgl. für folgende Aufzählung][249f.]{bib.403}: ~\\
+
+\begin{itemize}
+%
+   \item Güter sind passiv, d.h. sie haben kein Verhalten und benötigen beim Be- und Entladen besondere Infrastruktur,
+   \item einige Fahrzeugtypen wurden für den Transport von besonderen Gütern speziell entwickelt und sind somit für den Transport von anderen Gütern nicht geeignet,
+   \item die physischen Ausmaße der transportierten Güter unterscheiden sich signifikant,
+   \item häufig existiert bis zu einer konkreten Anfrage keine Information bzgl. der Frequenz der Bedienung sowie der Kosten (Intransparenz des Transportmarktes),
+   \item das Güterverkehrsnetz besteht neben Knoten und Kanten auch aus Logistikknoten (Güterverkehrszentren, Häfen etc.), die spezielle Eigenschaften haben (Kapazität, Verzögerung durch Wartezeit, Bedienzeit etc.) und 
+   \item beim Transport von Gütern sind viele Akteure am Entscheidungsprozess beteiligt.
+%
+\end{itemize}
+Güterverkehr wird üblicherweise in Form von Güter- oder Fahrzeugbewegungen gemessen und modelliert  \autocites[][]{bib.682} Die Nachfrage nach Gütern wird dabei aus einem sozioökonomischen System abgeleitet, in dem Rohstoffe, Halb- und Fertigprodukte an bestimmten Orten zu einem bestimmten Zeitpunkt benötigt werden  \autocites[][]{bib.942} Die Anforderungen an Gütertransporte werden dabei von vielen Faktoren seitens der Nachfrage beeinflusst: Neben dem Werterhalt und der Kosteneffizienz {Oelfke 2008 \#875} sind dies vor allem die Rahmenbedingungen der logistischen Prozessketten (vgl. u.a. Logistikeffekt in Abschnitt \autoref{_Ref364884153} ).~\\
+
+
+% 
+\subsubsection{Modellierung der Verkehrsmittelwahl im Güterverkehr}
+\label{_Toc366766086}
+\label{_Toc366775280}
+Anders als im Personenverkehr ist im Güterverkehr eine Vielzahl von Entscheidern am Entscheidungsprozess beteiligt {Friedrich 2003 \#403} \autocites[][]{bib.969}{Holguín-Veras 2011 \#707}. So können drei Gruppen von Akteuren unterschieden werden  \autocites[][]{bib.251}:~\\
+
+\begin{itemize}
+%
+   \item Produzenten entscheiden über Produktionsart und –menge und lösen damit die Problemstellung, wo und zu welchem Preis die produzierten Güter verkauft werden sollen.
+   \item Konsumenten (sowohl Verarbeiter von Rohstoffen und Zwischenprodukten, als auch Endkunden) entscheiden über die Problemstellung, wie viel von welchem Gut welchen Herstellers konsumiert werden.
+   \item Transportunternehmen entscheiden, wie das Transportangebot ausgestaltet werden soll - Spediteure organisieren die Versendung und die Verkehrsmittelwahl, Frachtführer wählen die Route für die Versendung  \autocites[][]{bib.268}
+%
+\end{itemize}
+Obwohl diese Einteilung ein nützliches Konstrukt zur logischen Einteilung der wichtigsten Akteure ist, muss darauf hingewiesen werden, dass jede dieser Gruppen als heterogene Menge von Unternehmen mit unterschiedlichsten Größen, Strukturen und Prozessen zu betrachten ist. Es ist zu erwarten, dass sich das Verhalten der Unternehmen - trotz logischer Gruppierung - stark voneinander unterscheidet {Holguín-Veras 2011 \#707}. ~\\
+{Holguín-Veras 2011 \#707} teilen die Literatur zur Verkehrsmittelwahl im Güterverkehr in drei Gruppen auf.~\\
+1. Die Arbeiten \glqq Gruppe mit ökonometrischem und spieltheoretischen Ansätzen\grqq  basieren auf der Annahme, dass die optimale Sendungsgröße nach einer Reihe von Experimenten mit unterschiedlichen Sendungsgrößen durch den Vergleich von Preisen, Grad des Services und Schadensmeldungen ermittelt wird. Hierdurch wird die Modus-Wahl indirekt festgelegt. Holguín-Veras et al. weisen darauf hin, dass diese Annahme sehr nah am Modell der \glqq Optimalen Losgröße\grqq  (EOQ-Modell) liegt. Neben den von Holguín-Veras et al. angeführten Literaturquellen konnten die Arbeiten von {Haugen 2004 \#356}{Friesz 2005 \#773}{Srinivas 2005 \#776} diesem Ansatz zugeordnet werden.~\\
+2. Eine kleinere Gruppe von Arbeiten betrachtet die Sendungsgröße als exogen vorgegeben. Dadurch wird es möglich, die Sendungsgröße in die Nutzenfunktionen aufzunehmen. Es wird somit angenommen, dass die Sendungsgröße die Verkehrsmittelwahl beeinflusst, der umgekehrte Fall allerdings nicht gilt. Nach diesem Ansatz ist die Interaktion zwischen Spediteuren und Frachtführern als unidirektional anzusehen, da die Sendungsgröße nicht verhandelbar ist.~\\
+3. Die letzte Gruppe von Arbeiten berücksichtigt die Sendungsgröße nicht als Entscheidungsvariable. Der Entscheidungsprozess hängt in diesen Arbeiten einzig von den Eigenschaften der Verkehrsmittel ab (bspw. Transitzeit, Kosten, Zuverlässigkeit etc.).  \citeauthor{bib.707} rdnen diesen Ansatz solchen Anwendungsfällen zu, in denen die Interaktion zwischen Spediteur und Frachtführer keine Rolle spielt.\footnote{%
+ Diese Meinung kann allerdings nicht vollständig geteilt werden, da besonders die Frachtkosten z.T. von langfristigen Verträgen abhängen  \autocites[][]{bib.268}, die nur durch Verhandlungen (=Interaktion) zwischen den Vertragspartnern zustande kommen konnten.
+}% 
+ Neben den von Holguín-Veras et al. angeführten Literaturquellen konnten u.a. die Arbeiten von {Jeffs 1990 \#689}{Norojono 2001 \#584}{Train 2006 \#710}{Friedrich 2003 \#403}{Bühler 2006 \#280} diesem Ansatz zugeordnet werden.~\\
+
+
+% 
+\subsubsection{Ansätze zur Unterscheidung verschiedener Güterverkehrsmodelle}
+\label{_Toc366766087}
+\label{_Toc366775281}
+ \citeauthor{bib.876} ennen fünf Möglichkeiten, die in der Literatur existierenden Ansätze zur Modellierung des Güterverkehrs zu klassifizieren  \autocites[][]{bib.876} Sie unterscheiden Modelle mit Bezug $\ldots$~\\
+
+\begin{itemize}
+%
+   \item $\ldots$auf die betrachteten Basisgrößen (Güterstrom, Fahrzeugbezug)
+   \item $\ldots$auf das Aggregationsniveau (Aggregatmodelle, disaggregierte Modelle, Individual-verhaltensmodelle)
+   \item $\ldots$auf das Verfahren der Verkehrsnachfragemodellierung (Mikroskopisch, Makroskopisch)
+   \item $\ldots$auf den räumlichen Bezugsrahmen (regional, national, international)
+   \item $\ldots$auf den Modellaufbau (ein- /mehrstufige Modelle, Produktions-/Verbrauchsmodelle)
+%
+\end{itemize}
+Die Autoren haben im Rahmen des Projekts WMVG in Zusammenarbeit mit der TUM-München und der NTU-Singapore statt eines (weiteren) Klassifizierungsversuches ein neues Input-Output- fokussiertes Charakterisierungsschema für Güterverkehrsmodelle entwickelt und veröffentlicht. Dieser Charakterisierungsansatz ist weniger ehrgeizig als ein Klassifikationsansatz; dafür erlaubt er es, die Eignung von Güterverkehrsmodellen für eine konkrete Planungsaufgabe allein auf Basis der benötigten Input-Daten und den Anforderungen an die zu berechnenden Output-Daten zu beurteilen. Weitere Details zu diesem Ansatz finden sich in \emph{Characterisation}\emph{ }\emph{of}\emph{ }\emph{Freight}\emph{ Transportation Models} {Kunze 2013 \#891}.~\\
+
+
+% 
+\subsection{Segmentierungen im Güterverkehr}
+\label{_Toc365801594}
+\label{_Ref365822342}
+\label{_Toc366766088}
+\label{_Toc366775282}
+\label{_Ref364884153}
+\label{_Ref364897372}
+Ein Kernproblem bei der Güterverkehrsmodellierung ist die Zusammenfassung ähnlicher Gütertransporte zu handhabbaren Größen - also die Güterverkehrssegmentierung. Wie und in welcher Granularität eine solche Segmentierung erfolgen kann ist dabei nicht nur eine Frage der sinnvollen Segmentierungsansätze, sondern auch eine Frage der Datenerhebung. Jeder Güterverkehrsmodellierungsversuch steht somit vor folgendem Dilemma:~\\
+A: Ein sinnvoller und aussagekräftiger Segmentierungsansatz hat i.d.R. den Nachtteil, dass keine Daten in hinreichender Menge und Qualität vorliegen, die diesen Ansatz abbilden können.~\\
+B: Verfügbare Daten (z.B. aus amtlichen Statistiken) lassen zwar Segmentierungen zu, aber diese Segmentierungen mischen gerade in Bezug auf den Aspekt \glqq Verkehrsträgerwahl\grqq  unterschiedliche Transportanforderungen und sind somit oft wenig aussagekräftig.~\\
+Im Folgenden wird daher sowohl auf die verfügbaren Daten als auch auf die Literatur zu bestehenden Segmentierungsansätzen eingegangen.~\\
+
+
+% 
+\subsubsection{Verfügbare Daten aus amtlichen Statistiken}
+\label{_Ref365563802}
+\label{_Toc366766089}
+\label{_Toc366775283}
+Die CPA\footnote{%
+ \glqq Abk. für Classification of Products by Activity [$\ldots$] Statistische Güterklassifikation in Verbindung mit den Wirtschaftszweigen in der Europäischen Wirtschaftsgemeinschaft; [$\ldots$]\grqq  {Springer Gabler Verlag 2010 \#194 : Stichwort CPA}.
+}% 
+ 2008 ist die europäische statistische Güterklassifikation nach Wirtschaftszweigen. Die CPA enthält die gesamte Produktion aller Wirtschaftszweige entweder in Form von Gütern oder Dienstleistungen und stellt einen gemeinsamen EU Rahmen zum Vergleich statistischer Daten für Güter und Dienstleistungen dar\grqq  {Statistical Office of the European Communities 2008 \#979 ; S. 9-9}. Sie umfasst auf sechs Gliederungsebenen mehr als 3000 Untergruppen. Die ersten vier Gliederungsebenen entsprechen den NACE\footnote{%
+ NACE (Europäische Klassifikation der Wirtschaftszweige).
+}% 
+-Codes des Wirtschaftszweiges, der ein spezielles Gut produziert. Darüber hinaus steht die CPA auch in Verbindung mit den europäischen Güterklassifikationen Prodcom\footnote{%
+ \glqq Die Prodcom ist eine mindestens einmal jährlich durchgeführte Erhebung zur Erstellung von Statistiken über Volumen und Wert der Produktion von gewerblichen Waren (hauptsächlich Industrieerzeugnisse) in der Europäischen Union (EU). Die Abkürzung steht für die französische Bezeichnung ‚\uline{Pro}duction \uline{Com}munautaire‘\grqq  {Statistical Office of the European Communities 2008 \#982 : Stichwort PRODCOM}.
+}% 
+ und KN\footnote{%
+ \glqq Die Kombinierte Nomenklatur (KN) ist eine Güterklassifikation für Güter [$\ldots$]. Die KN dient als Hilfsmittel für die Erhebung, den Austausch und die Veröffentlichung von Daten über die Außenhandelsstatistik der EUzu ermöglichen. Außerdem wird sie für die Erhebung und Veröffentlichung von Außenhandelsstatistiken im Intra-EU-Handel verwendet\grqq  ‘\grqq  {Statistical Office of the European Communities 2008 \#982 : Stichwort Kombinierte Nomenklautur (KN)}.
+}% 
+. Der Zusammenhang zwischen den genannten amtlichen Klassifizierungen ist in \autoref{_Ref365555687} Abbildung \footnote{%
+ In diesem Dokument nicht näher beschriebene Klassifizierungen: HS Harmonisiertes System zur Bezeichnung und Codierung der Waren, SITC Standard International Trade Classification, CPC Central Product Classification, ISIC International Standard Industrial Classification.
+}% 
+ im System der internationalen Klassifizierungen für Wirtschaftszweige, Güter und Waren dargestellt  \autocites[][]{bib.983}. Um die Vergleichbarkeit der international stark miteinander verflochtenen Volkswirtschaften zu erhöhen, wurden nationale Klassifikationen in den letzten Jahren harmonisiert. \glqq So können beispielsweise Statistiken über die Güterproduktion mit den Außenhandelsstatistiken verglichen werden. Grundlage dieses Systems von Wirtschaftsklassifikationen ist die Überlegung, dass sich wirtschaftliche Tätigkeiten durch die bei ihrer Ausübung typischerweise entstehenden Produkte beschreiben lassen\grqq   \autocites[][]{bib.983} Die Klassifikationen stehen daher in enger Beziehung zueinander und können entweder direkt miteinander verknüpft oder über Umsteigetabellen miteinander in Beziehung gesetzt werden.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Internationales System von Wirtschaftsklassifikationen}
+  \label{_Ref365555687}
+\end{figure}
+~\\
+In den amtlichen Statistiken wird der Güterverkehr ab dem Bezugsjahr 2008 über die in der NST-2007\footnote{%
+ \glqq Nomenclature Uniforme de Marchandises pour les Statistiques de Transport (NST); gehört zu den Internationalen Waren- und Güterverzeichnissen. Die NST dient als Grundlage für die Gliederung der gemeinschaftlichen Güterverkehrsstatistiken und basiert auf der CPA. Damit ist sichergestellt, dass Statistiken aus dem Verkehrsbereich mit anderen Statistikbereichen vergleichbar sind, deren Gliederung sich ebenfalls an der CPA orientiert. Seit dem Berichtsjahr 2008 wird die NST-2007 verwendet\grqq  {Springer Gabler Verlag 2010 \#194 : Stichwort NST-2007}.
+}% 
+ festgelegten Güterklassifikation erfasst und löst damit die ältere seit 1967 bestehende NST-R ab. In der NST-2007 existieren 20 Abteilungen, die ihrerseits in insgesamt 81 Positionen unterteilt sind. Die 20 Abteilungen wurden dabei \glqq zum einen durch Zusammenfassungen von Abteilungen der CPA gebildet, zum anderen enthalten sie besondere Güterkategorien, die für die Verkehrsstatistik von Bedeutung sind, mit der CPA aber nicht erfasst werden (z. B. Geräte und Material für die Güterbeförderung)\grqq   \autocites[][]{bib.980} \glqq Bei der Zusammenfassung der 81 Positionen wurden als Kriterien Güterart, Grad der Verarbeitung, Beförderungsbedingungen und beförderte Mengen angelegt [$\ldots$]\grqq  {Statistical Office of the European Communities 2008 \#979 ; S. 9-8}. Damit werden in der NST2007 Güter nach wirtschaftlicher Aktivität, \glqq aus welcher sie hervorgegangen sind\grqq  , und nicht nach \emph{deren physischer Beschaffenheit} unterschieden  \autocites[][]{bib.981} Die NST-2007 \glqq gewährleistet damit eine hohe Vergleichbarkeit mit anderen Statistikbereichen, die sich bei ihrer Gütergliederung ebenfalls an der CPA orientieren (z. B. Produktionsstatistiken)\grqq   \autocites[][]{bib.980}~\\
+Für weiterführende Informationen zu den genannten Klassifizierungen sei mit RAMON auf den Klassifikationsserver von Eurostat verwiesen {Statistical Office of the European Communities 2008 \#984}.~\\
+
+
+% 
+\subsubsection{Segmentierungsansatz nach Switaiski \& Mäcke}
+\label{_Toc366766090}
+\label{_Toc366775284}
+{Switaiski 1985 \#770} identifizieren folgende nachfrageinduzierte Kriterien zur Beschreibung von Transporten:~\\
+
+\begin{itemize}
+%
+   \item Gütereigenschaften
+\begin{itemize}
+% 
+   \item Güterwerte
+   \item Sendungsgröße
+   \item Terminempfindlichkeit
+   \item Mechanische Empfindlichkeit
+   \item Temperaturempfindlichkeit
+   \item Verderblichkeit
+   \item Stetigkeit der Abmaße
+   \item Serviceanspruch
+%
+\end{itemize}
+ 
+   \item Transportanforderungen
+\begin{itemize}
+% 
+   \item Verfügbarkeit von Ladekapazität
+   \item Paarigkeit der Transportströme
+   \item Geringe Investitionshöhe
+   \item Hohe Transportmittelauslastung
+   \item Klarheit über Auftragsgröße
+   \item Geringer Lagerflächenbedarf
+%
+\end{itemize}
+ 
+   \item Verladeranforderungen
+\begin{itemize}
+% 
+   \item Überregionale Transportketten
+   \item Garantie kurzer Transportzeit
+   \item Lieferflexibilität der Transportkette
+   \item Lieferzuverlässigkeit
+   \item Preiswürdigkeit
+   \item Informationsbereitstellung
+   \item Umfassende Logistikdienstleistungen
+   \item Beschädigungsschutz
+   \item Diebstahlschutz
+   \item Einsatz vorhandener Fördermittel
+   \item Verpackungseinsparungen
+   \item Anpassung an Ladeeinheitengröße
+   \item Stapelbarkeit
+   \item Flächenbedarf
+   \item Integration in Materialfluss
+%
+\end{itemize}
+
+%
+\end{itemize}
+
+% 
+Neben diesen nachfragebedingten Eigenschaften werden angebotsseitige Eigenschaften benannt, die ggf. zur Segmentierung und Bestimmung der Transportkettenwahl verwendet werden können {Switaiski 1985 \#770}:~\\
+
+\begin{itemize}
+%
+   \item Transportsystemeigenschaften
+\begin{itemize}
+% 
+   \item Transportzeit
+   \item Transportkosten
+   \item Transportsicherheit
+   \item Zuverlässigkeit
+   \item Leistungsfähigkeit
+   \item Anpassungsfähigkeit
+   \item Anzahl der Schnittstellen
+   \item Netzdichte
+   \item Transporteinheitsgröße
+   \item Serviceleistungen
+%
+\end{itemize}
+ 
+   \item Gesellschaftsanforderungen
+\begin{itemize}
+% 
+   \item Förderung des Gemeinwohls
+   \item Wirtschaftswachstum
+   \item Marktgleichgewicht
+   \item Schutzvorschriften
+   \item Normvorgaben
+   \item Haftungsrichtlinien
+%
+\end{itemize}
+
+%
+\end{itemize}
+ 
+
+% 
+\subsubsection{Segmentierungsansatz nach Wermuth \& Binnenbruck}
+\label{_Toc366766091}
+\label{_Toc366775285}
+Neben den klassischen Merkmalen zur Beschreibung des Güterverkehr durch die Eigenschaften der transportierten Güter bzw. Ladegefäße, den Fahrtzweck (z.B. zum Handel), den zeitlichen Gegebenheiten (Abfahrt, Ankunft, Dauer), den Quellen und Zielen, den verwendeten Verkehrsträgern, den Fahrttypen (Sammelfahrt, Verteilerfahrt, $\ldots$) und der Distanz  \autocites[][]{bib.820} führen  \citeauthor{bib.820} ine umfangreiche Liste möglicher Segmentierungskriterien an  \autocites[][]{bib.820}, die in \autoref{_Ref347430764} Abbildung  (eigene Darstellung) als Mindmap dargestellt wurden. Es wird deutlich, dass sich die genannten Kriterien in nahezu beliebiger Tiefe untergliedern lassen.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Gliederung möglicher Segmentierungskriterien für den Güterverkehrs}
+  \label{_Ref347430764}
+\end{figure}
+~\\
+
+
+% 
+\subsubsection{Segmentierungsansatz von Klaus et. al.}
+\label{_Toc366766092}
+\label{_Toc366775286}
+Klaus et. al. ordnen Logistikdienstleistungen folgenden vier Logistikmärkten zu und unterteilen diese in insgesamt 16 Untermärkte  \autocites[][]{bib.371} ~\\
+
+\begin{itemize}
+%
+   \item I. Bulk- bzw. Punkt-Punkt-Ladungstransportmärkte mit den Untersegmenten:
+   \item 1. Nationale Massengutlogistik;
+   \item 2. Nationaler allgemeiner Ladungsverkehr mit nicht-spezialisiertem LKW- und Waggon-Equipment;
+   \item 3. Schwertransporte und Krandienste;
+   \item 4. Nationale Tank- und Silotransporte;
+   \item 5. Nationale sonstige Ladungsverkehre mit spezialisiertem Equipment (wie Automobil-, Flachglas-, Jumbotransporte).
+   \item II. Märkte für Stückguttransporte und sonstige handlings-bedürftige Güter mit den Untersegmenten:
+   \item 6. Nationaler allgemeiner Stückgutverkehr;
+   \item 7. Konsumgüterdistribution und Konsumgüterkontraktlogistik;
+   \item 8. Industrielle Kontraktlogistik, insbesondere industrielle Beschaffungslogistik, Produktionsversorgung und Ersatzteilversorgung;
+   \item 9. Hängende Kleider Logistik;
+   \item 10. High-Tech-Güter, Messe- und Eventlogistik, Neumöbel- und Umzugstransporte;
+   \item 11. Terminaldienste, nicht in andere Logistikleistungen integrierte Hafen-, Lagerei- und sonstige logistische Zusatzdienste;  
+   \item 12. KEP- Paket-, echte Kurier- und spezialisierte Expressfrachtdienste.
+   \item III. Märkte für internationale Transporte:
+   \item 13. Grenzüberschreitende Transport- und Speditionsleistungen, Schwerpunkt Straße und Schiene;
+   \item 14. Grenzüberschreitende Transport- und Speditionsleistungen, Schwerpunkt Seeschifffahrt und Seehafenspedition;
+   \item 15. Grenzüberschreitende Aircargo-Carrier und Leistungen der Luftfracht- Spedition.
+   \item IV. Zusätzlich nachrichtlich erfasst:
+   \item 16. Mail- Postdienste der Drucksachen- und Briefbeförderung.
+%
+\end{itemize}
+Auch wenn es sich bei diesen Segmenten um Marktsegmente und nicht um Gütersegmente handelt, so lassen sich aus diesen Marktsegmenten ggf. Indizien zur Gütersegmentierung in Bezug auf ihre Transportanforderungen ableiten, da bis auf Segment 11 (Terminaldienste) alle anderen Segmente sich auch durch unterschiedliche Transportkonzepte voneinander abgrenzen.~\\
+
+
+% 
+\subsubsection{Weitere Segmentierungsansätze}
+\label{_Toc366766093}
+\label{_Toc366775287}
+Weitere Autoren, die sich mit dem Thema Güterverkehrssegmentierung auseinandergesetzt haben, sind u.a. Tavasszy (Logistikfamilien) {Tavasszy 1998 \#893}, Kille {Kille 2010 \#1003}.~\\
+
+
+% 
+\subsection{Ursachen für die Zunahme des Straßengüterverkehrs}
+\label{_Toc365801595}
+\label{_Toc366766094}
+\label{_Toc366775288}
+Die starke Zunahme des Straßengüterverkehrs in den letzten 20-25 Jahren wird in der Literatur auf vier Effekte zurückgeführt.~\\
+
+\begin{itemize}
+%
+   \item Substitutionseffekt: \glqq Die Systemeigenschaften des Straßengüterverkehrs haben die Austauschprozesse wesentlich begünstigt. Der Substitutionseffekt kann durch den Zeitvergleich der Anteile an den Verkehrsleistungen verdeutlicht werden\grqq   \autocites[][]{bib.739}
+\label{_Toc347467538} 
+   \item Güterstruktureffekt\footnote{%
+ Vgl. auch Güterstruktureffekt bei  \autocites[][]{bib.876}
+}% 
+: Eine Veränderung der transportierten Güterstrukturen ist auf den Wandel der Produktionsstruktur zurückzuführen. Der Anteil hochwertiger Konsum- und Investitionsgüter steigt gegenüber den in der Produktion benötigten Massengütern {Sänger 2004 \#943}. \glqq Aus dem Güterstruktureffekt und den spezifischen Systemeigenschaften (Verkehrswertigkeiten) ergibt dich, dass Eisenbahn und Binnenschifffahrt ihre höchsten Marktanteile in den stagnierenden oder sogar rückläufigen Gütergruppen besitzen. [$\ldots$] Hingegen ist ihr Marktanteil bei den wachsenden Gütergruppen niedrig bzw. sogar sehr gering\grqq   \autocites[][]{bib.739} 
+\label{_Toc347467539}
+%
+\end{itemize}
+
+\begin{itemize}
+%
+   \item  \citeauthor{bib.876} enennen in diesem Zusammenhang explizit die sinkende Produktionstiefe, zunehmenden Konsum und zunehmende Vielfalt bei Waren und Herstellern in Folge neuer Marketingstrategien bei den Produzenten sowie den fortschreitenden Strukturwandel von der Produktions- zur Dienstleistungsgesellschaft  \autocites[][]{bib.876}
+   \item  \citeauthor{bib.371} ezeichnen diesen Effekt als \glqq Übergang zur postindustriellen Gesellschaft und Dienstleistungsökonomie\grqq   \autocites[][]{bib.371}
+%
+\end{itemize}
+
+\begin{itemize}
+%
+   \item Logistikeffekt\footnote{%
+ Vgl. auch  \autocites[][]{bib.876}
+}% 
+: Moderne Logistikkonzepte in Industrie und Handel fordern Kosteneffizienz und die Integration in die logistischen Prozessketten {Flämig 2013 \#944} – \glqq insbesondere hinsichtlich der zeitlichen Terminsicherheit und flexiblen Ausrichtung auf die logistischen Anforderungsprofile [$\ldots$]\grqq   \autocites[][]{bib.739} Der Logistikeffekt wird sowohl durch Konsum- und hochwertige Investitionsgüter als auch durch Halb- und Fertigprodukte beeinflusst, die überwiegend als Teilladungsverkehr versendet werden  \autocites[][]{bib.739} Dabei wird der Modal-Split primär durch die Qualität der Verkehrsträger\footnote{%
+ \glqq Der Straßengüterverkehr kann auf Grund seiner Qualitätseigenschaften, deren Summe die sog. Verkehrswertigkeit [vgl. Abschnitt \autoref{_Ref364789145} ] darstellt, diese Marktanforderungen vergleichsweise am besten erfüllen. Die Affinität der logistikrelevanten Güter ist im Straßenverkehr hoch\grqq   \autocites[][]{bib.739}
+}% 
+ beeinflusst. Es ist festzustellen, dass \glqq der Logistikeffekt die Wirkungen des Güterstruktureffektes verstärkt\grqq   \autocites[][]{bib.739} Kummer führt als Erweiterung des Logistikeffekts den E-Commerce-Effekt an. \glqq Die Konsumenten holen die gekauften Waren nicht selbst im stationären Einzelhandel ab, es wird vielmehr direkt zugestellt. Auch im Consumer-to-Consumer- Bereich gibt es durch die Etablierung von Auktionsplattformen und Tauschbörsen eine Tendenz zu steigenden Anteilen flächig verteilter kleiner Sendungen. In diesem immer bedeutenderen Bereich haben die Eisenbahn und das Binnenschiff kaum Marktanteile\grqq   \autocites[][]{bib.562}
+\label{_Toc347467540}\footnote{%
+ Ähnliche Argumentation auch bei  \citeauthor{bib.969} n Bezug auf \glqq delivery patterns that are optimal for distribution centers\grqq   \autocites[][]{bib.969}
+}% 
+  \citeauthor{bib.371} ezeichnen diesen Effekt als \glqq Individualisierung von Produkten und Diensten und Beschleunigung der Taktraten wirtschaftlicher Aktivität in einer ‚On Demand‘- Welt\grqq   \autocites[][]{bib.371}
+   \item Integrationseffekt\footnote{%
+ Vgl. auch \glqq Globalisierung des Handels\grqq   \autocites[][]{bib.876}
+}% 
+: Hierdurch werden verkehrliche Auswirkungen beschrieben, die durch die Verwirklichung des europäischen Binnenmarktes (Zollabbau, Beseitigung nichttarifärer Handelshemmnisse, diskriminierungsfreier Marktzugang für Produkte und Produktionsfaktoren) entstehen  \autocites[][]{bib.739} Besonders Deutschlands Exporte und geografische Lage, vor allem nach der Liberalisierung der ost-europäischen Märkte, führen zu steigenden Transportmengen und insbesondere wachsenden Transportentfernungen im grenzüberschreitenden Verkehr.  \autocites[][]{bib.739} Die Eisenbahn hat vergleichsweise nur geringe Mengen auf sich ziehen können, während vor allem der Straßengüterverkehr in diesem Marktsegment seine Mengen vervielfachen konnte  \autocites[][]{bib.739}  \citeauthor{bib.371} ezeichnen diesen Effekt als \glqq Globalisierung der Produktion und des Wirtschaftsverkehrs\grqq   \autocites[][]{bib.371}
+%
+\end{itemize}
+
+
+% 
+\subsection{Strategien und Maßnahmen zur Steuerung des Güterverkehrs}
+\label{_Toc347467542}
+\label{_Ref364897466}
+\label{_Toc365801596}
+\label{_Ref366763232}
+\label{_Toc366766095}
+\label{_Toc366775289}
+Die Beeinflussbarkeit des Güterverkehrs wird in der Literatur kontrovers diskutiert. Zum einen treffen Unternehmen Entscheidungen mit \emph{ökonomische}\emph{m}\emph{ Rationalisierungskalkül}, so dass die Beeinflussbarkeit eigentlich besser als beim Personenverkehr zu beurteilen sein sollte  \autocites[][]{bib.739} Zum andeeren ist zu erwarten, dass eine Verlagerung Straße-Schiene gerade dadurch erst bei fühlbaren Kosten- und Preisanhebungen im Straßengüterverkehr (ca. 30\%+ bspw. durch Internalisierung externer Effekte) eintritt  \autocites[][]{bib.739}~\\
+In diesem Zusammenhang werden in der Literatur häufig vier Strategien genannt, die zu einer Reduzierung des (Güter-) Verkehrs 
+\label{_Toc347467543}beitragen sollen. Dabei ist zu beachten, dass nicht Verkehrsleistungen (tkm) entscheidend für Engpass- und Umweltprobleme sind, sondern die Fahrleistungen (Fzkm)  \autocites[][]{bib.739} ~\\
+
+\begin{itemize}
+%
+   \item Verkehrsvermeidung des nicht notwendigen städtischen Verkehrs  \autocites[][]{bib.876} \autocites[][]{bib.562}
+\label{_Toc347467544}
+   \item Verkehrsverringerung bspw. durch Kooperationen zwischen Anbietern von Verkehrsdienst-leistungen und der Ansiedelung von Lieferanten in der Nähe der Werke des Abnehmers  \autocites[][]{bib.562}
+\label{_Toc347467545}
+   \item Verkehrsverlagerung - also die Veränderung des Modal-Splits zugunsten solcher Verkehrsmittel, die über infrastrukturelle Kapazitätsreserven verfügen und deren Umweltbeeinträchtigungen vergleichsweise geringer sind  \autocites[][]{bib.739} Eine Verlagerung kann dabei intermodaler (Verlagerung des notwendigen LKW-Verkehrs auf umweltverträglichere Verkehrsmittel) oder intramodaler (Verlagerung auf weniger sensible Routen) Natur sein 
+\label{_Toc347467546} \autocites[][]{bib.876} \autocites[][]{bib.562}
+   \item Verkehrsoptimierung durch Erhöhung von stadtverträglicher\footnote{%
+ Die stadtverträgliche Abwicklung des Güterverkehrs zielt ab auf geringere Flächenbeanspruchung, geringere Umweltbelastung, geringere Störungen der übrigen Verkehrsträger und –teilnehmer sowie eine möglichst hohe Effizienz aus volkswirtschaftlicher Sicht  \autocites[][]{bib.876}
+}% 
+ und effizienter Verkehrs-abwicklung des nicht verlagerbaren Güterverkehrs.\footnote{%
+  \citeauthor{bib.876} weisen darauf hin, dass es keine allgemein akzeptierte Definition der Begriffe ‚verlagerbarer- und nicht-verlagerbarer Verkehr’ gibt  \autocites[][]{bib.876}
+}% 
+ Allerdings gestaltet sich die Konkretisierung besonders schwierig, da heterogene Strukturmerkmale und komplexe Rahmenbedingungen berücksichtigt werden müssen  \autocites[][]{bib.876}
+%
+\end{itemize}
+Zur Umsetzung dieser Strategien stehen nach  \citeauthor{bib.248} emph{ ordnungspolitische},\emph{ technische, preispolitische} und \emph{sonstige verhaltenssteuernde Maßnahmen} zur Verfügung. \glqq Diese Maßnahmen beeinflussen die Quantität (Verkehrsaufkommen, Verkehrsleistung) und die Qualität (Bequemlichkeit, Schnelligkeit). Ihr Zweck ist die Verbesserung der Erreichbarkeit und die Internalisierung von externen Effekten des Verkehrs (insbesondere von externen Kosten)\grqq   \autocites[][]{bib.248} ~\\
+
+\begin{itemize}
+%
+   \item \textbf{Ordnungspolitische Maßnahmen} \glqq bewirken grundsätzlich Ja-Nein-Entscheidungen, d.h., etwas Bestimmtes ist erlaubt oder verboten\grqq . Zu diesen Maßnahmen zählen bspw. \glqq örtliche und zeitliche Fahrverbote\grqq , \glqq Tempolimits\grqq  und \glqq Parkraumkontierung\grqq \footnote{%
+ Bspw. Kurzparkzonen (Parkscheibe), Parkgebühren.
+}% 
+  \autocites[][]{bib.248}
+   \item \textbf{Technische Maßnahmen} wirken \glqq direkt auf die Qualität und Quantität des Verkehrsangebotes (Infrastruktur [$\ldots$])\grqq . Hierzu gehören \glqq Infrastrukturseitige Angebotsverbesserungen im Öffentlichen Verkehr (ÖV) [und] im nichtmotorisierten Verkehr (NMV)\grqq  bspw. durch die \glqq Umgestaltung des (innerörtlichen Straßenraums)\grqq   \autocites[][]{bib.248} 
+   \item \textbf{Preispolitische Maßnahmen} treten in Form von Abgaben und Gebühren auf, die vom tatsächlichen Ressourcenverbrauch abhängen. Dazu zählen die Mineralölsteuer, verschiedene Formen der Maut- und Parkgebühren  \autocites[][]{bib.248} 
+   \item Zu\textbf{ sonstigen verhaltenssteuernden Maßnahmen} zählen das \glqq Setzen von ‚Incentives‘ zur Förderung ‚sichereren bzw. umweltbewussteren Verkehrsverhaltens‘ sowie ‚Information und Aufklärungsarbeit, Vorbildwirkung der Meinungsbildner (Politiker, Prominente, Pädagogen)‘\grqq   \autocites[][]{bib.248}
+%
+\end{itemize}
+\autoref{_Ref364181620} Abbildung   \autocites[][]{bib.248} ergänzt die genannten Aspekte um konkrete Maßnahmen zur Beeinflussung des Personenverkehrs. Diese Maßnahmen können in \glqq Push- und Pull Faktoren\grqq  unterschieden werden.\footnote{%
+ Nicht genannt werden allerdings Subventionen bspw. für öffentliche Verkehrsmittel.
+}% 
+ ~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Maßnahmenportfolio zur Verlagerung von MIV Anteilen auf den ÖPNV im Personenverkehr}
+  \label{_Ref364181620 _Ref364181497 _Toc363572024 _Toc363601737 _Toc365801597 _Toc366766096}
+\end{figure}
+~\\
+
+
+% 
+\section{Methodik }
+\label{_Toc366775290}
+Im Folgenden wird (nach einer kurzen Darstellung der methodischen Voruntersuchungen) der Forschungsansatz im Projekt WMVG (Metamethodik) näher erläutert. Anschließend wird auf methodische Details näher eingegangen.~\\
+
+
+% 
+\subsection{WMVG-Voruntersuchungen}
+\label{_Toc364945126}
+\label{_Toc365801598}
+\label{_Toc366766097}
+\label{_Toc366775291}
+\label{_Ref361847294}
+\label{_Toc363572025}
+\label{_Toc363601738}
+Die beiden Voruntersuchungen~\\
+
+\begin{itemize}
+%
+   \item zur Methodendurchdringung der Verkehrsmodellierung in der ursprünglichen Domäne \glqq Personenverkehr\grqq  {Lindemann 2012 \#106}{Lindemann 2012 \#886} als Basis für den Methodentransfer zum Güterverkehr, und
+   \item zur Charakterisierung bestehender Güterverkehrsmodelle {Kunze 2013 \#891}
+%
+\end{itemize}
+wurden bereits veröffentlicht. Eine Kurzzusammenfassung der Ergebnisse zur Charakterisierung bestehender Güterverkehrsmodelle findet sich in Kapitel \autoref{_Ref364935071} .~\\
+
+
+% 
+\subsection{WMVG-Meta-Methodik}
+\label{_Toc365801599}
+\label{_Toc366766098}
+\label{_Toc366775292}
+Aus den Erkenntnissen der Literaturrecherche zu den verschiedenen existenten Güterverkehrsmodellen entstand im Rahmen von WMVG in Zusammenarbeit mit der TUM-München und der NTU-Singapore ein neuer universeller Charakterisierungsansatz für Güterverkehrsmodelle, der im Wesentlichen auf einer SADT\footnote{%
+ SADT Structured Analysis and Design Technique.
+}% 
+-Modellierung beruht {Details siehe  Kunze 2013 \#891}.~\\
+Dieser Ansatz versteht ein Güterverkehrsmodell als eine funktionale Box, die aus Eingangsdaten Ausgangsdaten generiert.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{}
+  \label{}
+\end{figure}
+~\\
+Für Güterverkehrsmodelle heißt das, dass als INPUT-DATA Güterverkehrsnachfragedaten und Güterverkehrsangebotsdaten vorliegen müssen, und als OUTPUT-DATA Transport-Modus-spezifische Güterverkehrsströme (bzw. die Güterverkehrsbelastungen der jeweiligen Transportmodi) generiert werden. Wie diese Datenwandlung erfolgt, wird durch die Methoden (MECHANISMS) des Modells beschrieben. Die Kalibrierung (CALIBRATION) und Validierung (VALIDATION) des Modells werden dabei als Systemsteuerungsgrößen verstanden.~\\
+\autoref{_Ref364024552} Abbildung  zeigt (jeweils mit Bezug zu den verwendeten Konzepten aus der Literatur) wie das WMVG-Modell konkret ausgestaltet wurde.
+\label{_Ref361847088}
+\label{_Toc363572026}
+\label{_Toc363601739}~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Anwendung der SADT-Modellierung auf ein multimodales Güterverkehrsmodell nach \textbf{{Kunze 2013 \#891}}: Aufbau und Methodik des WMVG-Forschungsprojekts}
+  \label{_Ref364024552}
+\end{figure}
+~\\
+Als Eingangsdaten für das Modell dienen zum einen die Verkehrsangebotsdaten (hier realisiert als Graph aus Kanten- \& Knoten), und zum anderen die Nachfragedaten (hier realisiert durch Quell-Ziel-Matrizen für die verschiedenen homogenen Transport-Anforderungsprofile). Die Entscheidungsparameter (Vektoren der Merkmals-Gewichte) wurden als eigene Eingangsdatenmatrix modelliert.~\\
+Die jeweilige Transportkettenwahl wurde auf Basis der Discrete-Choice-Theorie konzipiert.~\\
+Die Ausgangsdaten dieses Modells bilden schließlich die Verkehrsströme als Belastung der Streckenabschnitte der jeweiligen Verkehrsträger\footnote{%
+ D.h. die Verkehrsmittelwahl erfolgte simultan mit der Routenwahl.
+}% 
+.~\\
+
+
+% 
+\subsection{Analyse des Güterverkehrsangebotes}
+\label{_Ref364387375}
+\label{_Toc365801600}
+\label{_Toc366766099}
+\label{_Toc366775293}
+Der Nutzen einer Entscheidungsalternative (d.h. in diesem Kontext der Nutzen einer möglichen wählbaren Transportkette) kann auf Basis der Qualitätsmerkmale der jeweiligen Transportkette ermittelt werden (vgl. Ansatz von Lancaster in Abschnitt \autoref{_Ref364629843} ), vorausgesetzt, diese Qualitätsmerkmale sind explizit benannt und bewertbar.~\\
+Eine wesentliche WMVG-Untersuchungsfrage war daher: \glqq Welche Qualitätsmerkmale von Transportketten gibt es, und wie lassen sich diese messen und bewerten?\grqq ~\\
+Im Rahmen des Projektes WMVG wurde zunächst eine Liste der Qualitätsmerkmale von Transportketten - basierend auf einer Literaturrecherche – erstellt und anschließend durch eine Expertenbefragung ergänzt. Diese Ergebnisse wurden im Arbeitskreis \glqq Optimale Verkehrsträgerwahl\grqq  des Bundesverbandes Materialwirtschaft, Einkauf und Logistik e.V. (BME) diskutiert und fanden Eingang in die geplante Veröffentlichung zur \glqq Verkehrsträgerauswahlbeeinflussungsfaktorentabelle\grqq  {Gburek 2013 \#973}.~\\
+
+
+% 
+\subsection{Analyse der Güterverkehrsnachfrage}
+\label{_Ref361847188}
+\label{_Toc363572027}
+\label{_Toc363601740}
+\label{_Toc365801601}
+\label{_Toc366766100}
+\label{_Toc366775294}
+Da jedes Modell Eingangsdaten benötigt, ist es wichtig zu klären, welche Beschaffenheit diese Daten haben müssen.~\\
+In der Güterverkehrsmodellierung gibt es nur eine Datenquelle, die als robuster und präziser Repräsentant der Nachfrage gelten kann - das ist die ‚Summe aller Gütertransportaufträge aller Unternehmen im Untersuchungsgebiet und im Untersuchungszeitraum‘. Diese Datenquelle steht aber i.d.R. nicht für Untersuchungen zur Verfügung, da diese Daten nicht uniform und in ausreichender Detailqualität flächendeckend erhoben werden. Daher ist es in der Güterverkehrsmodellierung nötig, ersatzweise auf aggregierte Daten zurückzugreifen.~\\
+Methodisch haben wir daher zunächst versucht, verfügbare Datenquellen daraufhin zu untersuchen, ob und inwieweit sich diese für Moduswahlmodelle eignen. Da diese Eignungsprüfung unbefriedigend ausfiel, wurde anschließend untersucht, wie derartige Datenquellen beschaffen sein müssten.~\\
+
+
+% 
+\subsubsection{Versuch der Verwendung bestehender Güterklassifikationen}
+\label{_Toc366766101}
+\label{_Toc366775295}
+Da statistische Güterverkehrsdaten von Behörden getrennt nach Güterklassen erhoben werden, wurde zunächst untersucht, ob und in- wie- fern sich die gebräuchlichen Güterklassifikationsansätze (NST und CPA) unter besonderer Berücksichtigung des Aspekts der Verkehrsträgerwahl zur Güterverkehrsmodellierung eignen.~\\
+Diese Klassifikationsansätze wären dann geeignet, wenn sie den Güterverkehr vollständig abdecken, und eine eindeutige Zuordnung von Güterarten zu unterschiedlichen Transportanforderungsprofilen erlauben. Beide Aspekte (Vollständigkeit und Eindeutigkeit) wurden daher untersucht.~\\
+
+
+% 
+\subsubsection{Konzepttransfer \grqq Verhaltenshomogene Gruppen” vom Personenverkehr zum Güterverkehr}
+\label{_Toc366766102}
+\label{_Toc366775296}
+Neben dem Versuch der Verwendung bestehender Güterverkehrsklassifikationen haben wir für unsere Untersuchung versucht, das gängige Konzept der \glqq Verhaltenshomogenen Personengruppen\grqq  aus der Personenverkehrsplanung als \glqq Verhaltenshomogene Güterverkehrsgruppen\grqq  methodisch auf die Güterverkehrsplanung zu übertragen.~\\
+Eine zusammenfassende Vorschau auf die Ergebnisse dieses Konzepttransfers findet sich im Kapitel \autoref{_Ref364934068} .~\\
+
+
+% 
+\subsection{Methodik zur Modellbildung}
+\label{_Toc366766103}
+\label{_Toc366775297}
+\label{_Ref366275916}
+\label{_Ref364433229}
+\label{_Ref361847870}
+\label{_Toc363572033}
+\label{_Toc363601741}
+In Abschnitt \autoref{_Ref364789145}  wurde der Begriff der Transportkette eingeführt. Dabei wurde ausgeführt, dass sich Transportketten bspw. durch die Anzahl der Umschlagsvorgänge (Wechsel des Verkehrsträgers), die Transportdauer, die Kosten etc. unterscheiden. \autoref{_Ref366606209} Abbildung  illustriert dies an der schematischen Darstellung eines multimodalen Verkehrsnetzes für die Verkehrsträger LKW und Schiene: ~\\
+Für einen Transport von einer Quelle zur Senke konnten in diesem Beispiel zwei Transportketten ermittelt werden. ~\\
+Variante 1: ein unimodaler LKW-Transport mit der Umschlagshäufigkeit UH=0, Transportdauer T1=10Tage und den Kosten K1=100GE und ~\\
+Variante 2: ein bi-modaler Transport mit LKW und Schiene, für den eine Umschlagshäufigkeit UH=2, eine Transportdauer T2=4 Tage und Kosten in Höhe von K2=500GE ermittelt wurden. ~\\
+Die Beurteilung der Qualität und damit auch die Entscheidung zwischen einer dieser Transportketten kann nur über den Vergleich der Merkmalsausprägungen sowie deren wahrgenommener Wichtigkeit erfolgen. Ist einem Disponenten bspw. eine kurze Transportdauer sehr wichtig, wird er trotz des höheren Preises Variante 2 wählen.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Schematische Darstellung eines Multimodalen Netzes}
+  \label{_Ref366606209}
+\end{figure}
+~\\
+Wir interpretieren Transportketten daher nach  \citeauthor{bib.890} ls \glqq Abstract Mode\grqq  (vgl. die Ausführungen in Abschnitt \autoref{_Ref364789145} ). Dieser Schritt hat zur Folge, dass wir nicht mehr - wie in den klassischen Modellen des Personenverkehrs - zwischen LKW-Transport (in Analogie zum Individualverkehr) und fahrplangebundenen Transporten (in Analogie zum öffentlichen Verkehr) unterscheiden, sondern nur noch \emph{ein} abstraktes Verkehrsmittel betrachten - die Transportkette. Das heißt, die Stufe 3 \glqq Aufteilung\grqq  des klassischen Vier-Stufen-Algorithmus kann an dieser Stelle entfallen, da keine Entscheidung zwischen LKW-Transporten (Individualverkehr) und fahrplangebundenen Transporten (öffentlicher Verkehr) zu modellieren ist. Stattdessen ist die Wahl zwischen verschiedenen Transportketten (=Entscheidungsalternativen) zu modellieren, wie es in der ÖV-Umlegung der Fall ist. \autoref{_Ref366605360} Abbildung  illustriert die benötigte Modellstruktur. Als Eingangsgrößen wird ein Verkehrsangebotsmodell benötigt, aus dem sich Transportketten ermitteln lassen. Die Ermittlung der Nachfrage nach Transportleistungen (Stufe 1 und Stufe 2) kann in Analogie zu den Ansätzen aus dem Personenverkehr erfolgen - und wird an dieser Stelle als gegeben vorausgesetzt.~\\
+Die Transportkettenwahl wird schließlich in Analogie zur ÖV-Umlegung modelliert. Sie beinhaltet die Schritte \glqq Suche nach Transportketten\grqq , \glqq Bewertung der Merkmale der gefundenen Transportketten\grqq , \glqq Auswahl der Transportkette\grqq .~\\
+Um die Analogie zum Personenverkehr hervorzuheben wurde in \autoref{_Ref366605360} Abbildung  die gleiche Notation verwendet wie in \autoref{_Ref361867601} Abbildung . Inhaltlich entsprechen die Elemente des ÖV im Personenverkehr fahrplangebundenen Transporten im Güterverkehr. Die Elemente des IV im Personenverkehr entsprechen nicht-fahrplangebundenen Transporten im Güterverkehr.~\\
+ 
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Einordnung des gewählten Modells in den klassischen Vier-Stufen-Algorithmus}
+  \label{_Ref366605360}
+\end{figure}
+~\\
+
+
+% 
+\subsection{Bewertung der Wichtigkeit der Widerstandsfaktoren von Transportketten}
+\label{_Toc366766104}
+\label{_Toc366775298}
+Die Bewertung der Wichtigkeit der Widerstandsfaktoren (Qualitätsmerkmale) von Transportketten soll unter Verwendung von Verfahren zur Nutzenmessung erfolgen. In der Literatur werden neben Stated-Preference und Revealed-Preference-Befragungsmethoden. Eine Befragung zur Wichtigkeit der Widerstandsfaktoren (mittels Conjoint-Analysen) ist für Herbst 2013 geplant.~\\
+
+
+% 
+\section{Ergebnisse}
+\label{_Ref361848137}
+\label{_Toc363572036}
+\label{_Toc363601742}
+\label{_Toc365801603}
+\label{_Toc366766105}
+\label{_Toc366775299}
+% Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+In diesem Kapitel werden die wesentlichen Ergebnisse des Projekts WMVG dargestellt.~\\
+
+
+% 
+\subsection{Charakterisierung bestehender Güterverkehrsmodelle (aus Voruntersuchung)}
+\label{_Ref364935071}
+\label{_Toc364945132}
+\label{_Toc365801604}
+\label{_Toc366766106}
+\label{_Toc366775300}
+In Zusammenarbeit mit der TUM-München und der NTU-Singapore konnte im erweiterten Rahmen des Projekts WMVG gezeigt werden, dass es eine Fülle von verschiedenen Ansätzen zur Güterverkehrsmodellierung gibt. Um systematisch beurteilen zu können, welche Ansätze welche Eingangsdaten benötigen und welche Ausgangsdaten sie erzeugen können, wurde das folgende Charakterisierungsschema entworfen. Verschiedene Güterverkehrsmodelle wurden anhand dieses Schemas charakterisiert. ~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{}
+  \label{}
+\end{figure}
+~\\
+Dieser Charakterisierungsansatz ermöglicht es insbesondere, auf einer hohen Abstraktionsebene zu beurteilen, ~\\
+
+\begin{itemize}
+%
+   \item welche Aspekte des Güterverkehrs im Modell wie Berücksichtigung finden (s. oberer tabellarischer Teil des Schemas),
+   \item welche Daten benötigt werden, um die jeweiligen Güterverkehrsmodelle verwenden zu können (s. Pfeile von links), und
+   \item welche Art von Daten das jeweilige Modell als Ergebnis generieren kann (s. Pfeile nach rechts).
+%
+\end{itemize}
+Weitere Details zu den Ergebnissen finden sich unter\footnote{%
+ Um die Ergebnisse der bisherigen Charakterisierungen der wissenschaftlichen Gemeinschaft zugänglich zu machen, wurde eine Homepage (s. obenstehender Link) angelegt, auf der sich sowohl die bisherigen Ergebnisse finden, als auch weitere künftige Ergebnisse zusammengetragen werden können.
+}% 
+:~\\
+\href{https://www.hs-neu-ulm.de/forschung/kompetenzzentren/logistics/logistik-forschung/cftm/}{https://www.hs-neu-ulm.de/forschung/kompetenzzentren/logistics/logistik-forschung/cftm/}~\\
+
+
+% 
+\subsection{Versuch der Verwendung von Nachfragedaten aus Güterklassifikationen}
+\label{_Toc366766107}
+\label{_Toc366775301}
+\label{_Ref364934068}
+\label{_Toc364945133}
+\label{_Toc365801605}
+Für die Nutzung von nach Klassen aggregierten Güterverkehrsnachfragedaten war zunächst zu klären, ob die verfügbaren (nach NST aggregierten) Daten die Güterverkehrsnachfrage vollständig abbildet. Die Klassifikation nach NST bildet nach Ansicht der Autoren die Güterverkehrsnachfrage in Bezug auf Vollständigkeit hinreichend ab.~\\
+Anschließend war zu klären, ob die Klassen in sich hinreichend homogen sind, d.h. ob alle Elemente einer Klasse in Bezug auf die Art des benötigten Transportes hinreichend ähnlich sind. Wir haben daher die Klassifikationen NST 2007 näher untersucht.~\\
+Die in amtlichen Statistiken verfügbaren Güterverkehrsnachfragedaten, die nach NST 2007 (bzw. vormals NST-R) aggregiert wurden, scheinen für eine Güterverkehrsmodellierung nicht geeignet, wie folgende drei Beispiele zeigen:~\\
+
+\begin{itemize}
+%
+   \item In der NST-Gruppe 04.5 \glqq Dairy products and ice cream\grqq  werden bspw. Milch, Milcherzeugnisse und Speiseeis zusammengefasst. Die Merkmale von Gütern in dieser Gruppe sind in den Merkmalen Temperatur und Aggregatzustand nicht homogen.
+   \item In der NST-Gruppe 05.x \glqq Textiles and textile products; leather and leather products\grqq  werden Güter in Gruppen zusammengefasst, die sich bspw. in den Handling-Anforderungen stark voneinander unterscheiden (bspw. in der NST-Gruppe 05.1 \glqq Textiles\grqq  sind \glqq CPA 13.10.x Garne\grqq  und \glqq CPA 13.93.x Teppiche\grqq  zusammengefasst).
+   \item In der NST-Gruppe 10.5 \glqq Boilers, hardware, weapons and other fabricated metal products\grqq  sind mit den Gütern der CPA 25.11.21 \glqq Brücken und Brückenelemente, aus Eisen oder Stahl\grqq , CPA 25.21.11 \glqq Heizkörper für Zentralheizungen, nicht elektrisch beheizt, aus Eisen oder Stahl\grqq  sowie CPA 25.40.13 \glqq Bomben, Granaten, Torpedos, Minen, Raketen, Patronen und andere Munition und Geschosse; Teile dafür\grqq  Güter zusammengefasst, die sich sowohl in den Handlings-Anforderungen als auch in den Anforderungen aus der Gesetzgebung grundsätzlich unterscheiden.
+%
+\end{itemize}
+Die NST-basierte Güterverkehrsstatistik ist außerdem modaler Natur. \footnote{%
+ Diese relationalen Daten der Güterverkehrsstatistik liegen nur für Bahn- und Binnen- und Seeschifftransporte vor und sind beim Statistischen Bundesamt über den GENESIS-Webservice verfügbar. Für Straßentransporte werden diese Daten beim Kraftfahrtbundesamt nur in kleinen Stichproben erhoben - allerdings nicht veröffentlicht.
+}% 
+ Dies bedeutet, dass zwar die transportierten Mengen zwischen zwei Verkehrsbezirken differenziert nach Gütergruppen (NST-R/NST-2007) für die Modi Schiene, Binnenschiff und Seeschiff separat erfasst werden – Informationen über den tatsächlichen Versender bzw. Empfänger aber nicht vorhanden sind. So ist eine multimodale Transportkette (bspw. von Konstanz nach Ulm mit dem LKW, von Ulm nach Hamburg mit dem Zug und von Hamburg nach China mit dem Seeschiff) mit Hilfe der amtlichen Statistiken nicht nachvollziehbar\footnote{%
+ Dieser Aussage steht ein vielversprechender neuer Ansatz des Statistischen Bundesamtes gegenüber. Dazu wird angenommen, dass sich in Bezirken, in denen ein multimodaler Umschlagsort liegt, keine Endverbraucher befinden - solche Bezirke also reine Transitbezirke sind. Basierend auf dieser Annahme wird durch Umrechnung der vorliegenden Daten versucht, multimodale Transportketten nachzuvollziehen. {vgl. u.a.  Reim 2002 \#997}{Reim 2003 \#514}{Walter 2005 \#988}{Walter 2005 \#996}{Statistisches Bundesamt 2011 \#994}{Statistisches Bundesamt 2012 \#995}. Auf Nachfrage beim Statistischen Bundesamt konnte die verwendete Datenbasis für eigene Untersuchungen leider nicht beschafft werden. Somit ist dieser neue Ansatz für weitere Untersuchungen nicht tragfähig, da aus ihm resultierende Transportaufkommensdaten bisher nicht verfügbar sind.
+}% 
+.~\\
+Da die NST 2007 eine n:1 Zuordnungstabelle von CPA 2008 zu NST 2007-Gütergruppen enthält, (und sich die NST 2007 somit als Aggregation der Klassen der CPA 2008 interpretieren lässt) ließe sich vermuten, dass diese Inhomogenität erst durch die weitergehende Aggregation der NST Klassen aus den CPA Unterkategorien zustande gekommen ist. Daher ist beabsichtigt, im nächsten Schritt auch die Unterkategorien der CPA 2008 daraufhin zu untersuchen, ob sie die Identifikation von Gütern mit homogenen Anforderungen an deren Transportleistung ermöglicht. Aber selbst wenn sich die CPA 2008 als brauchbare Erhebungsgrundlage erweisen sollte, so wären die 3.142 Unterkategorien der fünften CPA-Gliederungsebene datentechnisch nur schwer zu bewältigen (da für jede Unterkategorie eine eigene Quell-Ziel-Matrix erhoben werden müsste).~\\
+Eine Reduktion der Anzahl dieser Klassen (CPA-Unterkategorien der fünften Gliederungsebene)  durch sinnvolle Aggregation wäre daher anzustreben. Für eine derartige Aggregation wären jedoch eindeutige Kriterien nötig, die eine in Bezug auf Transportanforderungen homogene Gütergruppe definieren würden.~\\
+Daher wurde im Weiteren in Analogie zum Personenverkehr der Versuch unternommen, in Bezug auf Transportanforderungen homogene Gütergruppen oder verhaltenshomogene Gütergruppen zu definieren.~\\
+
+
+% 
+\subsection{Verhaltenshomogene Gütergruppen (BHCG)}
+\label{_Toc366766108}
+\label{_Toc366775302}
+Das Konzept der \glqq verhaltenshomogenen Gruppen\grqq  aus dem Personenverkehr (z.B. Berufspendler, Schüler, Einkaufende, $\ldots$) beinhaltet zwei wesentliche Aspekte:~\\
+
+\begin{itemize}
+%
+   \item Aspekt 1: eine \glqq Anforderung an die Ortsveränderung\grqq , die den Reisenden zur Reise motiviert und die durch die Reise erfüllt werden muss, und
+   \item Aspekt 2: das \glqq individuelle Entscheidungsverhalten\grqq  des Reisenden selbst.
+%
+\end{itemize}
+Auch Transportgüter haben jeweils eine \glqq intrinsische Anforderung an ihre Ortsveränderung\grqq  - die zum einen in der physischen Natur des Transportguts, zum anderen aber auch in der Verwendung des Transportguts im Rahmen der Value-Chain liegt. Da aber Transportgüter selbst keine Entscheidungen über die Art und Weise ihres Transports treffen können, kann das Entscheidungsverhalten nicht unmittelbar durch das Transportgut beschrieben werden. Wenn also das Konzept von \glqq verhaltenshomogenen Gruppen\grqq  aus dem Personenverkehr auf den Güterverkehr übertragen werden soll, dann muss, um dem Aspekt 2 Rechnung zu tragen das Verhalten des jeweiligen Entscheiders auf die Transportmittelwahl für das Transportgut zumindest mittelbar Berücksichtigung finden.~\\
+Auf Grund dieser Überlegungen wurde folgendes 5-stufige Schalenmodell für verhaltenshomogene Gütergruppen (englisch \glqq behavior homogeneous cargo groups\grqq  BHCG) entwickelt. Es setzt sich zusammen aus zwei inneren Schalen, die den Aspekt 1 abbilden, und aus drei äußeren Schalen, die dem Aspekt 2 Rechnung tragen.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{}
+  \label{}
+\end{figure}
+~\\
+Während die Schale 1 die physischen Eigenschaften des jeweiligen Transportguts beinhaltet (z.B. Gewicht, Volumen, Verderblichkeit, Stoßempfindlichkeit etc.), beinhaltet die Schale 2 die Anforderungen an die Ortsveränderung, die nicht aus dem Gut selbst, sondern aus dessen Verwendung im Rahmen des jeweiligen Value- Chain- Kontextes resultieren (z.B. Anforderungen an die maximale Transportdauer, die Pünktlichkeit der Zulieferung\footnote{%
+ Insbesondere in just-in-time (JIT) und \glqq just-in-Sequence\grqq  (JIS) Kontexten.
+}% 
+ etc.).~\\
+Die Schale 3 beinhaltet die jeweiligen Entscheidungsrahmenbedingungen und Präferenzen des Entscheiders\footnote{%
+ i.d.R. des Disponenten des Transports.
+}% 
+ (neben Kosten- und Qualitätsaspekten, die der Entscheider bewerten muss, gehören dazu auch individuelle Präferenzen, die z.B. aus Erfahrungswerten aus vergangenen Transporten oder aus dem Komfort der Bedienung von Buchungssystemen resultieren können). Dieser Entscheider trifft seine Entscheidungen jedoch nicht autark, sondern wird mittelbar durch zwei weitere Entscheidungsebenen beeinflusst, nämlich durch den Entscheidungsrahmen, den ihm die Firmenwelt setzt (wenn beispielsweise eine Firma Bahntransporte aus ökologischen oder ökonomischen Aspekten präferiert und daher eine Firmenpolitik formuliert, die Bahntransporte fördern soll, so sieht der Entscheidungsrahmen des Entscheiders anders aus, als wenn eine Firma beispielsweise Straßentransporte präferiert), und durch den Entscheidungsrahmen, der durch politische Vorgaben aufgespannt wird (hier sei beispielsweise auf die unterschiedlichen gesetzlichen Vorgaben für die Moduswahl für Transitverkehre in Deutschland und in der Schweiz verwiesen).~\\
+Letztendlich bleibt es aber der Entscheider, der die Entscheidung über die Moduswahl trifft, und daher erlaubt es unser Schalenmodell, die verhaltenshomogenen Gütergruppen im engeren Sinn (Schalen 1-3) oder im weiteren Sinn (Schalen 1-5) zu interpretieren.~\\
+Diese Überlegungen sind entscheidend für die Nachfragemodellierung in Güterverkehrsmodellen. Da Güterverkehrsmodelle i.d.R. nicht auf die Gesamtheit aller individuellen Transportaufträge im Untersuchungsgebiet und im Untersuchungszeitraum zurückgreifen können, ist es nötig, diese Transportaufträge (die die eigentliche Güterverkehrsnachfrage bilden) durch aggregierte Größen zu approximieren. Dabei sind die Prinzipien der Aggregation jedoch entscheidend für die Ergebnisqualität. Viele Güterverkehrsmodelle verwenden lediglich Gütergruppen (z.B. Erze, Metallbauteile, Lebensmittel, Kleidung, $\ldots$) als Basis der Aggregation. Der Vorteil dieser Aggregationsansätze ist, dass so die Güterverkehrsnachfragedaten aus entsprechenden Statistiken abgeleitet werden können. Der Nachteil dieser Ansätze ist jedoch, dass wesentliche Unterscheidungen in Bezug auf die Verhaltenshomogenität verlorengehen (z.B. hat ein Transport von Metallbauteilen in eine JIT-Produktion ganz andere Anforderungen an den Transport, als wenn dieselben Bauteile an ein Lager geliefert werden, oder ein Lebensmitteltransport von Salat hat andere Anforderungen an den Transport als der Transport von langjährig haltbaren Lebensmitteln in Dosen.)~\\
+Im Projekt WMVG wurde daher versucht, einen Ansatz zu finden, wie die theoretischen Anforderungen an die Beschaffenheit von Eingangsdaten für ein Güterverkehrsmodell (BHCGs) als auch die pragmatischen Anforderungen (Datenverfügbarkeit) hinreichend abgedeckt werden können.~\\
+
+\label{_Toc366766109}
+\newpage
+~\\
+
+
+% 
+\subsubsection{Anforderungen aus dem Transportgut}
+\label{_Toc366775303}
+Das Transportgut lässt sich in Bezug auf den Transport durch insgesamt sechs Kriterienkategorien beschreiben. Die ersten vier beziehen sich dabei auf die Gütereigenschaften. Die weiteren Kriterienkategorien resultieren aus der Güterverwendung.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{}
+  \label{}
+\end{figure}
+~\\
+Die Beschaffenheit (vornehmlich durch metrische und geometrische Kriterien definiert) beeinflusst dabei wesentlich die mechanische Handhabung (das \glqq Handling\grqq ) des Gutes.~\\
+Die Gefährlichkeit stellt i.d.R: Zusatzanforderungen an die Handhabung des Gutes, deren Nichteinhaltung Auswirkungen auf die Umwelt haben.~\\
+Die Empfindlichkeit stellt i.d.R: Zusatzanforderungen an die Handhabung des Gutes, deren Nichteinhaltung Auswirkungen auf den \glqq Werterhalt\grqq  des Gutes haben.~\\
+Der Wert des Gutes ist schließlich keine physikalische/chemische oder biologische Eigenschaft des Gutes, sondern eine rein betriebswirtschaftliche.~\\
+Neben diesen Kriterien, die die Eigenschaften des Gutes an sich widerspiegeln, gibt es auch noch Kriterien, die aus der Verwendung des Gutes (vornehmlich am Zielort) resultieren~\\
+
+
+% 
+\subsubsection{Anforderungen aus der Güterverwendung}
+\label{_Toc366766110}
+\label{_Toc366775304}
+Bei der Analyse der Transportvorgänge innerhalb der Supply-Chain (vgl. \autoref{_Ref366580354} Abbildung ) konnten zwei wesentliche Faktoren identifiziert werden, die die Anforderungen an Transporte bestimmen.~\\
+Aus der Verwendung im jeweiligen Prozessschritt der Value Chain ergeben sich Anforderungen bzgl. Eiligkeit und Pünktlichkeit (\emph{Zeitkritikalität}). In den produzierenden Schritten der Value Chain ist dabei insbesondere nach Produkten zu entscheiden, die auf Lager geliefert werden (Lagerartikel), und solchen, die direkt nach Anlieferung ohne Lagerung ge- bzw. verbraucht werden (JIT \& JIS-Artikel). Im Handel und beim Endverbraucher ist dabei zu unterscheiden, ob die Artikel \glqq irgendwann\grqq  benötigt werden (Händler oder Kunde akzeptiert signifikante Lieferzeiten) oder ob diese zu einem bestimmten Termin benötigt werden (Terminware wie z.B. eilige Arzneimittel).~\\
+Aus dem mengenmäßigen Bedarf an dem Gut im jeweiligen Prozessschritt der Value Chain resultiert maßgeblich die Sendungsgröße, und diese wiederum beeinflusst maßgeblich die verwendeten Ladehilfsmittel (ISO-Container, EURO-Palette, $\ldots$ bzw. lose Ware).~\\
+
+
+% 
+\subsubsection{Entscheidungsverhalten}
+\label{_Toc366766111}
+\label{_Toc366775305}
+Während sowohl die \glqq Anforderungen aus dem Transportgut\grqq  als auch die \glqq Anforderungen aus der Güterverwendung\grqq  an den Transport den Aspekt 1 der BHCGs (\glqq Anforderung an die Ortsveränderung\grqq ) abdecken, ist der Aspekt 2 der BHCGs, das \glqq individuelle Entscheidungsverhalten\grqq  der Disponenten, ein eigenständiger Aspekt, der in unserem Schalenmodell durch die Schalen 3-5 abgebildet wird. Dabei wirken die Schalen 5 und 4 (wie die Schalen 1 und 2) vornehmlich als Restriktionen auf das Entscheidungsverhalten des Disponenten, während die Schale 3 die Zielfunktion für die Entscheidungen des Disponenten beeinflusst (Kosten, Erlöse, Präferenzen, $\ldots$).~\\
+Eine eigenständige Veröffentlichung weiterer Details zum Konzept der BHCGs ist derzeit in Vorbereitung.~\\
+
+
+% 
+\subsection{Widerstandsfaktoren}
+\label{_Ref333942877}
+\label{_Toc335661023}
+\label{_Toc366766112}
+\label{_Toc366775306}
+\label{_Toc365801608}
+\label{_Toc363572045}
+\label{_Toc363601745}
+Im Folgenden werden die in der Literaturrecherche erhobenen Widerstandsfaktoren dargestellt, gruppiert und diskutiert. Eine weitere Konsolidierung dieser Widerstandsfaktoren ist nach einer weiteren geplanten Befragung zur Wichtigkeit der Widerstandsfaktoren vorgesehen.~\\
+Im Folgenden werden die in der Literatur gefunden Widerstandsfaktoren den hier genannten Hauptgruppen zugeordnet und sinngemäß umbenannt\footnote{%
+ Eine wörtliche Zuordnung ist auf Grund der Begriffsvielfalt und notwendigen Übersetzungen i.d.R. nicht möglich.
+}% 
+.~\\
+Im Folgenden werden die in \autoref{_Ref333934750} Abbildung \footnote{%
+ Die verwendeten Quellen sind: {Voigt 1973 \#740 /nopar}{McGinnis 1978 \#679 /nopar}{McGinnis 1990 \#791 /nopar}{Jeffs 1990 \#689 /nopar}{Matear 1994 \#688 /nopar}{McKinnon 1996 \#92 /nopar}{Schnabel 1997 \#213 /nopar}{Köhler 2001 \#87 /nopar}{Norojono 2001 \#584 /nopar}{Malchow 2004 \#687 /nopar}{Beuthe 2005 \#589 /nopar}{Bobzin 2006 \#331 /nopar}{Ortúzar 2005 \#268 /nopar}{Bühler 2006 \#280 /nopar}{Train 2006 \#710 /nopar}{Severing 2007 \#762 /nopar}{Flämig 2008 \#417 /nopar}{Rothengatter 2008 \#746 /nopar}{Schmidt 2008 \#738 /nopar}{Blanquart 2009 \#723 /nopar}{Dorsch 2009 \#945 /nopar}{Gubbins 2009 \#763 /nopar}{Notteboom 2009 \#53 /nopar}{Flämig 2010 \#699 /nopar}{Iddink 2010 \#706 /nopar}{Holguín-Veras 2011 \#707 /nopar}{Sanchez 2011 \#972 /nopar}{Cho 2012 \#676 /nopar}{Piccoli 2012 \#744 /nopar}.
+}% 
+ Widerstandsfaktoren kurz erläutert.~\\
+
+
+% 
+\subsubsection{Widerstandsfaktoren aus der Infrastruktur}
+\label{_Toc366766113}
+\label{_Toc366775307}
+\textbf{Netzbildung }\textbf{allgemein}~\\
+1. Netzbildung: Dies ist eine aus vielen Widerstandfaktoren abgeleitete Größe, die nicht explizit erhoben werden kann. Sie wirkt aber mittelbar auf das Entscheidungsverhalten: Ist bspw. das Schienennetz in der Quell- oder Zielregion sehr dünnmaschig, d.h. es gibt nur wenige Zu- und Abgangspunkte, ist a) die Länge des Vor- und Nachlaufs ggf. sehr hoch und/oder b) die Häufigkeit der Bedienung ist ggf. niedrig. In der Wahrnehmung eines Disponenten ist daher ein multimodaler Transport in/aus eine/r nicht gut erschlossenen Region umständlich und nicht attraktiv.~\\
+\textbf{Knotenwiderstände}~\\
+2. Geografische Faktoren: Die Position eines Standortes kann aus der geografischen Lage (bspw. WGS84 Koordinaten) ermittelt werden. Die (wahrgenommene) Erreichbarkeit  eines Standortes (bspw. Länge des Vor- und Nachlaufs) kann als Messkriterium verwendet werden.~\\
+3. Mögliche Ladungsträger: Dieser Faktor bezieht sich an Umschlagspunkten auf die umschlagbaren Ladungsträger und kann an Umschlagspunkten als binäres Attribut für jeden möglichen Ladungsträger erfasst werden.~\\
+4. Qualität der Infrastruktur: Für jeden Standort können binäre Attribute (Ja/Nein) erfasst werden, die bspw. die Widerstandsfaktoren \glqq Nachhaltigkeit\grqq  und \glqq Fortgeschrittene IT\grqq  erfassen.~\\
+5. Qualifizierung des (Hafen-)Personals: Dieser Faktor ist objektiv nicht direkt messbar - kann aber aus Attributen wie bspw. ISO-Zertifizierungen abgeleitet werden. ~\\
+6. Unterstützende Industriezweige: Dieser Faktor kann aus der Anzahl angesiedelter Betriebe in der zum Knoten gehörenden Region ermittelt werden. ~\\
+7. Kapazitätsengpässe an Knoten: Die Voraussetzungen bspw. an Schleusen können als Anzahl der Hubvorgänge je Tag ermittelt werden. An Logistikknoten ist die täglich umschlagbare Menge bspw. in TEU zu erfassen.~\\
+\textbf{Kantenwiderstände}~\\
+8. Qualität der Infrastruktur: Hierunter wird in der Literatur die allgemein wahrgenommene Qualität verstanden. Diese wird bspw. durch die Widerstandsfaktoren \glqq Transportdauer\grqq , \glqq Sicherheit\grqq , \glqq Zuverlässigkeit\grqq  erfasst.~\\
+9-17. Die Faktoren \glqq Elektrifizierung\grqq  (ja/nein), \glqq zulässiges Gesamtgewicht\grqq  (in Tonnen), \glqq Maut\grqq  (in \euro /km), \glqq Anzahl Fahrspuren\grqq , \glqq variabler Wasserstand\grqq  (Anzahl schiffbare Tage), \glqq zulässige Höchstgeschwindigkeit\grqq  (in km/h), \glqq Kapazität je Zeiteinheit\grqq  (TEU/h), \glqq Anzahl Container übereinander\grqq  (TEU) sowie \glqq zugelassene Gutarten\grqq  (Ja/Nein je Typ) werden für jede Kante erhoben und sind als Hilfsgrößen zur Ermittlung der Transportdauer, Sicherheit und Zuverlässigkeit zu interpretieren. ~\\
+18. Durchschnittliche Schiffsgröße  Dieser Faktor dient bspw. der Einschätzung von \emph{economies}\emph{ }\emph{of}\emph{ }\emph{scale}. Als solcher kann er in die Ermittlung des Transportkostensatzes eingehen.~\\
+\textbf{Eigenschaften der Verkehrsträger}~\\
+19. Massenleistungsfähigkeit: Nach Voigt beschreibt diese Kennzahl die Fähigkeit eines Verkehrsträgers, große aber auch kleine Mengen effizient zu transportieren {Voigt 1973 \#740}.~\\
+20. Frachtraten: Dieser Widerstandsfaktor dient der Ermittlung der Gesamtkosten eines Transportvorgangs. Er wird bspw. in \euro /Teu/km erfasst.~\\
+21. Geschwindigkeit / Reisezeit: Dieser Faktor leitet sich bspw. aus der mittleren Geschwindigkeit (km/h) des Verkehrsträgers oder direkt aus Fahrplandaten ab und dient der Ermittlung der gesamten Transportdauer.~\\
+22. Verfügbare Transportausrüstung: Beschreibt die Verfügbarkeit der Transportausrüstung (LKW, Transportcontainer etc.).~\\
+23. Frequenz: Die Häufigkeit, mit der eine Relation bedient wird (Anzahl Fahrten / Zeiteinheit).~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Von der Verkehrsinfrastruktur abhängige Widerstände}
+  \label{_Ref333934750}
+\end{figure}
+~\\
+~\\
+
+
+% 
+\subsubsection{Servicebezogene Widerstandsfaktoren}
+\label{_Ref333942723}
+\label{_Toc335661021}
+\label{_Toc366766114}
+\label{_Toc366775308}
+Hierunter werden alle die durch den Anbieter einer Transportleistung zu verantwortenden Verkehrswertigkeiten zusammengefasst. Dazu gehören die Qualitätsmerkmale \glqq Zuverlässigkeit\grqq   (\glqq Verspätungswahrscheinlichkeit\grqq \footnote{%
+ Bei Voigt Berechenbarkeit genannt.
+}% 
+, \glqq Sicherheit in Bezug auf das transportierte Objekt\grqq ) und \glqq Bequemlichkeit\grqq \footnote{%
+ Dieser Aspekt ist von Voigt so für den Personenverkehr beschrieben worden. In dieser Arbeit werden hierunter mit dem Transport verbundene organisatorische Aspekte zusammengefasst.
+}% 
+ (Dienstleistungsangebot und im weiteren Sinne das Verhältnis zum Partner). Die in der Literatur identifizierten Widerstände sowie eine Zuordnung zu den Quellen\footnote{%
+ Die verwendeten Quellen sind: {Voigt 1973 \#740 /nopar}{McGinnis 1978 \#679 /nopar}{McGinnis 1978 \#679 /nopar}{Jeffs 1990 \#689 /nopar}{Matear 1994 \#688 /nopar}{McKinnon 1996 \#92 /nopar}{Golicic 2001 \#557 /nopar}{Norojono 2001 \#584 /nopar}{Liedtke 2004 \#104 /nopar}{Beuthe 2005 \#589 /nopar}{Bobzin 2006 \#331 /nopar}{Ortúzar 2005 \#268 /nopar}{Bühler 2006 \#280 /nopar}{Train 2006 \#710 /nopar}{Severing 2007 \#762 /nopar}; {Blanquart 2009 \#723 /nopar}{Dorsch 2009 \#945 /nopar}{Gubbins 2009 \#763 /nopar}{Notteboom 1999 \#908 /nopar}; {Holguín-Veras 2011 \#707 /nopar}{Sanchez 2011 \#972 /nopar}{Dorsch 2009 \#945 /nopar}.
+}% 
+ ist in \autoref{_Ref333934727} Abbildung  gegeben.~\\
+Die hier aufgeführten Widerstandsfaktoren lassen sich i.d.R. weder Knoten noch Kanten zuordnen. Sie werden daher den sog. Anbindungswiderständen zugeordnet. D.h. sie wirken genau einmal bei der Auswahl einer Transportkette.~\\
+\textbf{Zuverlässigkeitsaspekte}:~\\
+1. Verspätungswahrscheinlichkeit: Dieser Faktor leitet sich aus der Häufigkeit von unpünktlichen Transportvorgängen ab. Neben der Häufigkeit sind auch die erwartete Unpünktlichkeit (Erwartungswert) und die Streuung (Varianz) Qualitätsmerkmale, die die Zuverlässigkeit in Bezug auf die Zeit beschreiben können.~\\
+2. Sicherheit während des Transportes: beschreibt die Unfall- und Verlustwahrscheinlichkeit eines Objekts während eines Transports.~\\
+\textbf{Dienstleistungen des Anbieters}~\\
+3-7. Dienstleistungsangebot: Die hier aufgelisteten Faktoren beschreiben (die Qualität von) Dienstleistungen und sind bei Untersuchungen, die eine explizite Auswahl des Anbieters im Modell erfordern, relevant. Bei der im WMVG-Projekt angestrebten Betrachtungsweise ist eine Analyse dieser Faktoren zunächst nicht geplant.~\\
+\textbf{Verhältnis zum Vertragspartner}~\\
+8-13. Die hier aufgelisteten Faktoren beschreiben das Verhältnis zwischen Vertragspartnern und sind bei Untersuchungen, die eine explizite Auswahl des Anbieters im Modell erfordern, relevant. Diese Faktoren wirken auf der Disponenten Ebene.~\\
+~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Von der Durchführung und Organisation des Transportes abhängige Widerstände}
+  \label{_Ref333934727}
+\end{figure}
+~\\
+~\\
+
+
+% 
+\subsubsection{Weitere Widerstandsfaktoren}
+\label{_Ref333942833}
+\label{_Toc335661022}
+\label{_Toc366766115}
+\label{_Toc366775309}
+Im Folgenden werden die in \autoref{_Ref333934772} Abbildung \footnote{%
+ Die verwendeten Quellen sind: {McGinnis 1978 \#679}{Jeffs 1990 \#689}{Matear 1994 \#688}{McKinnon 1996 \#92}{Schnabel 1997 \#213}{Flämig 2001 \#697}{Norojono 2003 \#851}{FGSV 2004 \#737}{Liedtke 2004 \#104}{Malchow 2004 \#687}{Ortúzar 2005 \#268}{Bühler 2006 \#280}{Severing 2007 \#762}{Flämig 2008 \#705}{Rothengatter 2008 \#455}{Blanquart 2009 \#723}{Dorsch 2009 \#777}{Notteboom 2009 \#53}{Flämig 2010 \#699}{Iddink 2010 \#706}{Holguín-Veras 2011 \#707}{Sanchez 2011 \#972}{Cho 2012 \#676}.
+}% 
+ dargestellten Widerstandsfaktoren kurz erläutert:~\\
+\textbf{Strategische Aspekte}~\\
+1-2. Unter dieser Gruppe werden Faktoren aufgeführt, die das versendende Unternehmen beschreiben. Die Ermittlung dieser Faktoren dient dazu, verhaltenshomogene Unternehmenstypen zu identifizieren, die die oben genannten objektiv messbaren Widerstände eines Transportvorgangs unterschiedlich bewerten.~\\
+3. Außendarstellung: Unternehmen, die Transportvorgänge unter Berücksichtigung der Außenwirkung treffen, werden ggf. auch teurere oder länger dauernde Transportwege akzeptieren als andere. ~\\
+4. Flexibilität: Auf Grund von Standortentscheidungen oder langfristig geplanten Produktionsprinzipien entfällt eine Verkehrsmittelwahlentscheidung häufig. Diese Aspekte können dazu dienen, die Verkehrsmittelgebundenheit als Faktor in das Modell zu integrieren.~\\
+5. Effizienz: In Analogie zur Außenwirkung werden mit diesen Merkmalen langfristige Unternehmensentscheidungen abgebildet, so dass die subjektive Verkehrsmittelgebundenheit als Entscheidungsfaktor hierfür aufgenommen werden kann. Unter subjektiver Gebundenheit wird dabei die Situation verstanden, in der ein Entscheider auf das Angebot mehrerer (möglicherweise besserer) Alternativen zurückgreifen kann, diese allerdings bewusst ignoriert.~\\
+\textbf{Rahmenbedingungen}~\\
+6-9. Die Einflüsse gesetzlicher Regelungen, externer Markteinflüsse sowie verkehrspolitischer Entscheidungen werden über die hier genannten Faktoren beschrieben. Sie können zur Erfassung der Sensitivität der möglichen Maßnahmen und Einflüsse auf den Entscheidungsprozess verwendet werden.~\\
+\textbf{Transportauftrag}~\\
+10-14. Diese Faktoren beschreiben die individuellen Rahmenbedingungen einer konkreten Sendung. ~\\
+15. Dynamische Faktoren werden zur Erfassung bspw. saisonaler Schwankungen in der Nachfrage nach transportierten Gütern verwendet.~\\
+~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Vom Verkehrsmittelwahl-Entscheider abhängige Widerstände}
+  \label{_Ref333934772}
+\end{figure}
+~\\
+~\\
+
+
+% 
+\subsection{Das WMVG-Modell: Adaption eines Personenverkehrsmodells für den Güterverkehr}
+\label{_Toc366766116}
+\label{_Toc366775310}
+Im Rahmen des Projekts WMVG wurde ein Transportkettenwahl-Modell für den Güterverkehr konzipiert und prototypisch in der Software VISUM implementiert. Im Folgenden wird kurz auf die Datenstrukturen des Modells sowie auf die Wirkmechanismen im Modell eingegangen.\footnote{%
+ Hinweis: Die Veröffentlichung zur Modellbildung ist zurzeit in Vorbereitung. Daher werden im vorliegenden Bericht Methodik, Ergebnisse und Methodenkritik nur überblickartig vorgestellt.
+}% 
+~\\
+Aufbauend auf den Erkenntnissen des Abschnittes \autoref{_Ref364387375}  wurde ein \textbf{Klassenmodell} entwickelt, das die Zuordnung der identifizierten Merkmale abbildet und die Grundlage zur Speicherung als Objektmodell darstellt. Das Ziel bei der Konzeption dieses Modells war es, sowohl die benötigten Daten speichern zu können als auch eine Kompatibilität des Datenmodells zu bestehenden Personenverkehrsmodellen (hier repräsentiert durch die Software PTV-VISUM) herzustellen\footnote{%
+ % Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+Methodisch wurde hierzu zunächst das VISUM Datenmodell analysiert. Dabei wurde festgestellt, dass die Datenstruktur von VISUM durch die Möglichkeit, benutzerdefinierte Attribute Knoten, Kanten, Anbindungen und Bezirken etc. zuzuordnen, flexibel genug ist, um die im Rahmen des WMVG-Projektes ermittelten Daten auch im VISUM-Modell zu speichern.
+}% 
+. Zur Abbildung der benötigten Daten wird - wie in den vorangegangenen Abschnitten hergeleitet - je ein Modell für das \textbf{Verkehrsnetz}, eines für das \textbf{Angebot von Transportdienstleistungen} (Transportketten) sowie eines für die \textbf{Nachfragedaten} abgebildet. ~\\
+
+
+% 
+\subsubsection{Das WMVG Angebotsmodell}
+\label{_Toc366766117}
+\label{_Toc366775311}
+Zur Abbildung des Angebotsmodells wurde die Software PTV-VISUM verwendet. Da sie für den Personenverkehr entwickelt wurde, sind zur Modellierung verfügbare Elemente im Sinne des Güterverkehrs zu interpretieren. Das Angebotsmodell besteht dabei aus einem Verkehrsnetzwerk von Kanten und Knoten, sowie Fahrplänen für die abzubildenden Transportketten.~\\
+In VISUM wurde ein schematisches multimodales Verkehrsnetz (vgl. \autoref{_Ref366257341} Abbildung ) mit den Verkehrsträgern LKW, Schiene sowie Binnen- und Seeschiff entwickelt. Bei der Modellierung wurde versucht, eine Modellstruktur zu wählen, die es zum einen ermöglicht, eine große Anzahl möglicher multimodaler Transportketten abzubilden und zum andern aber nur über wenige Knoten und Kanten verfügt, um eine hohe Verständlichkeit zu gewährleisten. ~\\
+
+
+% 
+\paragraph{Verkehrssysteme}
+Die Verkehrssysteme Schiene, Binnen- und Seeschiff wurden als fahrplangebundene ÖV-Systeme modelliert. Da die VISUM-Elemente des öffentlichen Verkehrs (ÖV) auf Personenfahrten basieren - d.h. ein Fahrzeug bietet bspw. die Transportkapazität für eine bestimmte Anzahl von Personen - basieren auch die Auswertungen in VISUM auf Personenfahrten. In dem konzipierten Prototyp-Modell wird die Bezugseinheit \emph{eine Person} als \emph{ein 20ft Container (=1 TEU)} interpretiert.~\\
+Der Verkehrsträger LKW wurde als ÖV-Zusatz-Verkehrssystem modelliert. Das ÖV-Zusatz-System wird im Personenverkehr zur Modellierung von zusätzlichen Verkehrsangeboten wie bspw. Taxis verwendet. In dem konzipierten Prototyp-Modell wird es für die Modellierung von LKW-Transporten sowohl in Vor- und Nachläufen, als auch für uni-modale LKW-Transporte verwendet.\footnote{%
+ Es ist an dieser Stelle allerdings anzumerken, dass das ÖV System in der Grundform nicht die Möglichkeit bietet, bspw. CO2 Emissionen zu erfassen. Eine Erweiterung des Elements ist im Rahmen dieses Prototyps nicht vorgesehen.
+}% 
+~\\
+
+
+% 
+\paragraph{Netzkanten}
+Das \textbf{Verkehrsnetz} wurde als ein Netzwerk von Straßen, See- und Binnenschifffahrts- sowie Schienenwegen angelegt und verbindet die 9 Regionen (A-J) durch Netzkanten untereinander. Jede Kante ist jeweils nur durch ein Verkehrssystem\footnote{%
+ Die Verkehrssysteme Schiene, Binnen- und Seeschifffahrt wurden dabei als reine ÖV-Verkehrssysteme angelegt; das Verkehrssystem LKW wurde als ÖV-Zusatz angelegt. Zusätzlich wurde mit Umschlag ein weiteres Verkehrssystem als ÖV-Fuß angelegt, das für den Transfer innerhalb von Logistikknoten benötigt wird.
+}% 
+ befahrbar (das Straßennetz kann nur durch das Verkehrssystem LKW genutzt werden, das Schienennetz nur durch Züge befahren werden etc.)\footnote{%
+ Dieser Schritt scheint auf den ersten Blick trivial, ist aber notwendig, um die Routing-Fähigkeit zu gewährleisten, da der Routingalgorithmus andernfalls keinen Unterschied zwischen den modellierten Kanten machen würde und ggf. fälschlicherweise einen LKW über eine Binnenschifffahrtsstraße routen würde.
+}% 
+. Jeder Bezirk ist direkt mit dem LKW-Straßennetz verbunden - d.h. jeder Transport beginnt in dem Modell mit einem LKW-Transport\footnote{%
+ In einer realgetreuen Darstellung, in der bspw. auch firmeneigene Schienenschlüsse oder firmeneigene Kaianlagen berücksichtigt werden sollen, können die Bezirke auch direkt an das Schienennetz bzw. (Binnen-) Schifffahrtsnetz angebunden werden.
+}% 
+. Ein Wechsel zwischen den Verkehrsträgern ist nur an Logistikknoten (in der Realität sind dies Umschlagspunkte wie z.B. Häfen, Güterbahnhöfe) möglich.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Prototypisches Objektmodell in PTV-VISUM}
+  \label{_Ref366257341}
+\end{figure}
+~\\
+
+\newpage
+~\\
+
+
+% 
+\paragraph{Netzknoten - Umschlagpunkte}
+In jeder Region wurde ein Logistikknoten als Haltestelle des ÖV modelliert. ÖV-Haltestellen werden in VISUM für den Ein-, Aus- und Umstieg zwischen öffentlichen Verkehrsmitteln im Personenverkehr verwendet (vgl. im Folgenden \autoref{_Ref366440662} Abbildung ). Eine Haltestelle im Personenverkehr (bspw. ein Bahnhof) kann dabei über mehrere Haltestellenbereiche (bspw. Gleise, Bussteige etc.) verfügen. Ein Haltestellenbereich wiederrum kann in mehrere Haltepunkte unterteilt werden (bspw. Gleis 5 Nord / Süd). Das Element ,Haltestelle‘ wird im Rahmen des erstellten Prototyp-Modells als Logistikknoten (bspw. Güterverkehrszentrum, Hafen etc.) interpretiert. Ein Logistikknoten verfügt über einen oder mehrere Seehafenterminals, Schienenterminals oder LKW-Terminals (=Haltestellenbereiche). Ein Terminal wiederrum kann aus verschiedenen Liegeplätzen, Gleisen etc. (=Haltepunkte) bestehen.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Struktur des Haltestellenelements in VISUM 55 \textbf{ \autocites[][]{bib.1005}}}
+  \label{_Ref366440662 _Ref366440634}
+\end{figure}
+~\\
+\autoref{_Ref366257924} Abbildung  zeigt beispielhaft die geografische Struktur eines Quad-modalen Logistikknotens mit  Terminals für die Verkehrsträger LKW, Schiene, Binnen- und Seeschiff. Dabei wird deutlich, dass die Entfernungen zwischen den einzelnen Terminals zu berücksichtigen sind. ~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Geografische Struktur eines Logistikknotens mit mehreren Terminals}
+  \label{_Ref366257924}
+\end{figure}
+~\\
+Bei der Modellierung des öffentlichen Personenverkehrs wird die Übergangszeit zwischen zwei Haltestellenbereichen (bspw. von Gleis 3 nach Bussteig C) in VISUM entweder als Gehzeit zwischen zwei konkreten Haltestellenbereichen oder aber pauschal zwischen zwei Verkehrssystemen modelliert. Diese Übergangszeit wird für das Prototyp-Modell als \glqq Dauer bis zum nächsten Transportvorgang\grqq  interpretiert. Wir beschreiben damit die gesamte Zeitspanne, die für den Be- und Entladevorgang sowie den Transfer zwischen den Terminals benötigt wird.~\\
+
+
+% 
+\paragraph{Netzknoten - Umschlagszeiten}
+In der Realität sind die abzubildenden zeitlichen Prozesse wie in \autoref{_Ref366255367} Abbildung  dargestellt. Inhaltlich kann die Kenngröße \glqq Dauer bis zum nächsten Transportvorgang\grqq  als die Zeitspanne interpretiert werden, die bspw. ein Container vor Abfahrt der anschließenden fahrplangebundenen Fahrt an einem Logistikknoten ankommen muss. \autoref{_Ref366255367} Abbildung  illustriert vereinfachend die in der Realität erfolgenden Prozesse für einen Container, der sich im Import- und einen anderen Container, der sich im Export befindet. Der Container, der exportiert werden soll, kommt in diesem Beispiel vor dem Schiff, auf das er verladen werden soll, am Logistikknoten an. Vor dem Entladen vom LKW \glqq liegt\grqq \footnote{%
+ In Analogie zur Liegezeit des Schiffs.
+}% 
+ der LKW am Logistikknoten. In dieser Zeit findet die Anmeldung am Gate statt, der LKW wird in dieser Zeit zum Entladepunkt geführt und wartet dort bis zur Entladung. Nach dem Entladen vom LKW wird der Container innerhalb des Logistikknotens transferiert (Yard-Transport). Bevor er schließlich auf das Seeschiff geladen wird, ist ggf. eine Wartezeit zu berücksichtigen, die bspw. daraus resultiert, dass der Container zu früh am Logistikknoten angekommen ist. Nach dem alle Container verladen wurden, kann das Schiff den Logistikknoten wieder verlassen. Für den Container im Import erfolgt das Vorgehen analog.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Zeitliche Abläufe im Containerversand und –Empfang in der Realität}
+  \label{_Ref366255367}
+\end{figure}
+~\\
+Bei der Implementierung in VISUM wurde die komplexe Folge von Warten-, Transfer- sowie Be- und Entladevorgängen vereinfachend abgebildet, wie in \autoref{_Ref366583307} Abbildung  dargestellt. Die Liege- und Transferzeiten sowie die Be- und Entladezeiten eines Containers wurden für die Modellierung in VISUM als ein Fix-Block zusammengefasst. Die Wartezeit, die sich bspw. aus nicht aufeinander abgestimmten Fahrplänen ergibt, wird in diesen Fix-Block nicht eingeschlossen, sondern separat je Transportkette berechnet (vgl. \autoref{_Ref366583307} Abbildung ). ~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Zeitliche Abläufe im Containerversand und –Empfang im Modell}
+  \label{_Ref366583307}
+\end{figure}
+~\\
+\autoref{_Ref366256407} Abbildung  zeigt die in dem Prototyp-Modell verwendeten Übergangszeiten: vereinfachend wurden zunächst Be- und Entladedauern (in ganzen Stunden) je Verkehrsträger angenommen (vgl. äußerste Spalte / unterste Zeile). Die Elemente innerhalb der Tabelle sind in Analogie zu \autoref{_Ref366255367} Abbildung  als die \glqq Dauer bis zum nächsten Transportvorgang\grqq  zu interpretieren und ergeben sich aus der Summe des Spaltenelements \glqq Beladedauer\grqq  und des Zeilenelements \glqq Entladedauer inkl. Transfer\grqq .
+\begin{table}[htbp]
+  \centering
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}\hline
+  & LKW & Schiene & Binnenschiff & Seeschiff & Entladedauer inkl. Transfer\\\hline
+LKW & 3 & 7 & 14 & 20 & 2\\\hline
+Schiene & 4 & 8 & 15 & 21 & 3\\\hline
+Binnenschiff & 10 & 14 & 21 & 27\autoref{_Ref366441961}  & 9\\\hline
+Seeschiff & 13 & 17 & 24 & 30\autoref{_Ref366441961}  & 12\\\hline
+Beladedauer inkl. Transfer & 1 & 5 & 12 & 18 &  \\\hline
+\end{tabular}
+\end{table}
+~\\
+Bei der Umsetzung der in \autoref{_Ref366256407} Abbildung  dargestellten \glqq Dauer bis zum nächsten Transportvorgang\grqq  in VISUM wurden zwei Modellierungsansätze parallel verwendet.~\\
+
+\begin{itemize}
+%
+   \item Die Modellierung von Wechselzeiten zwischen den Verkehrssystemen (Vsys) Schiene, Binnen- und Seeschifffahrt wurde allen Haltestellen (Logistikknoten) gleichzeitig zugewiesen, wie in \autoref{_Ref366259249} Abbildung a dargestellt. Dieses Vorgehen reduzierte den Eingabeaufwand im Vergleich zu dem unter 2. vorgestellten Vorgehen für den Verkehrsträger LKW
+\label{_Ref366441961}\footnote{%
+ *VISUM lässt nur eine maximale Gehzeit von 24h zu. Aus diesem Grund wurden Gehzeiten auf diesen Wert limitiert.
+}% 
+.
+   \item Anders als der systemische Grundgedanke, der unter 1.) verwendet wurde, betrachtet dieser Ansatz die benötigte Zeit, die für den Wechsel zwischen zwei Haltestellenbereichen (Terminals) benötigt wird. \autoref{_Ref366259249} Abbildung b zeigt die bereits übertragenen Werte\footnote{%
+ Die rote Schrift zeigt an, dass VISUM diesen Wert als nicht plausibel interpretiert. Dieser Hinweis kann an dieser Stelle ignoriert werden.
+}% 
+. Die als Spalten- bzw. Zeilenköpfe verwendeten Zahlen beziehen sich auf die ID des Haltestellenbereichs.
+%
+\end{itemize}
+a) 
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Modellierung der Übergangszeiten zwischen den Verkehrssystemen (VSys) Schiene, Binnen- und Seeschiff}
+  \label{_Ref366259249}
+\end{figure}
+~~~~~b) 
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Modellierung der Übergangszeiten zwischen den Verkehrssystemen (VSys) Schiene, Binnen- und Seeschiff}
+  \label{_Ref366259249}
+\end{figure}
+~\\
+
+
+% 
+\paragraph{Fahrpläne}
+Die Verkehrssysteme Schiene, Binnen- und Seeschiff wurden als ÖV-Verkehrssysteme modelliert, die zur Darstellung einer Transportkette einen Fahrplan benötigen. Jedem Fahrplan liegt dabei zunächst ein Linienverlauf zugrunde, für den die Fahrzeiten zwischen zwei Haltestellen sowie die Haltezeit (Liegezeit) hinterlegt wurden. \autoref{_Ref366260690} Abbildung  zeigt, wie bei der Modellierung eines Fahrzeitprofils in VISUM die Fahrzeit sowie die Haltezeit berücksichtigt werden können. Die Parametrisierung erfolgte für die fahrplangebundenen Verkehrssysteme wie in \autoref{_Ref366260959} Abbildung  dargestellt. Die Fahrzeit konnte dabei aus der Streckenlänge und der Durchschnittsgeschwindigkeit je Verkehrssystem abgeleitet wurde (vgl. auch \autoref{_Ref366260959} Abbildung ).~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Fahrzeitprofil für eine Schienenrelation}
+  \label{_Ref366260690}
+\end{figure}
+~\\
+
+\begin{table}[htbp]
+  \centering
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|}\hline
+Vsys & Haltezeit / Liegezeit an Logistikknoten & Durchschnittsgeschwindigkeit \\\hline
+LKW &  & 60 km/h\\\hline
+Schiene & 3h & 100 km/h\\\hline
+Binnenschiff & 5h & 20 km/h\\\hline
+Seeschiff & 24h & 40 km/h\\\hline
+\end{tabular}
+\end{table}
+
+
+% 
+\paragraph{Widerstände}
+Die Qualität einer Transportkette wird auf Basis des Widerstands bewertet. Die Berechnung des Widerstands einer Transportkette erfolgt in Analogie zu der Berechnung des im öffentlichen Personenverkehr verwendeten Merkmals \glqq komplexe Reisezeit\grqq . Die komplexe Reisezeit beschreibt die gesamte Reisezeit inkl. aller Zeitzuschläge (bspw. Zu- und Abgangszeit sowie Warte- und Umsteigezeit  \autocites[][]{bib.213} \autocites[][]{bib.352} \autoref{_Ref365400888} Abbildung  {in Analogie zu  Pampel 1981 \#50} illustriert die einzelnen Komponenten der komplexen Reisezeit.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Die komplexe Reisezeit im öffentlichen Personenverkehr}
+  \label{_Ref365400888}
+\end{figure}
+~\\
+\autoref{_Ref365401131} Abbildung  (eigene Darstellung) zeigt die Abschnitte einer multimodalen Transportkette im Güterverkehr in Analogie zum Personenverkehr. Die Berechnung des Widerstands erfolgt auch hier durch Aggregation der Merkmalsausprägungen der einzelnen Transportkettenabschnitte.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Widerstandsrelevante Abschnitte einer Transportkette}
+  \label{_Ref365401131}
+\end{figure}
+~\\
+Visum bietet die Möglichkeit, Transportketten auf bestimmten Relationen zu finden (vgl. \autoref{_Ref366261065} Abbildung  für das beispielhafte Suchergebnis nach Transportketten zwischen der Regionen H und der Region J). Dabei ist es möglich, eine Transportkette in Teilabschnitte zu zerlegen und das eben beschriebene Vorgehen zur Aggregation der Teil-Widerstände zum Gesamtwiderstand zu illustrieren. Die in \autoref{_Ref366261377} Abbildung  dargestellte multimodale Transportkette umfasst in Analogie zu \autoref{_Ref365401131} Abbildung  die folgenden 9 Abschnitte:~\\
+Vorlauf:~\\
+
+\begin{itemize}
+%
+   \item Der Transport beginnt in der Region H und führt über die Quell-Anbindung (QAnb) zum LKW-Terminal.
+   \item Der Transport von Logistikknoten H zum LKW-Terminal von Logistikknoten F erfolgt mit dem LKW  und dauert 5:45h. 
+%
+\end{itemize}
+~\\
+Umschlag:~\\
+
+\begin{itemize}
+%
+   \item Für den Transfer vom LKW-Terminal zum Seehafen- Terminal von Logistikknoten F werden 20h berücksichtigt.
+%
+\end{itemize}
+Hauptlauf:~\\
+
+\begin{itemize}
+%
+   \item Die Teilstrecke mit dem Seeschiff zum Logistikknoten B dauert etwa 15h. 
+%
+\end{itemize}
+Umschlag:~\\
+
+\begin{itemize}
+%
+   \item Der Transfer vom Seehafen zum Schienenterminal dauert 17h. Allerdings müssen weitere 2:25h Wartezeit berücksichtigt werden, da hier die Fahrpläne zwischen Seeschifffahrt und Schienentransport nicht perfekt aufeinander abgestimmt wurden.
+%
+\end{itemize}
+Hauptlauf:~\\
+
+\begin{itemize}
+%
+   \item Der Transfer mit dem Zug zum Logistikknoten A dauert 9:42h. 
+%
+\end{itemize}
+Umschlag:~\\
+
+\begin{itemize}
+%
+   \item Für den Übergang zum Verkehrssystem- LKW müssen 4h berücksichtigt werden.
+%
+\end{itemize}
+Nachlauf:~\\
+
+\begin{itemize}
+%
+   \item Der Transport vom Logistikknoten A zum Logistikknoten J erfolgt mit dem LKW, der für die Strecke 3h 20 min benötigt.
+   \item Vom Logistikknoten J ist schließlich noch die Anbindung zur Region J zu berücksichtigen.
+%
+\end{itemize}
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Beispielhafte detaillierte Betrachtung einer Transportkette}
+  \label{_Ref366261377}
+\end{figure}
+~\\
+Werden nun in Analogie zur komplexen Reisezeit die Merkmale der einzelnen Transportkettenabschnitte über die neun Positionen aggregiert (vgl. die oberste Zeile in \autoref{_Ref366261377} Abbildung ), können die gefundenen Transportketten (vgl. \autoref{_Ref366261065} Abbildung ) miteinander verglichen werden. Wie erwartet unterscheiden sich die in \autoref{_Ref366261065} Abbildung  dargestellten Transportketten im Routenverlauf sowie Abfahrts- und Ankunftszeit und damit auch in den Ausprägungen Fahrzeit, Anzahl Umsteigevorgänge (UH) etc.~\\
+Die Beurteilung der Qualität von Transportketten erfolgt somit über den Vergleich der Merkmalsausprägungen. Transportketten können daher als \glqq Abstract Mode\grqq  interpretiert werden (vgl. die Ausführungen zu in Abschnitt \autoref{_Ref364789145} ).~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Liste der gefundenen multimodalen Transportketten mit den Widerstandsgrößen Umsteigehäufigkeit, Wartezeiten, Fahrzeiten, Transportentfernungen $\ldots$}
+  \label{_Ref366261065}
+\end{figure}
+~\\
+
+
+% 
+\subsubsection{Das WMVG-Nachfragemodell}
+\label{_Toc366766118}
+\label{_Toc366775312}
+Die \textbf{Nachfrageseite} eines Güterverkehrsmodells schließt die Quelle- Zielbeziehungen (=Güterströme) ein. In dem erstellten Prototyp-Modell werden diese Daten als exogen vorgegeben angenommen und zunächst als nicht näher bestimmte anforderungshomogene Gruppen (bspw. hgA in \autoref{_Ref366269509} Abbildung ) in dem Modell erfasst. Es ist zu erwähnen, dass die Anzahl der berücksichtigten Gruppen (Modellbreite) nicht limitiert ist.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Beispielhafte Implementierung von Quell-Ziel Beziehungen.}
+  \label{_Ref366269509}
+\end{figure}
+~\\
+
+
+% 
+\subsubsection{Das WMVG-Entscheidungsmodell}
+\label{_Toc366766119}
+\label{_Toc366775313}
+\autoref{_Ref364981780} Abbildung  zeigt das UML-Aktivitäten-Diagramm zur Beschreibung des einfachen Auswahlmechanismus. Auf Basis der Quelle und Senke eines Transportfalls werden verfügbare Transportketten identifiziert (inhaltlich geschieht dies wie in \autoref{_Ref366261065} Abbildung  dargestellt). Für jede der identifizierten verfügbaren Transportketten wird im Folgenden geprüft, ob eines der Merkmale der Transportkette ein K.O. Kriterium verletzt. Die Wahl gemäß der Nutzenmaximierung findet schließlich nur noch für solche Transportketten statt, die kein K.O. Kriterium verletzen.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Auswahlprozess bei der Verkehrsmittelwahl}
+  \label{_Ref364981780 _Ref364983053}
+\end{figure}
+~\\
+In Analogie zu den in Abschnitt \autoref{_Ref364762759}  vorgestellten diskreten Entscheidungsmodellen werden die ermittelten Transportketten (vgl. \autoref{_Ref366261065} Abbildung ) als Choice Set interpretiert. In der Realität wird die Transportkettenwahl dabei auf drei Ebenen beeinflusst: ~\\
+
+\begin{itemize}
+%
+   \item Entscheidungen des Staates wirken mittelbar als Nebenbedingungen\emph{ }(Verbote, Gebote) und/oder als Gewichte in der Zielfunktion (Strafkosten, Subventionen)  auf die Entscheidungen der Disponenten;
+   \item Entscheidungen der Firmen wirken als Nebenbedingungen (firmeninterne Vorschriften) und/oder als Gewichte in der Zielfunktion (Prämien) auf die Entscheidungen der Disponenten;
+   \item Die eigentliche Entscheidung über eine Transportkette trifft der Disponent schließlich auf Basis der Qualität der verfügbaren Alternativen. Dieser Entscheidungsprozess wird unter Anwendung von Discrete-Choice Modellen (bspw. Multinomiale Logit-Modelle) abgebildet.
+%
+\end{itemize}
+In dem Prototyp-Modell wurde zunächst nur die zweite Ebene - die Nebenbedingungen - nicht modelliert. Es wurden zunächst nur die in VISUM bereits verfügbaren Funktionen der ÖV-Routenwahl benutzt\footnote{%
+ Mit der Einschränkung, dass bspw. CO2 Emissionen zunächst unberücksichtigt bleiben.
+}% 
+. \autoref{_Ref366435816} Abbildung  zeigt die Berechnung des Widerstands einer Transportkette auf Basis der VISUM-ÖV-Funktionalität. Um deutlich zu machen, dass hier für jede homogene Gruppe andere und noch zu ermittelnde Gewichtungsfaktoren eingesetzt werden müssen, wurden die Gewichtungsfaktoren zunächst alle auf 1.0 gesetzt.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Berechnung des Widerstands einer Transportkette auf Basis der VISUM-ÖV-Funktionalität}
+  \label{_Ref366435816}
+\end{figure}
+~\\
+Die Auswahl selbst wurde schließlich unter Verwendung eines Logit-Modells modelliert. ~\\
+
+
+% 
+\subsubsection{Das WMVG-Datenstrukturkonzept}
+\label{_Toc366766120}
+\label{_Toc366775314}
+\label{_Ref364980166}
+\label{_Toc365801609}
+\label{_Ref361848180}
+\label{_Toc363572049}
+\label{_Toc363601746}
+\autoref{_Ref364980116} Abbildung  stellt das Datenstrukturkonzept für WMVG als Klassenmodell dar. Das Klassenmodell besteht aus vier Paketen - NETZ: den Klassen zur Speicherung der Netzstruktur (Infrastruktur der Verkehrsmittel), ANGEBOT: Klassen zur Speicherung des Transportleistungsangebots (Transportketten incl. Fahrplänen), NACHFRAGE: Klassen zur Speicherung der Nachfragedaten (Quell/Zielmatritzen je BHCG) sowie ENTSCHEIDUNG: Klassen zur Speicherung des Entscheidungsverhaltens (Präferenzen der Akteure, Firmenvorgaben).~\\
+Im Folgenden werden die einzelnen Klassen kurz erläutert.~\\
+Paket NETZ:~\\
+ILongLat dient der Speicherung von Koordinaten. Von ILongLat wird das Netzelement INode abgeleitet, das in der Realität bspw. einer Straßenkreuzung entspricht. ILink wird zur Speicherung von Streckenabschnitten zwischen zwei INode-Elementen verwendet. Jedem ILink kann eine Liste von zugelassenen Verkehrsträgern (IVerkehrsträger) und geltenden Mauttarifen (IMaut, IMauttarif) (je Verkehrsträger) zugeordnet werden. Einem Verkehrsträger werden darüber hinaus Emissions-Kennwerte (IEmissionsKennwerte) und ausgestattete Behältern (bspw. Container) des Typs ILadehilfsmittel zugewiesen.~\\
+Paket ANGEBOT:~\\
+Eine Transportkette (ITransportkette) besteht aus (ggf. mehreren) Fahrtabschnitten, die zeitlich terminiert sind (IFahrplan). Ein Fahrtabschnitt beginnt und endet dabei an einem Logistikknoten und führt über eine Reihe verschiedener Streckenabschnitte (ILink) unter Verwendung genau eines Verkehrtsträgers (IVerkehrsträger). Eine Transportkette ist Bestandteil eines Angebots (IAngebot), aus dem ein Entscheider auswählen kann.~\\
+Paket NACHFRAGE: ~\\
+Für jede Transportanforderungs-homogene Gutart ist eine Quell-Zielmatrix hinterlegt. Dabei sind in den Zeilen die Versender – in den Spalten die Empfänger hinterlegt.~\\
+Paket ENTSCHEIDUNG~\\
+Die Anforderungen an einen Transport werden in der Realität von Empfänger- und Versender-Entscheidungen beeinflusst. In diesem Modell werden diese Entscheidungen einem einzelnen Entscheider (IEntscheider) zugeordnet, der über eine Quellanbindung (IQuellanbindung) das Verkehrsnetz für einen Transport erreichen und auf Zielanbindung (IZielanbindung) wieder verlassen kann. Dieser Entscheider wird von Unternehmensvorgaben (IUnternehmensvorgaben) beeinflusst. Die Wichtigkeit, mit der jeder Widerstandsfaktor in die Entscheidung einbezogen wird, wird als Liste von IWiderstandsgewicht gespeichert.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Klassenmodell zur Speicherung der benötigten Daten}
+  \label{_Ref364980116}
+\end{figure}
+~\\
+
+
+% 
+\section{Kritische Diskussion}
+\label{_Toc366766121}
+\label{_Toc366775315}
+Mit Hilfe der Literaturrecherche wurde eine umfangreiche Liste an Widerstandsfaktoren erhoben. Durch Expertenbefragungen und die Mitarbeit beim BME-Arbeitskreis \glqq Optimale Verkehrsträgerwahl\grqq  konnte diese Liste validiert und als vollständig angenommen werden. Die Konsolidierung dieser umfangreichen Liste ist noch in Arbeit.~\\
+Auf der Nachfrageseite konnten mit dem Konzept BHCG die Einflüsse auf die Verkehrsmittelwahl fünf Schalen zugeordnet und ein Homogenitätskonzept entwickelt werden. Die konkrete Benennung der verhaltenshomogenen Güterklassen steht allerdings noch aus.~\\
+Die Parametrisierung des Entscheidungsmodells (Gewichtung der Widerstandsfaktoren) ist zum jetzigen Zeitpunkt noch nicht erfolgt.~\\
+Die prototypische Implementierung des Datenmodells in VISUM kann als erfolgreicher Methodentransfer bewertet werden. Die Parametrisierung des Modells mit Echt-Daten ist derzeit noch nicht erfolgt, da auf der Nachfrageseite die Behavior Homogeneous Cargo Groups nicht abschließend ausdefiniert wurden, ist es daher noch nicht möglich, Quell-Ziel-Matrizen zu erstellen und die Widerstandsfaktoren zu gewichten. Auf der Angebotsseite ist die Intransparenz des Marktes zu nennen. Es scheint derzeit nur unter starken Annahmen möglich, Tarifstrukturen im Güterverkehr abzubilden. Ein umfangreicher Import von Fahrplandaten (bspw. in Analogie zum Personenverkehr) scheint eingeschränkt möglich (erste Gespräche mit der HACON haben stattgefunden), ist aber zum jetzigen Zeitpunkt noch nicht durchgeführt worden.
+\label{_Toc365801612}
+\label{_Toc366766122}
+\label{_Ref361848213}
+\label{_Toc363572052}
+\label{_Toc363601749}~\\
+
+
+% 
+\section{Weiterer Forschungsbedarf }
+\label{_Toc366775316}
+Aus Sicht des Projekts WMVG gibt es noch weiteren Forschungsbedarf, der im Folgenden näher erläutert wird.~\\
+
+
+% 
+\subsection{Benennung der \glqq verhaltenshomogenen Güterarten\grqq }
+\label{_Toc363572053}
+\label{_Toc363601750}
+\label{_Toc365801613}
+\label{_Toc366766123}
+\label{_Toc366775317}
+
+\label{_Toc363572054}
+\label{_Toc363601751}Bisher ist das Konzept der verhaltenshomogenen Gütergruppen (BHCG) vor allem ein erkenntnistheoretisches Konstrukt. Die Identifikation von (explizit beschriebenen und anhand robuster Kriterien erkennbaren) BHCGs ist noch nicht abgeschlossen.~\\
+Der in WMVG gewählte Ansatz, durch Re-Aggregation feingranularer Gütergruppen eine erste Näherung für BHCGs zu erhalten, ist aus Datenverfügbarkeitssicht zwar sinnvoll, aber aus erkenntnistheoretischer Sicht nicht völlig befriedigend, insbesondere da ~\\
+
+\begin{itemize}
+%
+   \item die Anforderungen desselben Gutes an seinen Transport in unterschiedlichen Supply-Chain-Kontexten unterschiedlich ausfallen können(Schale 2)
+   \item die Entscheidungskontexte der Entscheider für Transportgüter mit identischen Gütertransportanforderungen (Schalen 1\&2) unterschiedlich sein können (d.h. andere Entscheidungskriterien in den Schalen 3,4 und 5)
+%
+\end{itemize}
+Es scheint daher zum einen sinnvoll. künftig den Schwerpunkt bei der Identifikation von BHCGs verstärkt auf Aspekte der Schale 2 zu legen statt weiterhin vornehmlich auf die verschiedenen Gütergruppierungen zu fokussieren. Dazu wäre es notwendig, dass dieser Ansatz auch in der Erhebung der Datengrundlage für die gängigen Gütertransportstatistiken Berücksichtigung findet, da sich sonst eine Nutzung des BHCG-Konzepts im Rahmen von Güterverkehrsmodellen aus Datenverfügbarkeitsgründen nur schwer umsetzen lässt. Zum anderen scheint es hilfreich bei dem Versuch der Identifikation von BHCGs, die Schalen 1 \& 2 (Gütertransportanforderungsprofil) und die Schalen 3, 4 \& 5 (Entscheidungskontext) getrennt voneinander zu näher zu betrachten\footnote{%
+ Eine Veröffentlichung zum Thema BHCGs im Nachgang zum Projekt WMVG ist bereits in Vorbereitung.
+}% 
+.~\\
+Schließlich ist noch nicht hinreichend tief untersucht worden, inwiefern die Verpackung der Transportgüter (Container, Paletten, Pakete, lose Ware) Einfluss auf die Verkehrsmittelwahl hat. Die in WMVG getroffene Annahme, den Aspekt der Verpackung zunächst zu vernachlässigen, scheint aus einer retrospektiven Sicht eine relativ weitreichende Annahme gewesen zu sein. Ob und inwieweit diese Annahme Auswirkungen auf die Verkehrsmittelwahl hat, ist noch zu untersuchen. Sollte sich dieser Aspekt als relevante Größe erweisen, so wäre er aus heutiger Sicht in den Schalen 1\&2 der BHCGs zu verorten.~\\
+
+
+% 
+\subsection{Stufe 1+2 des 4-Stufen Alg. für verhaltenshomogene Güterarten}
+\label{_Toc365801614}
+\label{_Toc366766124}
+\label{_Toc366775318}
+
+\label{_Toc363572055}
+\label{_Toc363601752}Die zu erwartende Differenz aus den erkenntnistheoretischen Überlegungen zu BHCGs und den verfügbaren Eingangsdaten für Güterverkehrsmodelle wird es (zumindest bei Fehlen einer vollständigen Menge aller Gütertransportaufträge für den Untersuchungsraum im Untersuchungszeitraum, und dieses Fehlen ist ob der schieren Menge der Daten, die derzeit jeweils nur dezentral bei den verschiedenen Transportoperateuren vorliegen, systemimmanent) notwendig machen, Hilfskonstrukte\footnote{%
+ Einfache Zuordnungstabellen von Güterarten zu Transportanforderungsprofilen werden die Anforderungen an solche Hilfskonstrukte vermutlich nicht erfüllen können.
+}% 
+ zu entwickeln, die eine möglichst gute Abbildung der Erkenntnisse zu den BHCGs in den Eingangsdaten von Güterverkehrsmodellen ermöglicht (sowohl in Bezug auf die Nachfragedaten - Schalen 1 \& 2 - als auch in Bezug auf die Entscheidungsmechanismen und Entscheidungsparameter - Schalen 3, 4 \& 5).~\\
+Diese Hilfskonstrukte werden vermutlich für Aggregationsansätze und Disaggregationsansätze bei der Eingangsdatengenerierung in Güterverkehrsmodellen (vgl. Stufen 1\&2 des Vier-Stufen-Modells) im Detail sehr unterschiedlich aussehen. Dennoch könnten vermutlich beide von den Erkenntnissen zu den BHCGs profitieren.~\\
+
+
+% 
+\subsection{Vollständigkeit des Real-Life Objektmodells}
+\label{_Toc365801615}
+\label{_Toc366766125}
+\label{_Toc366775319}
+
+\label{_Toc363572056}
+\label{_Toc363601753}Auch auf Seite der Angebotsmodellierung gibt es noch Forschungsbedarf. Zwar ist die Transportinfrastruktur (Straßen, Schienen, Umschlagspunkte) modelltechnisch relativ gut abbildbar. Schwieriger wird es aber bei entscheidungsrelevanten Angebotsdaten die aus den jeweiligen Betriebsmodellen der Betreiber resultieren (Fahrpläne, Tarifmodelle). Die fehlende flächendeckende Verfügbarkeit dieser Daten resultiert vor allem aus dem Bestreben vieler Betreiber, ihr Serviceangebot, die Service-Charakteristika und die Service-Kosten nicht über gemeinsame Portale zu veröffentlichen (im Gegensatz z.B. zum Personenflugverkehr, wo genau diese Daten von Vergleichsportalen ausgewertet werden).~\\
+
+
+% 
+\subsection{Gewichtung der Widerstandsfaktoren}
+\label{_Toc365801616}
+\label{_Toc366766126}
+\label{_Toc366775320}
+
+\label{_Ref361848281}
+\label{_Toc363572057}
+\label{_Toc363601754}Eine wesentliche Frage für das Projekt WMVG war die Frage, wie sich Widerstandsfaktoren für Güterverkehrsmodelle gewichten lassen. Auch wenn im Rahmen von WMVG die Identifikation von Widerstandsfaktoren weitgehend erfolgt ist, so bleibt die quantitative Bewertung der Wichtigkeit dieser Widerstände dennoch schwierig. Hier gibt es noch empirischen Forschungsbedarf (z.B. mittels% Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+ Conjoint-% Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+Analyse% Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+n% Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+ für ausgewählte % Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+und in sich möglichst homogene % Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+Segmente% Das Format konnte nicht erkannt werden: 
+% Debug * - Nicht erkanntes Element -- NumberOf: 1 -- name: w:rPr
+%         Attributes: 
+ des Güterverkehrs).~\\
+
+
+% 
+\subsection{Objektive vs. Subjektive Gebundenheit vs. Wahlfreiheit in der Transportkettenwahl }
+\label{_Toc365801617}
+\label{_Toc366766127}
+\label{_Toc366775321}
+Auf Grund der Tatsache, dass Widerstandsfaktoren als K.O.-Kriterien wie Nebenbedingungen wirken können, ist zu vermuten, dass in Analogie zum Personenverkehr auch im Güterverkehr das Phänomen der Captive Riders /Drivers (objektiv/subjektiv gebundene Verkehrsteilnehmer) und Choice Riders (Wahlfreie Verkehrsteilnehmer)  \autocites[][]{bib.336} \autocites[][]{bib.75} existiert. ~\\
+Zur Entwicklung geeigneter Beeinflussungsmaßnahmen (vgl. Abschnitt \autoref{_Ref366763232} ) für den Güterverkehr ist daher zu untersuchen, welches die wahlfreien und welches die (objektiv und subjektiv) gebundenen Anteile des Güterverkehrs sind und wie groß diese Anteile sind.~\\
+
+
+% 
+\section{Fazit Ausblick }
+\label{_Ref365538178}
+\label{_Toc365801618}
+\label{_Toc366766128}
+\label{_Toc366775322}
+Das ursprüngliche Ziel des Projekts, ein quantitatives widerstandsbasiertes Modell der Moduswahl für Güterverkehre für einen konkreten Untersuchungsraum zu entwickeln, wurde nur teilweise erreicht. Eine entsprechende Modellierung ist zwar weitgehend gelungen, aber sowohl die Bereitstellung von hinreichend präzisen Eingangsdaten in der benötigten Qualität und Quantität, als auch die Gewichtung der Widerstandsgrößen im Modell können noch nicht als abgeschlossen angesehen werden.~\\
+Dennoch sind die gewonnenen Erkenntnisse aus Sicht der Autoren wichtig und hilfreich, und die noch offenen Fragen werden auch nach Abschluss des Projekts WMVG nach Möglichkeit weiter untersucht werden. ~\\
+
+\label{_Toc365801619}
+\label{_Toc365011598} Beispielhaft wurde mit Hilfe des Protoyp-Modells für eine anforderungshomogene Gruppe von Gütern (in \autoref{_Ref366269509} Abbildung  als hgA bezeichnet) die Belastung im Verkehrsnetz ermittelt (vgl. \autoref{_Ref364982499} Abbildung ). Dazu wurden - wie in Abschnitt \autoref{_Ref364980166}  dargestellt –die möglichen Transportketten für jede Position der Quell-Ziel Matrix (vgl. \autoref{_Ref366269509} Abbildung ) ermittelt. Die Wahl erfolgte auf Basis der Attribute der Transportketten, wobei für die Gewichtungsfaktoren fiktive Werte angenommen wurden.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Mögliche Ergebnisvisualisierung: Belastung im Verkehrsnetz}
+  \label{_Ref364982499 _Toc366766129}
+\end{figure}
+~\\
+
+
+% 
+\section{Dissemination der Projektergebnisse }
+\label{_Toc366775323}
+Die Projektergebnisse sind bereits in Teilen durch Vorträge und Publikationen veröffentlicht worden. Die Veröffentlichung weiterer Teile ist noch in Vorbereitung.~\\
+Bereits veröffentlicht wurden:~\\
+
+\begin{itemize}
+%
+   \item Publikation: Ergebnisse der methodenorientierten Vorstudie im Personenverkehr {Lindemann 2012 \#886}{Lindemann 2012 \#106}
+   \item Publikation: Ergebnisse der generischen Charakterisierung von Güterverkehrsmodellen {Kunze 2013 \#891}
+   \item Vortrag: Methodik WMVG {Lindemann 2013 \#971}
+%
+\end{itemize}
+Folgende Veröffentlichungen zu weiteren Ergebnissen aus WMVG sind in Vorbereitung~\\
+
+\begin{itemize}
+%
+   \item Publikation: WMVG Forschungsbericht (i.e. dieser Bericht in überarbeiteter Form) in der Schriftenreihe HNU-Working-Papers
+   \item Publikation: On Behavior Homogeneous Cargo Groups in Freight Transport Models (Arbeitstitel) – Kunze et al 2013 (noch unveröffentlicht)
+   \item Publikation: Das WMVG-Modell (Arbeitstitel) Lindemann et al 2013 (noch unveröffentlicht)
+   \item Publikation: Dissertationsschrift (Lindemann 2014 noch unveröffentlicht)
+%
+\end{itemize}
+
+\label{_Toc366766130}
+\label{_Toc365801620}
+\newpage
+~\\
+
+% 
+\section*{Glossar }\textbf{4-Stufen-Methodik: }Die stufenweise Durchführung der Schritte Verkehrserzeugung, Verkehrsverteilung, Verkehrsaufteilung und Verkehrsumlegung.~\\
+\textbf{Containerverkehr}\textbf{:} \glqq Güterverkehr unter ausschließlicher Verwendung von Containern als Ladeeinheiten. [$\ldots$]\grqq   \autocites[][]{bib.372}~\\
+\textbf{Güterverkehr}\textbf{:} \glqq Der Güterverkehr dient sowohl dem Transport von Produktionsmitteln als auch der Versorgung der Bevölkerung im weitesten Sinne. Allerdings ergeben sich zeitlich und auch räumlich andere Anforderungen an das Straßennetz als beim Personenverkehr, da die einzelnen Funktionsbereiche sehr unterschiedliche Güter- und Personenverkehrsprozesse auslösen\grqq   \autocites[][]{bib.213}~\\
+\textbf{Güterverkehr als Teil des Wirtschaftsverkehrs}\textbf{:} In der Literatur werden die Begriffe ‚Wirtschaftsverkehr‘ und ‚Güterverkehr‘ gelegentlich nahezu synonym verwendet. In dieser Arbeit soll der Gliederung der HACON gefolgt werden, die den Wirtschaftsverkehr in \emph{Güterverkehr} und \emph{andere Verkehre des öko}\emph{no}\emph{mischen Bereichs} nach dem Zweck des Transportes unterteilt  \autocites[][]{bib.879}\footnote{%
+ Für eine Zusammenstellung alternativer Ansätze zur Abgrenzung dieser beiden Begriffe sei bspw. mit  \citeauthor{bib.820} auf die Literatur verwiesen  \autocites[][]{bib.820}
+}% 
+.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{}
+  \label{}
+\end{figure}
+~\\
+\textbf{Nutzen}\textbf{: }Abstrakte Größe der Neoklassischen Konsumtheorie. Wird in dieser Arbeit zur Beschreibung der Qualität von Entscheidungsalternativen verwendet.~\\
+\textbf{Personenverkehr}\textbf{:}\textbf{ }\glqq Der Personenverkehr, der den wesentlichen Anteil an der Belegung der Straßennetze hat, wird vor allem durch die Funktionsbereiche\footnote{%
+ Funktionsbereiche: \glqq Die Funktionsbereiche sind [$\ldots$] an bebaute und unbebaute Flächen gebunden.\grqq  z.B. Wohnbereich, Produktionsbereich, zentraler Bereich (Einkaufs- und Dienstleistungseinrichtungen)  \autocites[][]{bib.213}
+}% 
+ Wohnen, Arbeiten, Bilden, Besorgen und Erholen determiniert\grqq   \autocites[][]{bib.213}~\\
+\textbf{Qualitätsmerkmal}: Attribut zur Beschreibung der Qualität einer Entscheidungsalternative.~\\
+\textbf{Supply}\textbf{-Chain}\textbf{: }\textbf{\glqq }Supply Chain Management bezeichnet den Aufbau und die Verwaltung integrierter Logistikketten (Material- und Informationsflüsse) über den gesamten Wertschöpfungsprozess, ausgehend von der Rohstoffgewinnung über die Veredelungsstufen bis hin zum Endverbraucher\grqq  {Springer Gabler Verlag 2010 \#194  Stichwort: Supply Chain Management}.~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Verknüpfungsfunktion von Transporten \textbf{{Kunze 2013 \#891}}}
+  \label{_Ref366580354}
+\end{figure}
+~\\
+\textbf{Verkehr}\textbf{:}\textbf{ }Das Statistische Bundesamt {Statistisches Bundesamt 2006 \#205} unterteilt Verkehr in Personenverkehr und Güterverkehr. Während beim Personenverkehr in Individual- und öffentlichen Verkehr unterschieden wird, entfällt eine vergleichbare Unterscheidung für den Güterverkehr. Tiefergehende Unterteilungen erfolgen modusgebunden. ~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{}
+  \label{}
+\end{figure}
+~\\
+\textbf{Verkehrsaufteilung}: \glqq Die Verkehrsaufteilung modelliert ein komplexes Verkehrsgeschehen, bei dem die Ortsveränderungssubjekte im Einzelnen die Verkehrsmittelwahl auf der Basis von alternativen Entscheidungen treffen. Jede Ortsveränderung wird mit einem Verkehrsmittel [$\ldots$] durchgeführt. Welches Verkehrsmittel bei einer Ortsveränderung gewählt wird, kann in der Analyse prinzipiell in Form von Stichproben erhoben werden.\grqq   \autocites[][]{bib.213}~\\
+\textbf{Verkehrserzeugung:} Mit Hilfe von Verkehrserzeugungsmodellen werden die Verkehrsaufkommen der Quell- und Zielbezirke in Abhängigkeit von Faktoren wie bspw. der Flächennutzung sowie der Lage des Bezirks ermittelt  \autocites[][]{bib.213} \autocites[][]{bib.248} \glqq Es handelt sich bei diesem \glqq Verkehrsbedürfnis\grqq  um \glqq skalare (nicht gerichtete) Größen, die man als Quellverkehrsaufkommen ${{Q}_{i}}$ der Quellzelle $i$ bzw. als Zielverkehrsaufkommen ${{Z}_{j}}$ der Zielzelle $j$ \emph{ }bezeichnet. Sie tragen die Dimension [Anzahl der Wege (= Fahrten + Fußwege) pro Zeiteinheit]\grqq   \autocites[][]{bib.248}~\\
+\textbf{Verkehrsnachfragemodelle:}  \citeauthor{bib.248} definiert die Aufgabe von Verkehrsnachfragemodellen als die \glqq Aufgabe [$\ldots$], die Verkehrsnachfrage im Verkehrsnetz [$\ldots$] eines Untersuchungsgebietes modellmäßig abzubilden\grqq   \autocites[][]{bib.248}  \citeauthor{bib.87} rgänzen, dass es auch Aufgabe ist, die Auswirkungen verkehrlicher Maßnahmen zu quantifizieren  \autocites[][]{bib.87}~\\
+\textbf{Verkehrsumlegung }~~~~~\glqq Unter Verkehrsumlegung versteht man die Zuordnung der in der Verkehrsstrommatrix vorliegenden Verkehrsströme zu den sich im Verkehrsnetz anbietenden Wegen. [$\ldots$] Man erhält durch sie die Verkehrsstärke der Strecken und Knoten [$\ldots$] als Grundlage für verkehrstechnische und verkehrsorganisatorische Gestaltung und Bemessung [$\ldots$] der Verkehrsnetze\grqq   \autocites[][]{bib.213}~\\
+\textbf{Verkehrsverteilung}: \glqq Die Aufgabe der Verkehrsverteilung besteht darin, die Anzahl ${{F}_{ij}}$ der Wege von der Quellzelle $i$ zur Zielzelle $j$ zu ermitteln. Das Resultat ist die ‚Matrix der Verkehrsbeziehungen’\grqq   \autocites[][]{bib.248} ~\\
+\textbf{Widerstand}: Beschreibt den Aufwand der bspw. mit einer Ortsveränderung verbunden ist. Wird in dieser Arbeit für den Vergleich von Entscheidungsalternativen verwendet.~\\
+\textbf{Transportkette}\textbf{: }Eine Transportkette ist \glqq nach DIN 30780 eine Folge von technisch und organisatorisch miteinander verknüpften Vorgängen, bei denen Personen oder Güter von einer Quelle zu einem Ziel bewegt werden [$\ldots$]\grqq  {Flämig 2013 \#887}. ~\\
+
+\begin{figure}[htbp]
+  \centering
+% \includegraphics[width=1.00\textwidth]{img/image.png}
+  \caption{ Typisierung von Transportketten nach Kummer und Walter}
+  \label{_Ref335043329}
+\end{figure}
+~\\
+\autoref{_Ref335043329} Abbildung  zeigt eine Klassifizierung von typischen Transportketten  \autocites[][]{bib.562} \autocites[][]{bib.160}~\\
+
+\newpage
+~\\
+
+% 
+\section*{Abkürzungsverzeichnis}
+\begin{table}[htbp]
+  \centering
+\begin{tabular}{|p{3cm}|p{3cm}|}\hline
+FTL  & Full Truck Load\\\hline
+HNU & Hochschule Neu-Ulm\\\hline
+IV & Individualverkehr\\\hline
+LTL & Less than Truck Load\\\hline
+MIV & Motorisierter Individualverkehr\\\hline
+ÖV & Öffentlicher Personenverkehr\\\hline
+SADT  & Structured Analysis and Design Technique\\\hline
+UML & Unified Modeling Language\\\hline
+\end{tabular}
+\end{table}
+
+% 
+\section*{Variablenverzeichnis}
+\begin{table}[htbp]
+  \centering
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|}\hline
+\multicolumn{3}{|l|}{Mengen und Indizes}\\\hline
+ &  & \\\hline
+ & 
+\begin{align}
+C = {{{A}_{1}},{{A}_{2,}}\ldots,{{A}_{i}},{{A}_{j}},\ldots,{{A}_{C}}}
+\end{align}
+ & Choice Set der Alternativen\\\hline
+ & 
+\begin{align}
+Q={1 \ldots i \ldots I}
+\end{align}
+ & Quellbezirke\\\hline
+ & 
+\begin{align}
+Z={1 \ldots j \ldots J}
+\end{align}
+ & Zielbezirke\\\hline
+ & 
+\begin{align}
+PG={1 \ldots g \ldots G}
+\end{align}
+ & Homogene Gruppen\\\hline
+ & 
+\begin{align}
+A={1\ldots. k \ldots K}
+\end{align}
+ & Verkehrsmittel/Verkehrsträger\\\hline
+ & 
+\begin{align}
+F={1\ldots r \ldotsR}
+\end{align}
+ & Fahrten / Routen\\\hline
+ &  & \\\hline
+
+\begin{align}
+U
+\end{align}
+ & Nutzen & \\\hline
+ & 
+\begin{align}
+{{U}_{gi}}
+\end{align}
+ & Nutzen der Alternative $i$ für Gruppe $g$\\\hline
+ & 
+\begin{align}
+{{V}_{gi}}
+\end{align}
+ & Deterministische Nutzenkomponente der Alternative $i$ für die Gruppe $g$\\\hline
+ & 
+\begin{align}
+{{\widetilde{{\epsilon }}}_{gi}}
+\end{align}
+ & Stochastische Nutzenkomponente der Alternative $i$ für die Gruppe $g$\\\hline
+ & 
+\begin{align}
+{{x}_{im}}
+\end{align}
+ & \\\hline
+ & 
+\begin{align}
+{{\beta }_{gm}}
+\end{align}
+ & \\\hline
+
+\begin{align}
+V
+\end{align}
+ & \multicolumn{2}{|l|}{Verkehrsstrommatrix}\\\hline
+ & 
+\begin{align}
+{{v}_{gi}}
+\end{align}
+ & Anzahl Ortsveränderungen bezogen auf die Gruppe $g$, die in Bezirk $i$ beginnen (entspricht der Randsumme über alle Spalten).\\\hline
+ & 
+\begin{align}
+{{v}_{gj}}
+\end{align}
+ & Anzahl Ortsveränderungen bezogen auf die Gruppe $g$, die in Bezirk $j$ enden (entspricht der Randsumme über alle Zeilen)..\\\hline
+ & 
+\begin{align}
+{{v}_{gij}}
+\end{align}
+ & Anzahl Ortsveränderungen bezogen auf die Gruppe $g$, die in Bezirk $i$ beginnen und in Bezirk $j$ enden.\\\hline
+ & 
+\begin{align}
+{{v}_{gij,k}}
+\end{align}
+ & Anzahl Ortsveränderungen der Gruppe $g$ mit dem Verkehrsmittel $k$, die in Bezirk $i$ beginnen und in Bezirk $j$ enden.\\\hline
+ & 
+\begin{align}
+{{v}_{gijr,k}}
+\end{align}
+ & Anzahl Ortsveränderungen der Gruppe $g$ mit dem Verkehrsmittel $k$, die in Bezirk $i$ beginnen und in Bezirk $j$ enden und über die Route $r$ führen.\\\hline
+
+\begin{align}
+W
+\end{align}
+ & \multicolumn{2}{|l|}{Widerstand}\\\hline
+ & ${{W}_{ij,k}}$  & Widerstand zwischen den Bezirken $i$ und $j$ bezogen auf das Verkehrsmittel $k$.\\\hline
+\end{tabular}
+\end{table}
+
+\newpage
+~\\
+
+\printbibliography
+\end{document}

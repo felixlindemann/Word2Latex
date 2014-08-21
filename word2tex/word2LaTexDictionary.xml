@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio Designer Edition 9.1.11.3570 (http://www.liquid-technologies.com) -->
+<LatexDictionary>
+    <paragraphs>
+        <item latex="section" word="heading 1" label="sec:" template="section" />
+        <item latex="subsection" word="heading 2" label="subsec:" template="section" />
+        <item latex="subsubsection" word="heading 3" label="sec:" template="section" />
+        <item latex="paragraph" word="heading 4" label="sec:" template="section" />
+        <item latex="subparagraph" word="heading 5" label="sec:" template="section" />
+        <item latex="subsubparagraph" word="heading 6" label="sec:" template="section" />
+        <item latex="itemize,enumerate,description" word="List Paragraph" label="sec:" template="itemize" />
+        <item latex="itemize,enumerate,description" word="List Bullet" label="sec:" template="itemize" />
+        <item latex="itemize,enumerate,description" word="Auflistung" label="sec:" template="itemize" />
+        
+        <item latex="caption" word="List Paragraph" label="fig:" template="itemize" />
+    </paragraphs>
+    <zeichen>
+        <item latex="\\%" word="%" />
+      <item latex="\\grqq "   word= "“" />
+      <item latex="\\glqq "   word= "„" />
+      <item latex="\$\\ldots\$"   word= "…" />
+      <item latex="\\forall "   word= "∀" />
+      <item latex="\\in "   word= "∈" /> 
+      <item latex="\\neq "   word= "≠" /> 
+      <item latex="\\geq "   word= "≥" /> 
+      <item latex="\\beta "   word= "β" /> 
+      <item latex="\\sigma "   word= "σ" /> 
+      <item latex="\\eta "   word= "η" /> 
+      <item latex="\\mu "   word= "μ" /> 
+      <item latex="\\epsilon "   word= "ε" /> 
+      <item latex="\\pi "   word= "π" /> 
+      <item latex="\\infty "   word= "∞" /> 
+      <item latex="\\pm "   word= "±" />
+      <item latex="\\cdot "   word= "∙" /> 
+      <item latex=" - "   word= " – " /> 
+      <item latex="\\&amp;"   word= "&amp;" /> 
+        
+	</zeichen> 
+</LatexDictionary>

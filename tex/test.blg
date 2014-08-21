@@ -1,0 +1,19 @@
+[0] Config.pm:425> INFO - This is Biber 1.7
+[0] Config.pm:428> INFO - Logfile is 'test.blg'
+[74] biber-darwin:252> INFO - === Thu Sep 19, 2013, 16:10:44
+[74] Biber.pm:333> INFO - Reading 'test.bcf'
+[150] Biber.pm:630> INFO - Found 48 citekeys in bib section 0
+[184] Biber.pm:2997> INFO - Processing section 0
+[216] Biber.pm:3134> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[291] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[381] bibtex.pm:786> INFO - Found BibTeX data source 'bib.bib'
+[516] Utils.pm:169> WARN - Datamodel: Entry 'bib.75' (bib.bib): Invalid format '26.03.2010' of date field 'urldate' - ignoring
+[522] Utils.pm:169> WARN - I didn't find a database entry for 'Bhat 2010 \#460' (section 0)
+[522] Utils.pm:169> WARN - I didn't find a database entry for 'Best 2010 \#459' (section 0)
+[522] Utils.pm:169> WARN - I didn't find a database entry for 'Holgu\IeC {\'\i }n-Veras 2011 \#707' (section 0)
+[906] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[906] Biber.pm:2889> INFO - Sorting 'entry' list 'apa' keys
+[906] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1324] bbl.pm:479> INFO - Writing 'test.bbl' with encoding 'UTF-8'
+[1332] bbl.pm:552> INFO - Output to test.bbl
+[1332] Biber.pm:105> INFO - WARNINGS: 4

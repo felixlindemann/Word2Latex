@@ -1,0 +1,212 @@
+﻿<?xml version="1.0"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<XmlStudioProject xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="9.1.11.3570" UseRelativePaths="false">
+	<Project Name="word2tex">
+		<SubGroup Name="Documents">
+			<File Uri="X:\Word2Tex\res\Doc.xml"/>
+			<File Uri="X:\Word2Tex\word2tex\word2LaTexDictionary.xml"/>
+			<File Uri="Y:\Sandbox\WMVG\WMVG - Abschlussbericht\Doc_final.xml"/>
+		</SubGroup>
+		<SubGroup Name="Schemas"/>
+		<SubGroup Name="Transforms">
+			<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LaTex.xsl">
+				<Properties>
+					<Name>DataFile</Name>
+					<Value/>
+				</Properties>
+				<Properties>
+					<Name>OutputFile</Name>
+					<Value/>
+				</Properties>
+				<Properties>
+					<Name>DebugState</Name>
+					<Value>&lt;DebuggerConfig&gt;&lt;DebuggerState uid=&quot;SaxonHEXslt2&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&amp;gt;
+&amp;lt;SaxonXsltDebuggerState xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&amp;gt;
+  &amp;lt;SourceCodeFilename&amp;gt;\\psf\Home\Documents\Word2Tex\word2tex\Word2LaTex.xsl&amp;lt;/SourceCodeFilename&amp;gt;
+  &amp;lt;DebuggerStartupTimeout&amp;gt;15&amp;lt;/DebuggerStartupTimeout&amp;gt;
+  &amp;lt;DebuggerShutdownTimeout&amp;gt;15&amp;lt;/DebuggerShutdownTimeout&amp;gt;
+  &amp;lt;ContextItemFilename&amp;gt;Y:\Sandbox\WMVG\WMVG - Abschlussbericht\Doc_final.xml&amp;lt;/ContextItemFilename&amp;gt;
+  &amp;lt;BaseUri /&amp;gt;
+  &amp;lt;OutputFilename&amp;gt;\\psf\Home\Documents\Word2Tex\tex\test.tex&amp;lt;/OutputFilename&amp;gt;
+  &amp;lt;OutputFileFormat&amp;gt;TEXT&amp;lt;/OutputFileFormat&amp;gt;
+  &amp;lt;EnableOptimisations&amp;gt;false&amp;lt;/EnableOptimisations&amp;gt;
+  &amp;lt;ShowWhitespaceInVaraibles&amp;gt;false&amp;lt;/ShowWhitespaceInVaraibles&amp;gt;
+  &amp;lt;WhitespaceStrippingRule&amp;gt;None&amp;lt;/WhitespaceStrippingRule&amp;gt;
+  &amp;lt;DtdValidationMode&amp;gt;Skip&amp;lt;/DtdValidationMode&amp;gt;
+  &amp;lt;SchemaValidationMode&amp;gt;Lax&amp;lt;/SchemaValidationMode&amp;gt;
+  &amp;lt;SupportXInclude&amp;gt;true&amp;lt;/SupportXInclude&amp;gt;
+&amp;lt;/SaxonXsltDebuggerState&amp;gt;&lt;/DebuggerState&gt;&lt;/DebuggerConfig&gt;</Value>
+				</Properties>
+			</File>
+			<SubGroup Name="math">
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-math.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+			</SubGroup>
+			<SubGroup Name="helper">
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LatexInitDocument.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LatexVariables.xsl"/>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LaTexShortCuts.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LaTexIgnoredElements.xsl"/>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-itemize.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\fn-extensions.xsl"/>
+			</SubGroup>
+			<SubGroup Name="word">
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-comment.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-sdt.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-fields.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-p.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-footnote.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-r.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-bookmarks.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\floats-drawings.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\floats-table.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-br.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-hyperlink.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+				<File Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-t.xsl">
+					<Properties>
+						<Name>DataFile</Name>
+						<Value/>
+					</Properties>
+					<Properties>
+						<Name>OutputFile</Name>
+						<Value/>
+					</Properties>
+				</File>
+			</SubGroup>
+		</SubGroup>
+	</Project>
+</XmlStudioProject>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<XmlStudioProjectOptions xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="9.1.11.3570">
+	<OpenFile Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LaTexShortCuts.xsl"/>
+	<OpenFile Uri="\\psf\Home\Documents\Word2Tex\word2tex\fn-extensions.xsl"/>
+	<OpenFile Uri="Y:\Sandbox\WMVG\WMVG - Abschlussbericht\Doc_final.xml"/>
+	<OpenFile Uri="\\psf\Home\Documents\Word2Tex\word2tex\Word2LaTex.xsl"/>
+	<OpenFile Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-t.xsl"/>
+	<OpenFile Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-p.xsl"/>
+	<OpenFile Uri="\\psf\Home\Documents\Word2Tex\word2tex\w-r.xsl"/>
+	<OpenFile Uri="X:\Word2Tex\word2tex\word2LaTexDictionary.xml"/>
+</XmlStudioProjectOptions>
